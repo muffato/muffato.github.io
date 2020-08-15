@@ -1,1 +1,13 @@
 theme: jekyll-theme-minimal
+title: Matthieu Muffato
+description: Webpage of Matthieu Muffato
+show_downloads: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      sidebar: true
