@@ -13,7 +13,6 @@ powers all the production work in Ensembl.
 My ORCID iD is
 [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)
 0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
-
 My publications fall in these five topics:
 
 -   Ensembl and TreeFam
@@ -55,7 +54,7 @@ extensive knowledge of the eHive workflow manager. I led the team from
 Javier\'s departure in 2013 to 2019, and now act as a Principal Developer,
 overseeing and guiding the software development.
 
-### Contact
+## Contact
 
 Find my contact details on my [EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato).
 
