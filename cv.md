@@ -12,7 +12,7 @@ position: 1
 I work in the Comparative Genomics team of the Ensembl genome browser. We are in charge of
 comparing the genomes to one another, implementing new methods and algorithms
 (extending our API and database schema), and applying them on new datasets. Scalability is
-our main focus as we have to process hundreds of genomes in a limited timescale.
+our main focus as we have to process hundreds (soon thousands !) of genomes in a limited timescale.
 
 I am also involved in the development of the eHive workflow manager, a system for creating
 and running workflows on a distributed compute resource. It is now responsible for
