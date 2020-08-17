@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+## About
 
-You can use the [editor on GitHub](https://github.com/muffato/muffato.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I am the Principal Developer of the [comparative
+genomics](http://www.ensembl.org/info/docs/compara/index.html) team (aka
+Compara) of the [Ensembl](http://www.ensembl.org) project, which
+includes the development of the [TreeFam](http://treefam.org/) project.
+I also routinely contribute to
+[eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
+powers all the production work in Ensembl.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Publications
 
-### Markdown
+My ORCID iD is
+[![](https://orcid.org/sites/default/files/images/orcid_24x24.png)
+0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+My publications fall in these five topics:
 
-```markdown
-Syntax highlighted code block
+-   Ensembl and TreeFam
+-   Quest for Orthologues community
+-   Genome analysis
+-   Genomicus and ancestral-genome reconstruction
+-   Research in comparative genomics
 
-# Header 1
-## Header 2
-### Header 3
+### Topics of interest
 
-- Bulleted
-- List
+-   Reconstruction of protein phylogenetic trees and inference of
+    orthologies
+-   Reconstruction of ancestral genomes
+-   Tree of Life project
+-   Whole genome duplications
+-   High-throughput computing
 
-1. Numbered
-2. List
+### Background
 
-**Bold** and _Italic_ and `Code` text
+I graduated in 2006 from both the [Institut d\'Informatique
+d\'Entreprise](http://www.ensiie.fr) and the [Université
+d\'Évry](http://www.univ-evry.fr/). I completed in 2010 a PhD in
+bioinformatics in the [Dyogen
+group](http://www.biologie.ens.fr/dyogen/?lang=en) under the supervision
+of Hugues Roest Crollius, reconstructing the gene order and the
+chromosome structure of extinct vertebrate species. The method was
+validated using simulations, and the results are available on the
+[Genomicus](http://www.dyogen.ens.fr/genomicus/) browser and updated
+with the Ensembl releases. The algorithms are described in my
+[thesis](http://hal.archives-ouvertes.fr/docs/00/55/21/38/PDF/these.pdf)
+[(size: 10.1 Mb)]{.small}.
 
-[Link](url) and ![Image](src)
-```
+I have joined the comparative-genomics team of the [Ensembl
+project](http://www.ensembl.org) (aka Compara) in January 2011, under
+the leadership of Javier Herrero. My initial focus was the pipeline that
+builds protein-trees for the Ensembl release, but I have since worked on
+every aspect of the Perl API and every pipeline, and I have gained
+extensive knowledge of the eHive workflow manager. I led the team from
+Javier\'s departure in 2013 to 2019.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Contact
 
-### Jekyll Themes
+[EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/muffato/muffato.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
