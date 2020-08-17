@@ -84,7 +84,6 @@ workshops.
 
 Programming languages and technologies I know and use (or have used):
 
-| | | |
 |---|---|---|
 | Perl | <img src="https://raw.githubusercontent.com/github/explore/master/topics/perl/perl.png" alt="Perl" height="24"> | <img src="https://progress-bar.dev/4/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
 | Python | <img src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png" alt="Python" height="24"> | <img src="https://progress-bar.dev/4/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
