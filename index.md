@@ -27,7 +27,7 @@ fall in these five topics:
 
 ## Topics of interest
 
-- :telescope: Reconstruction of protein phylogenetic trees and inference of
+- &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
   orthologies
 * :crystal_ball: Reconstruction of ancestral genomes
 * :deciduous_tree: Tree of Life projects
