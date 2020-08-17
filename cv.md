@@ -85,17 +85,17 @@ workshops.
 Programming languages and technologies I know and use (or have used):
 
 |---|---|---|
-| Perl | <img src="https://raw.githubusercontent.com/github/explore/master/topics/perl/perl.png" alt="Perl" height="24"> | <img src="https://progress-bar.dev/4/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Python | <img src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png" alt="Python" height="24"> | <img src="https://progress-bar.dev/4/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Java | <img src="https://raw.githubusercontent.com/github/explore/master/topics/java/java.png" alt="Java" height="24"> | <img src="https://progress-bar.dev/3/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| C | <img src="https://raw.githubusercontent.com/github/explore/master/topics/c/c.png" alt="C" height="24"> | <img src="https://progress-bar.dev/3/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| C++ | <img src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png" alt="C++" height="24"> | <img src="https://progress-bar.dev/3/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| R | <img src="https://raw.githubusercontent.com/github/explore/master/topics/r/r.png" alt="R" height="24"> | <img src="https://progress-bar.dev/2/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Go | <img src="https://raw.githubusercontent.com/github/explore/master/topics/go/go.png" alt="Go" height="24"> | <img src="https://progress-bar.dev/1/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Ocaml | <img src="https://raw.githubusercontent.com/github/explore/master/topics/ocaml/ocaml.png" alt="Ocaml" height="24"> | <img src="https://progress-bar.dev/1/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| PHP | <img src="https://raw.githubusercontent.com/github/explore/master/topics/php/php.png" alt="R" height="24"> | <img src="https://progress-bar.dev/1/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| MySQL | <img src="https://raw.githubusercontent.com/github/explore/master/topics/mysql/mysql.png" alt="MySQL" height="24"> | <img src="https://progress-bar.dev/4/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| SQLite | <img src="https://raw.githubusercontent.com/github/explore/master/topics/sqlite/sqlite.png" alt="SQLite" height="24"> | <img src="https://progress-bar.dev/3/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Bash | <img src="https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png" alt="Bash" height="24"> | <img src="https://progress-bar.dev/5/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Docker | <img src="https://raw.githubusercontent.com/github/explore/master/topics/docker/docker.png" alt="Docker" height="24"> | <img src="https://progress-bar.dev/4/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
-| Git | <img src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" alt="Git" height="24"> | <img src="https://progress-bar.dev/5/?suffix=+%E2%98%85&scale=5" height="24" width="108"> |
+| Perl | <img src="https://raw.githubusercontent.com/github/explore/master/topics/perl/perl.png" alt="Perl" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) |
+| Python | <img src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png" alt="Python" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) |
+| Java | <img src="https://raw.githubusercontent.com/github/explore/master/topics/java/java.png" alt="Java" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) |
+| C | <img src="https://raw.githubusercontent.com/github/explore/master/topics/c/c.png" alt="C" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) |
+| C++ | <img src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png" alt="C++" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) |
+| R | <img src="https://raw.githubusercontent.com/github/explore/master/topics/r/r.png" alt="R" height="24"> | ![2 &#x2605;]({{ site.url }}/assets/img/2.svg) |
+| Go | <img src="https://raw.githubusercontent.com/github/explore/master/topics/go/go.png" alt="Go" height="24"> | ![1 &#x2605;]({{ site.url }}/assets/img/1.svg) |
+| Ocaml | <img src="https://raw.githubusercontent.com/github/explore/master/topics/ocaml/ocaml.png" alt="Ocaml" height="24"> | ![1 &#x2605;]({{ site.url }}/assets/img/1.svg) |
+| PHP | <img src="https://raw.githubusercontent.com/github/explore/master/topics/php/php.png" alt="R" height="24"> | ![1 &#x2605;]({{ site.url }}/assets/img/1.svg) |
+| MySQL | <img src="https://raw.githubusercontent.com/github/explore/master/topics/mysql/mysql.png" alt="MySQL" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) |
+| SQLite | <img src="https://raw.githubusercontent.com/github/explore/master/topics/sqlite/sqlite.png" alt="SQLite" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) |
+| Bash | <img src="https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png" alt="Bash" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) |
+| Docker | <img src="https://raw.githubusercontent.com/github/explore/master/topics/docker/docker.png" alt="Docker" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) |
+| Git | <img src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" alt="Git" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) |
