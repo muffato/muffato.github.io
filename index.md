@@ -13,22 +13,26 @@ powers all the production work in Ensembl.
 My ORCID iD is
 [![](https://orcid.org/sites/default/files/images/orcid_16x16.png)
 0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
-My publications fall in these five topics:
+My publications ([Europe PubMed
+Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
+[Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100))
+fall in these five topics:
 
--   Ensembl and TreeFam
--   Quest for Orthologues community
--   Genome analysis
--   Genomicus and ancestral-genome reconstruction
--   Research in comparative genomics
+* [Ensembl](http://www.ensembl.org) and [TreeFam](http://www.treefam.org)
+* [Quest for Orthologues](https://questfororthologs.org)
+* Genome analysis
+* [Genomicus](http://www.dyogen.ens.fr/genomicus/) and ancestral-genome reconstruction
+* Research in comparative genomics
 
 ## Topics of interest
 
--   Reconstruction of protein phylogenetic trees and inference of
-    orthologies
--   Reconstruction of ancestral genomes
--   Tree of Life project
--   Whole genome duplications
--   High-throughput computing
+- :telescope: Reconstruction of protein phylogenetic trees and inference of
+  orthologies
+* :crystal_ball: Reconstruction of ancestral genomes
+* :deciduous_tree: Tree of Life projects
+* :busts_in_silhouette: Whole genome duplications
+* :zap: High-throughput computing
 
 ## Background
 
