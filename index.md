@@ -29,10 +29,10 @@ fall in these five topics:
 
 - &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
   orthologies
-* :crystal_ball: Reconstruction of ancestral genomes
-* :deciduous_tree: Tree of Life projects
-* :busts_in_silhouette: Whole genome duplications
-* :zap: High-throughput computing
+* &#x1F52E; Reconstruction of ancestral genomes
+* &#x1F333; Tree of Life projects
+* &#x1F465; Whole genome duplications
+* &#x26A1; High-throughput computing
 
 ## Background
 
