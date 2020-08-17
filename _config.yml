@@ -1,7 +1,6 @@
 theme: jekyll-theme-minimal
 title: Matthieu Muffato
 description: Webpage of Matthieu Muffato
-show_downloads: false
 
 defaults:
   -
