@@ -138,7 +138,7 @@ Programming languages and technologies I know and use (or have used):
 |---|---|---|---|
 | Linux environment (Debian, Ubuntu) | <img src="https://raw.githubusercontent.com/github/explore/master/topics/linux/linux.png" alt="Linux" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) | 16 years |
 | `bash` scripting | <img src="https://raw.githubusercontent.com/github/explore/master/topics/bash/bash.png" alt="Bash" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) | 16 years |
-| Linuxbrew | <img src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" alt="Git" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) | 9 years |
+| Linuxbrew | <img src="https://raw.githubusercontent.com/github/explore/master/topics/homebrew/homebrew.png" alt="Linuxbrew" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) | 9 years |
 | Git (command-line) &amp; GitHub | <img src="https://raw.githubusercontent.com/github/explore/master/topics/git/git.png" alt="Git" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) | 9 years |
 | CI/CD on GitHub | <img src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" alt="GitHub" height="24"> | ![4 &#x2605;]({{ site.url }}/assets/img/4.svg) | 9 years |
 | CI/CD on GitLab |  | ![1 &#x2605;]({{ site.url }}/assets/img/1.svg) | 9 years |
