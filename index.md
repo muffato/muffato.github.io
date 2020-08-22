@@ -5,7 +5,7 @@ genomics](http://www.ensembl.org/info/docs/compara/index.html) team (aka
 Compara) of the ![icon](/assets/img/icon/ensembl.png) [Ensembl](http://www.ensembl.org) project, which
 includes the development of the [![icon](/assets/img/icon/treefam.png) TreeFam](http://treefam.org/) project.
 I also routinely contribute to
-[eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
+[![icon](/assets/img/icon/guihive.png) eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
 powers all the production work in Ensembl.
 
 I've got some experience in:
@@ -55,7 +55,7 @@ chromosome structure of extinct vertebrate species. The method was
 validated using simulations, and the results are available on the
 [![icon](/assets/img/icon/genomicus.png) Genomicus](http://www.dyogen.ens.fr/genomicus/) browser and updated
 with the Ensembl releases. The algorithms are described in my
-[thesis](http://hal.archives-ouvertes.fr/docs/00/55/21/38/PDF/these.pdf)
+[&#x1F393; thesis](http://hal.archives-ouvertes.fr/docs/00/55/21/38/PDF/these.pdf)
 (in French).
 
 I have joined the comparative-genomics team of the [![icon](/assets/img/icon/ensembl.png) Ensembl
