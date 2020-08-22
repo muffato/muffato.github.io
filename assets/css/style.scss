@@ -3,6 +3,10 @@
 
 @import "{{ site.theme }}";
 
+img[alt=icon] {
+    height: 16px;
+}
+
 a:hover, a:focus {
   font-weight: normal;
   text-decoration: underline;

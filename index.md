@@ -33,7 +33,7 @@ My ORCID iD is
 0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
 My publications ([Europe PubMed
 Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
-[Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
+[![](/assets/img/icon/googlescholar.png){:height="16px"} Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
 [Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100))
 fall in these five topics:
 
@@ -74,9 +74,7 @@ Various profile pages with contact details &#x1F44B;:
 * my [<img
   src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/favicon-16x16.png"
   height="16"> EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
-* my [<img
-  src="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
-  height="16"> LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
+* my [![icon](/assets/img/icon/linkedin.png) LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
 * On GitHub, I am [<img src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" height="16"> muffato](https://github.com/muffato).
 
 Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
