@@ -60,9 +60,13 @@ overseeing and guiding the software development.
 
 ## Contact
 
-Find my contact details on my [EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato).
+Various profile pages, with contact details:
 
-On GitHub, I am [muffato](https://github.com/muffato).
+* my [EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
+* my [<img
+  src="https://static-exp1.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico"
+  alt="LinkedIn" height="24"> LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
+* On GitHub, I am [<img src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" alt="GitHub" height="24"> muffato](https://github.com/muffato).
 
 Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
 Unfortunately, my notions of &#x1F1EA;&#x1F1F8; Spanish and
