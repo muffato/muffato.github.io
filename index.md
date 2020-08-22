@@ -29,15 +29,15 @@ I've got some experience in:
 ## Publications
 
 My ORCID iD is
-[![](https://orcid.org/sites/default/files/images/orcid_16x16.png)
+[![icon](/assets/img/icon/orcid.png)
 0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
-My publications ([Europe PubMed
+My publications ([![icon](/assets/img/icon/epmc.png) Europe PubMed
 Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
-[![](/assets/img/icon/googlescholar.png){:height="16px"} Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
+[![icon](/assets/img/icon/googlescholar.png) Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
 [Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100))
 fall in these five topics:
 
-* [Ensembl](http://www.ensembl.org) and [TreeFam](http://www.treefam.org)
+* [![icon](/assets/img/icon/ensembl.png) Ensembl](http://www.ensembl.org) and [TreeFam](http://www.treefam.org)
 * [Quest for Orthologues](https://questfororthologs.org)
 * Genome analysis
 * [Genomicus](http://www.dyogen.ens.fr/genomicus/) and ancestral-genome reconstruction
@@ -71,11 +71,9 @@ overseeing and guiding the software development.
 
 Various profile pages with contact details &#x1F44B;:
 
-* my [<img
-  src="https://ebi.emblstatic.net/web_guidelines/EBI-Framework/v1.3/images/logos/EMBL-EBI/favicons/favicon-16x16.png"
-  height="16"> EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
+* my [![icon](/assets/img/icon/ebi.png) EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
 * my [![icon](/assets/img/icon/linkedin.png) LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
-* On GitHub, I am [<img src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" height="16"> muffato](https://github.com/muffato).
+* my [![icon](/assets/img/icon/github.png) GitHub page](https://github.com/muffato).
 
 Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
 Unfortunately, my notions of &#x1F1EA;&#x1F1F8; Spanish and
