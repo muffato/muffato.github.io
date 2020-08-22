@@ -8,13 +8,22 @@ I also routinely contribute to
 [eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
 powers all the production work in Ensembl.
 
-I know about these topics:
+I've got some experience in:
 
-* Computational biology, Genome analysis, Comparative genomics, Evolution, Phylogenetics.
-* Genome assembly and annotation, Sequence alignment, Sequence classification, Homology inference.
+* Computational biology, Genome analysis.
+* Comparative genomics, Evolution, Phylogenetics.
+* Genome assembly and annotation
+* Sequence alignment, Sequence classification, Homology inference.
 * Algorithmics, Graph theory, Code optimization. Algorithms for 3D rendering.
 
-Don't hesitate to ask me about &#x270D; !
+## Topics of interest
+
+- &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
+  orthologies
+* &#x1F52E; Reconstruction of ancestral genomes
+* &#x1F333; Tree of Life projects
+* &#x1F465; Whole genome duplications
+* &#x26A1; High-throughput computing
 
 ## Publications
 
@@ -32,15 +41,6 @@ fall in these five topics:
 * Genome analysis
 * [Genomicus](http://www.dyogen.ens.fr/genomicus/) and ancestral-genome reconstruction
 * Research in comparative genomics
-
-## Topics of interest
-
-- &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
-  orthologies
-* &#x1F52E; Reconstruction of ancestral genomes
-* &#x1F333; Tree of Life projects
-* &#x1F465; Whole genome duplications
-* &#x26A1; High-throughput computing
 
 ## Background
 
@@ -68,7 +68,7 @@ overseeing and guiding the software development.
 
 ## Contact
 
-Various profile pages, with contact details:
+Various profile pages with contact details:
 
 * my [EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
 * my [<img
@@ -76,7 +76,7 @@ Various profile pages, with contact details:
   alt="LinkedIn" height="16"> LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
 * On GitHub, I am [<img src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" alt="GitHub" height="16"> muffato](https://github.com/muffato).
 
-Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
+&#x1F44B; Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
 Unfortunately, my notions of &#x1F1EA;&#x1F1F8; Spanish and
 &#x1F1F0;&#x1F1F7; Korean are too limited for professional settings.
 
