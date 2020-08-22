@@ -87,8 +87,8 @@ Programming languages and technologies I know and use (or have used):
 ### Programming languages
 
 |---|---|---|---|
-| Perl | <img src="https://raw.githubusercontent.com/github/explore/master/topics/perl/perl.png" alt="Perl" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) | 12 years |
-| Python | <img src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png" alt="Python" height="24"> | ![5 &#x2605;]({{ site.url }}/assets/img/5.svg) | 8 years |
+| Perl | <img src="https://raw.githubusercontent.com/github/explore/master/topics/perl/perl.png" alt="Perl" height="24"> | ![5 &#x2605;](assets/img/5.svg) | 12 years |
+| Python | <img src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png" alt="Python" height="24"> | ![5 &#x2605;](/assets/img/5.svg) | 8 years |
 | Java | <img src="https://raw.githubusercontent.com/github/explore/master/topics/java/java.png" alt="Java" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) | 2 years |
 | C++ | <img src="https://raw.githubusercontent.com/github/explore/master/topics/cpp/cpp.png" alt="C++" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) | 2 years |
 | C | <img src="https://raw.githubusercontent.com/github/explore/master/topics/c/c.png" alt="C" height="24"> | ![3 &#x2605;]({{ site.url }}/assets/img/3.svg) | 2 years |
