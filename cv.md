@@ -1,6 +1,6 @@
 ---
 title: CV
-position: 1
+position: 2
 ---
 
 > Work in progress :construction_worker:

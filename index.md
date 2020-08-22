@@ -1,3 +1,8 @@
+---
+title: About
+position: 1
+---
+
 ## About
 
 I am the Principal Developer of the [comparative

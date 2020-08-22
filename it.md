@@ -1,6 +1,6 @@
 ---
 title: IT skills
-position: 2
+position: 3
 ---
 
 
