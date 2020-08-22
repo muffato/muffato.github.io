@@ -8,6 +8,14 @@ I also routinely contribute to
 [eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
 powers all the production work in Ensembl.
 
+I know about these topics:
+
+* Computational biology, Genome analysis, Comparative genomics, Evolution, Phylogenetics.
+* Genome assembly and annotation, Sequence alignment, Sequence classification, Homology inference.
+* Algorithmics, Graph theory, Code optimization. Algorithms for 3D rendering.
+
+Don't hesitate to ask me about &#x270D; !
+
 ## Publications
 
 My ORCID iD is
