@@ -25,6 +25,7 @@ Programming languages and technologies I know and use (or have used):
 | (X)HTML &amp; CSS | ![topic](/assets/img/topics/html.png) | ![3 &#x2605;](/assets/img/3.svg) | 12 years |
 | SVG | | ![3 &#x2605;](/assets/img/3.svg) | 12 years |
 | Javascript (ES5, JQuery, D3, Node.js) | ![topic](/assets/img/topics/javascript.png) | ![2 &#x2605;](/assets/img/2.svg) | 12 years |
+{: class="skills"}
 
 ### Database technologies
 
