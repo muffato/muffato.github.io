@@ -64,5 +64,7 @@ Find my contact details on my [EBI profile](https://www.ebi.ac.uk/about/people/m
 
 On GitHub, I am [muffato](https://github.com/muffato).
 
-&#x1F1EC;&#x1F1E7; English
+Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
+Unfortunately, my notions of &#x1F1EA;&#x1F1F8; Spanish and
+&#x1F1F0;&#x1F1F7; Korean are too limited for professional settings.
 
