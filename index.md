@@ -63,7 +63,7 @@ project](http://www.ensembl.org) (aka Compara) in January 2011, under
 the leadership of Javier Herrero. My initial focus was the pipeline that
 builds protein-trees for the Ensembl release, but I have since worked on
 every aspect of the Perl API and every pipeline, and I have gained
-extensive knowledge of the eHive workflow manager. I led the team from
+extensive knowledge of the ![icon](/assets/img/icon/guihive.png) eHive workflow manager. I led the team from
 Javier\'s departure in 2013 to 2019, and now act as a Principal Developer,
 overseeing and guiding the software development.
 
