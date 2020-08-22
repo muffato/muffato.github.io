@@ -14,7 +14,8 @@ I've got some experience in:
 * Comparative genomics, Evolution, Phylogenetics.
 * Genome assembly and annotation
 * Sequence alignment, Sequence classification, Homology inference.
-* Algorithmics, Graph theory, Code optimization. Algorithms for 3D rendering.
+* Algorithmics, Graph theory, Code optimization.
+* Algorithms for 3D rendering.
 
 ## Topics of interest
 
@@ -68,7 +69,7 @@ overseeing and guiding the software development.
 
 ## Contact
 
-Various profile pages with contact details:
+Various profile pages with contact details &#x1F44B;:
 
 * my [EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
 * my [<img
@@ -76,7 +77,7 @@ Various profile pages with contact details:
   alt="LinkedIn" height="16"> LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
 * On GitHub, I am [<img src="https://raw.githubusercontent.com/github/explore/master/topics/github/github.png" alt="GitHub" height="16"> muffato](https://github.com/muffato).
 
-&#x1F44B; Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
+Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
 Unfortunately, my notions of &#x1F1EA;&#x1F1F8; Spanish and
 &#x1F1F0;&#x1F1F7; Korean are too limited for professional settings.
 
