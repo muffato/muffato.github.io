@@ -14,10 +14,10 @@ img[alt=topic] {
     height: 24px;
 }
 
-td:nth-of-type(2) {
+table.skills td:nth-of-type(2) {
   min-width: 24px;
 }
-td:nth-of-type(3) {
+table.skills td:nth-of-type(3) {
   min-width: 108px;
 }
 

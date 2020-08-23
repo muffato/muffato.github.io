@@ -18,6 +18,7 @@ Programming languages and technologies I know and use (or have used):
 | Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | |
 | Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | |
 | PHP | ![topic](/assets/img/topics/php.png) | ![1 &#x2605;](/assets/img/1.svg) | |
+{: class="skills"}
 
 ### Web
 
@@ -33,6 +34,7 @@ Programming languages and technologies I know and use (or have used):
 | MySQL | ![topic](/assets/img/topics/mysql.png) | ![4 &#x2605;](/assets/img/4.svg) | 12 years |
 | SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 1 year |
 | PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 1 year |
+{: class="skills"}
 
 ### Distributed computing
 
@@ -46,6 +48,7 @@ Programming languages and technologies I know and use (or have used):
 | Snakemake |  | ![2 &#x2605;](/assets/img/2.svg) | 12 years |
 | Nextflow |  | ![1 &#x2605;](/assets/img/1.svg) | 12 years |
 | CWL | ![topic](/assets/img/topics/cwl.png) | ![1 &#x2605;](/assets/img/1.svg) | 12 years |
+{: class="skills"}
 
 ### Cloud and containerisation
 
@@ -55,6 +58,7 @@ Programming languages and technologies I know and use (or have used):
 | Google Cloud Platform|  | ![1 &#x2605;](/assets/img/1.svg) | 12 years |
 | Kubenertes | ![topic](/assets/img/topics/kubernetes.png) | ![1 &#x2605;](/assets/img/1.svg) | 12 years |
 | Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 12 years |
+{: class="skills"}
 
 ### Infrastructure
 
@@ -65,4 +69,5 @@ Programming languages and technologies I know and use (or have used):
 | Git (command-line) &amp; GitHub | ![topic](/assets/img/topics/git.png) | ![5 &#x2605;](/assets/img/5.svg) | 9 years |
 | CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![4 &#x2605;](/assets/img/4.svg) | 9 years |
 | CI/CD on GitLab |  | ![1 &#x2605;](/assets/img/1.svg) | 9 years |
+{: class="skills"}
 
