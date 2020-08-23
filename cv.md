@@ -80,4 +80,26 @@ I focused on the reconstruction of protein phylogenetic trees, reshaping the
 API, improving and extending the software. I also gave some Ensembl API
 workshops.
 
+## Education
+
+### PhD, Bioinformatics
+
+_ENS Paris / Évry university, France_
+
+### MSc, Bioinformatics
+
+_ENS Paris / Évry university, France_
+
+### MSc, Computer Science
+
+_ENSIIE, France_
+
+## Certifications
+
+### Project Fundamentals Qualification (PFQ) certification
+
+_Association for Project Management (APM), 2017_
+
+Course on project management. Principles and approaches have since been applied to all Ensembl
+management layers to plan and manage projects (development and others).
 
