@@ -7,7 +7,7 @@ position: 1
 
 I am the Principal Developer of the [comparative
 genomics](http://www.ensembl.org/info/docs/compara/index.html) team (aka
-Compara) of the ![icon](/assets/img/icon/ensembl.png) [Ensembl](http://www.ensembl.org) project, which
+Compara) of the [![icon](/assets/img/icon/ensembl.png) Ensembl](http://www.ensembl.org) project, which
 includes the development of the [![icon](/assets/img/icon/treefam.png) TreeFam](http://treefam.org/) project.
 I also routinely contribute to
 [![icon](/assets/img/icon/guihive.png) eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
