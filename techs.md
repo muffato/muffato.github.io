@@ -1,10 +1,13 @@
 ---
-title: IT skills
+title: Techs
 position: 3
 ---
 
 Programming languages and technologies I know and use (or have used), and
-when:
+when.
+The five levels correspond to the [Dreyfus
+model](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition):
+novice, competent, proficient, expert, master.
 
 ### Programming languages
 
@@ -14,9 +17,10 @@ when:
 | Java | ![topic](/assets/img/topics/java.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004- |
 | C++ | ![topic](/assets/img/topics/cpp.png) | ![3 &#x2605;](/assets/img/3.svg) | 1999- |
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998- |
+| x86 assembly | | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008- |
 | Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014- |
-| Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2003,2005 |
+| Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2005 |
 | PHP | ![topic](/assets/img/topics/php.png) | ![1 &#x2605;](/assets/img/1.svg) | 2004-2005 |
 {: class="skills"}
 
@@ -46,7 +50,7 @@ when:
 | Slurm |  | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 | eHive workflow manager |  | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
 | Snakemake |  | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
-| Nextflow |  | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
+| Nextflow |  | ![1 &#x2605;](/assets/img/1.svg) | 2019 |
 | CWL | ![topic](/assets/img/topics/cwl.png) | ![1 &#x2605;](/assets/img/1.svg) | 2016 |
 {: class="skills"}
 
