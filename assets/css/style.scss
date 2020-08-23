@@ -7,24 +7,29 @@ sidebar: false
 img[alt=icon] {
     width: 1em;
     height: 1em;
+    max-width: none;
 }
 
 img[alt=topic] {
     width: 1.5em;
     height: 1.5em;
+    max-width: none;
 }
 
 img[alt$=" ★"] {
     width: 6.75em;
     height: 1.5em;
+    max-width: none;
 }
 
+/*
 table.skills td:nth-of-type(2) {
   min-width: 24px;
 }
 table.skills td:nth-of-type(3) {
   min-width: 108px;
 }
+*/
 
 a:hover, a:focus {
   font-weight: normal;
