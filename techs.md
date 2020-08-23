@@ -46,7 +46,7 @@ novice, competent, proficient, expert, master.
 | Platform LSF | ![topic](/assets/img/topics/lsf.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
 | HTCondor | ![topic](/assets/img/topics/htcondor.png) | ![4 &#x2605;](/assets/img/4.svg) | 2006-2010, 2017 |
 | SGE | | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
-| PBS | | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
+| PBS | ![topic](/assets/img/topics/pbs.png) | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
 | Slurm | ![topic](/assets/img/topics/slurm.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 | eHive workflow manager | ![topic](/assets/img/topics/guihive.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
 | Snakemake | ![topic](/assets/img/topics/snakemake.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
