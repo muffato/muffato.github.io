@@ -10,26 +10,17 @@ img[alt=icon] {
     max-width: none;
 }
 
-img[alt=topic] {
+table.skills td:nth-of-type(2) img {
     width: 1.5em;
     height: 1.5em;
     max-width: none;
 }
 
-img[alt$=" ★"] {
+table.skills td:nth-of-type(3) img {
     width: 6.75em;
     height: 1.5em;
     max-width: none;
 }
-
-/*
-table.skills td:nth-of-type(2) {
-  min-width: 24px;
-}
-table.skills td:nth-of-type(3) {
-  min-width: 108px;
-}
-*/
 
 a:hover, a:focus {
   font-weight: normal;
