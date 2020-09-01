@@ -5,9 +5,9 @@ position: 2
 
 > Work in progress :construction_worker:
 
-## Experience
+# Experience
 
-### European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
+## European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
 
 I work in the Comparative Genomics team of the Ensembl genome browser. We are in charge of
 comparing the genomes to one another, implementing new methods and algorithms
@@ -18,7 +18,7 @@ I am also involved in the development of the eHive workflow manager, a system fo
 and running workflows on a distributed compute resource. It is now responsible for
 scheduling and executing in excess of 1,000 CPU years of compute per year in Ensembl.
 
-#### Principal Developer
+### Principal Developer
 
 _Since Oct 2019_
 
@@ -40,7 +40,7 @@ analyses on tens of thousands of genomes, and more.
 I still maintain and contribute to the development of the eHive workflow manager,
 keeping it the most efficient solution for the Ensembl Comparative Genomics workflows.
 
-#### Project Leader
+### Project Leader
 
 _May 2014 to Sep 2019._
 
@@ -56,7 +56,7 @@ We had to provide technical support to other Ensembl teams
 who were using our software. During this period, we wrote an extensive user manual
 for eHive.
 
-#### Interim Manager
+### Interim Manager
 
 _May 2013 to May 2014._
 
@@ -71,7 +71,7 @@ and was still carrying on my developer duties. Our work was focused on
 the reconstruction of phylogenetic trees and gene families, improving and
 extending the software. I was still giving some Ensembl API workshops.
 
-#### Software Developer
+### Software Developer
 
 _Jan 2011 to May 2013._
 
@@ -88,15 +88,15 @@ workshops.
 
 _ENS Paris / Évry university, France_
 
-### MSc, Bioinformatics
+## MSc, Bioinformatics
 
 _ENS Paris / Évry university, France_
 
-### MSc, Computer Science
+## MSc, Computer Science
 
 _ENSIIE, France_
 
-## Certifications
+## BSc, Mathematics
 
 ### Project Fundamentals Qualification (PFQ) certification
 
