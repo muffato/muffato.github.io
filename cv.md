@@ -22,15 +22,17 @@ scheduling and executing in excess of 1,000 CPU years of compute per year in Ens
 
 _Since Oct 2019_
 
-Development management. Technical leadership. Recruitment. Mentorship.
+Keywords
+: Development management. Technical leadership. Recruitment. Mentorship.
 API development. Database design and optimisation. Workflow design and development. 
 User support (data, API, workflows). Team size: 3 people.
 
-In this role, I transfer the knowledge I have accumulated in the past 8 years
+Description
+: In this role, I transfer the knowledge I have accumulated in the past 8 years
 to the new Project Leader and the developers, whilst helping them and
 overseeing the development of the software.
 
-We are undertaking a massive revamp of our compute workflows and data storage
+: We are undertaking a massive revamp of our compute workflows and data storage
 strategy, in order to cope with the scale of data that projects such as the
 Darwin Tree of Life will generate. Our aim is ambitious: provide comparative
 analyses on tens of thousands of genomes, and more.
