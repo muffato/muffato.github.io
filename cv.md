@@ -79,9 +79,38 @@ I focused on the reconstruction of protein phylogenetic trees, reshaping the
 API, improving and extending the software. I also gave some Ensembl API
 workshops.
 
-## Google Summer of Code Mentor
+## École normale supérieure, Paris, France
 
-### 2019 Mentor
+### PhD student
+
+_Sep 2006 to Dec 2010_
+
+<u>Title</u>: Reconstruction of ancestral vertebrate genomes
+
+I have developed a set of new methods to predict the genome structure of
+ancestral species (all the last common ancestors of any given group of
+extant species. Here: about 50 vertebrate species) at different levels
+(number of chromosomes, chromosome content, gene order). We have also set
+up a database and a genome browser,
+[Genomicus](http://www.dyogen.ens.fr/genomicus/), to make the data available
+to the community. As we use the data from the Ensembl project, Genomicus is
+updated every 2 months, after each Ensembl release.
+
+Thesis (in French) and presentation (in English) available
+[online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
+
+# Education
+
+|---|---|---|---|
+| PhD | Bioinformatics | Sep 2006 to Dec 2010 | École normale supérieure, Paris, France |
+| MSc | Bioinformatics | Sep 2005 to Aug 2006 | Évry university, France |
+| MSc | Computer science, Software development, Mathematics | Sep 2003 to Aug 2006 | ENSIIE, Évry, France |
+| BSc | Mathematics | Sep 2004 to Jun 2005 | Paris Diderot university, France |
+| Classes préparatoires | Mathematics, Physics, Computer science | Sep 2001 to Jun 2003 | Lycée Louis-le-Grand, Paris, France |
+
+# Projects
+
+## 2019 Google Summer of Code Mentor
 
 _May 2019 to Sep 2019_
 
@@ -102,7 +131,7 @@ are now developing a plan to use it in production in Ensembl.
 
 <u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
-### 2016 Mentor
+## 2016 Google Summer of Code Mentor
 
 _May 2016 to Sep 2016_
 
@@ -135,64 +164,6 @@ Relax NG schema.
 <u>Project URL</u>: [Website](https://ensembl.github.io/XML-To-Blockly/),
 [GitHub](https://github.com/Ensembl/XML-To-Blockly)
 
-# Education
-
-## PhD, Bioinformatics
-
-**École normale supérieure, Paris, and Évry university, France**
-
-_Sep 2006 to Dec 2010_
-
-<u>Title</u>: Reconstruction of ancestral vertebrate genomes
-
-I have developed a set of new methods to predict the genome structure of
-ancestral species (all the last common ancestors of any given group of
-extant species. Here: about 50 vertebrate species) at different levels
-(number of chromosomes, chromosome content, gene order). We have also set
-up a database and a genome browser,
-[Genomicus](http://www.dyogen.ens.fr/genomicus/), to make the data available
-to the community. As we use the data from the Ensembl project, Genomicus is
-updated every 2 months, after each Ensembl release.
-
-Thesis (in French) and presentation (in English) available
-[online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
-
-## MSc, Bioinformatics
-
-**École normale supérieure, Paris, and Évry university, France**
-
-_Sep 2005 to Aug 2006_
-
-## MSc, Computer Science
-
-**ENSIIE, Évry, France**
-
-_Sep 2003 to Aug 2006_
-
-## BSc, Mathematics
-
-_Paris Diderot university, France_
-
-_Sep 2004 to Jun 2005_
-
-Done on my spare time, alongside the ENSIIE degree
-
-## Classes préparatoires, MPSI and MP\*
-
-_Lycée Louis-le-Grand, Paris, France_
-
-_Sep 2001 to Jun 2003_
-
-Mathematics, Physics, Computer Science.
-
-|---|---|---|---|
-| PhD | Bioinformatics | Sep 2006 to Dec 2010 | École normale supérieure, Paris, France |
-| MSc | Bioinformatics | Sep 2005 to Aug 2006 | Évry university, France |
-| MSc | Computer science, Software development, Mathematics | Sep 2003 to Aug 2006 | ENSIIE, Évry, France |
-| BSc | Mathematics | Sep 2004 to Jun 2005 | Paris Diderot university, France |
-| Classes préparatoires | Mathematics, Physics, Computer science | Sep 2001 to Jun 2003 | Lycée Louis-le-Grand, Paris, France |
-
-# Projects
 
 ## EMBL Postdoc Retreat 2013
 
