@@ -157,7 +157,6 @@ updated every 2 months, after each Ensembl release.
 Thesis (in French) and presentation (in English) available
 [online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
 
-
 ## MSc, Bioinformatics
 
 **École normale supérieure, Paris, and Évry university, France**
@@ -185,6 +184,13 @@ _Lycée Louis-le-Grand, Paris, France_
 _Sep 2001 to Jun 2003_
 
 Mathematics, Physics, Computer Science.
+
+|---|---|---|---|
+| PhD | Bioinformatics | Sep 2006 to Dec 2010 | École normale supérieure, Paris, France |
+| MSc | Bioinformatics | Sep 2005 to Aug 2006 | Évry university, France |
+| MSc | Computer science, Software development, Mathematics | Sep 2003 to Aug 2006 | ENSIIE, Évry, France |
+| BSc | Mathematics | Sep 2004 to Jun 2005 | Paris Diderot university, France |
+| Classes préparatoires | Mathematics, Physics, Computer science | Sep 2001 to Jun 2003 | Lycée Louis-le-Grand, Paris, France |
 
 # Projects
 
