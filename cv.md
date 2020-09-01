@@ -3,8 +3,6 @@ title: CV
 position: 2
 ---
 
-> Work in progress :construction_worker:
-
 # Experience
 
 ## European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
@@ -22,9 +20,11 @@ scheduling and executing in excess of 1,000 CPU years of compute per year in Ens
 
 _Since Oct 2019_
 
-Development management. Technical leadership. Recruitment. Mentorship.
+<u>Keywords</u>: Development management. Technical leadership. Recruitment. Mentorship.
 API development. Database design and optimisation. Workflow design and development. 
-User support (data, API, workflows). Team size: 3 people.
+User support (data, API, workflows).
+
+<u>Team size</u>: 3 people.
 
 In this role, I transfer the knowledge I have accumulated in the past 8 years
 to the new Project Leader and the developers, whilst helping them and
@@ -42,11 +42,11 @@ keeping it the most efficient solution for the Ensembl Comparative Genomics work
 
 _May 2014 to Sep 2019._
 
-Project planning and management. Scientific and public communication. Technical leadership. Recruitment. Mentorship.
+<u>Keywords</u>: Project planning and management. Scientific and public communication. Technical leadership. Recruitment. Mentorship.
 Development management. Reporting. Data-production planning and operational management.
 API development. Database design and optimisation. Workflow design and development. Data
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
-Team size: 2-5 people.
+<u>Team size</u>: 2-6 people.
 
 I managed the whole Comparative Genomics team of the Ensembl project,
 incl. the development of the eHive workflow manager.
@@ -58,10 +58,10 @@ for eHive.
 
 _May 2013 to May 2014._
 
-Development management. Reporting. Technical advisor. Data-production planning and operational management.
+<u>Keywords</u>: Development management. Reporting. Technical advisor. Data-production planning and operational management.
 API development. Database design and optimisation. Workflow design and development. Data
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
-Team size: 2 people.
+<u>Team size</u>: 2 people.
 
 I was managing part of the Comparative Genomics team of
 Ensembl, incl. the development of the eHive workflow manager,
@@ -73,7 +73,7 @@ extending the software. I was still giving some Ensembl API workshops.
 
 _Jan 2011 to May 2013._
 
-API development. Database design and optimisation. Workflow design and development. Data
+<u>Keywords</u>: API development. Database design and optimisation. Workflow design and development. Data
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
 
 I focused on the reconstruction of protein phylogenetic trees, reshaping the
@@ -86,7 +86,7 @@ workshops.
 
 _May 2019 to Sep 2019_
 
-**Using Deep Learning techniques to enhance orthology calls**
+<u>Title</u>: Using Deep Learning techniques to enhance orthology calls
 
 This project was funded by the 2019 edition of the Google Summer of Code
 program. [Harshit
@@ -101,7 +101,7 @@ TensorFlow, directly from sequence data -without using any phylogenetics
 methods-. The method achieved high accuracy (>90% in most settings) and we
 are now developing a plan to use it in production in Ensembl.
 
-Project URL: https://github.com/EnsemblGSOC/compara-deep-learning
+<u>Project URL</u>: [https://github.com/EnsemblGSOC/compara-deep-learning]
 
 ## Google Summer of Code Mentor
 
@@ -109,7 +109,7 @@ Project URL: https://github.com/EnsemblGSOC/compara-deep-learning
 
 _May 2016 to Sep 2016_
 
-**Title:** Graphical editor of XML files
+<u>Title</u>: Graphical editor of XML files
 
 This project was funded by the 2016 edition of the Google Summer of Code
 program. [Anuj
@@ -135,7 +135,7 @@ The project submitted to Google is not specific to eHive and the proposed
 editor should be able of handling any specifications written using the
 Relax NG schema.
 
-Project URL: https://ensembl.github.io/XML-To-Blockly/
+<u>Project URL</u>: (https://ensembl.github.io/XML-To-Blockly/)
 
 
 ## École normale supérieure, Paris, France
@@ -144,8 +144,7 @@ Project URL: https://ensembl.github.io/XML-To-Blockly/
 
 _Sep 2006 to Dec 2010_
 
-Title
-: Reconstruction of ancestral vertebrate genomes
+<u>Title</u>: Reconstruction of ancestral vertebrate genomes
 
 Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
 
