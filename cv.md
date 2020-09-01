@@ -145,11 +145,17 @@ _Sep 2006 to Dec 2010_
 
 <u>Title</u>: Reconstruction of ancestral vertebrate genomes
 
-I have developed a set of new methods to predict the genome structure of ancestral species (all the last common ancestors of any given group of extant species. Here: about 50 vertebrate species) at different levels (number of chromosomes, chromosome content, gene order). We have also set up a database and a genome browser, Genomicus, to make the data available to the community. As we use the data from the Ensembl project, Genomicus is updated every 2 months, after each Ensembl release.
+I have developed a set of new methods to predict the genome structure of
+ancestral species (all the last common ancestors of any given group of
+extant species. Here: about 50 vertebrate species) at different levels
+(number of chromosomes, chromosome content, gene order). We have also set
+up a database and a genome browser,
+[Genomicus](http://www.dyogen.ens.fr/genomicus/), to make the data available
+to the community. As we use the data from the Ensembl project, Genomicus is
+updated every 2 months, after each Ensembl release.
 
-Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
-
-<u>Website</u>: http://www.dyogen.ens.fr/genomicus/
+Thesis (in French) and presentation (in English) available
+[online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
 
 
 ## MSc, Bioinformatics
@@ -197,7 +203,7 @@ postdocs and provides a platform to address problems relevant to postdocs.
 _Jun 2005 to Aug 2005_
 
 I worked on improving the user interface of Exogean, a software for
-annotating gene structures in eukaryotic genomic DNA
+annotating gene structures in eukaryotic genomic DNA.
 
 ## Contractor - Cost-analysis tool for electronics manufacturers
 
