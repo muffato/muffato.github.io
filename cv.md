@@ -82,34 +82,20 @@ I focused on the reconstruction of protein phylogenetic trees, reshaping the
 API, improving and extending the software. I also gave some Ensembl API
 workshops.
 
-## Education
-
-### PhD, Bioinformatics
-
-_ENS Paris / Évry university, France_
-
-## MSc, Bioinformatics
-
-_ENS Paris / Évry university, France_
-
-## MSc, Computer Science
-
-_ENSIIE, France_
-
-## BSc, Mathematics
-
-# Projects
-
 ## Google Summer of Code Mentor
+
+### 2019 Mentor
 
 _May 2019 to Sep 2019_
 
 **Using Deep Learning techniques to enhance orthology calls**
 
 This project was funded by the 2019 edition of the Google Summer of Code
-program. Harshit Gupta has been selected to develop a machine-learning
+program. [Harshit
+Gupta](https://www.linkedin.com/in/harshit-gupta-a454a3149/) has been selected to develop a machine-learning
 algorithm to predict orthologies in the Ensembl Genomes Browser organization
-under the supervision of myself and Mateus Patricio.
+under the supervision of myself and [Mateus
+Patricio](https://www.linkedin.com/in/mateus-patricio-03057aa8/).
 
 
 We developed a machine-learning algorithm to predict orthologies, using
@@ -117,16 +103,22 @@ TensorFlow, directly from sequence data -without using any phylogenetics
 methods-. The method achieved high accuracy (>90% in most settings) and we
 are now developing a plan to use it in production in Ensembl.
 
+Project URL: https://github.com/EnsemblGSOC/compara-deep-learning
+
 ## Google Summer of Code Mentor
+
+### 2016 Mentor
 
 _May 2016 to Sep 2016_
 
-**Graphical editor of XML files**
+**Title:** Graphical editor of XML files
 
 This project was funded by the 2016 edition of the Google Summer of Code
-program. Anuj Khandelwal has been selected to work on a Graphical workflow
+program. [Anuj
+Khandelwal](https://www.linkedin.com/in/anuj-khandelwal-2a7151103/) has been selected to work on a Graphical workflow
 editor for eHive using Blockly in the Ensembl Genomes Browser organization
-under the supervision of myself and Leo Gordon.
+under the supervision of myself and [Leo
+Gordon](https://www.linkedin.com/in/leo-gordon-cambridge/).
 
 eHive is a system used to run computation pipelines in distributed
 environments. Currently the eHive workflows are configured in a specific
@@ -145,6 +137,127 @@ The project submitted to Google is not specific to eHive and the proposed
 editor should be able of handling any specifications written using the
 Relax NG schema.
 
+Project URL: https://ensembl.github.io/XML-To-Blockly/
+
+
+## École normale supérieure, Paris, France
+
+### PhD student
+
+_Sep 2006 to Dec 2010_
+
+Title
+: Reconstruction of ancestral vertebrate genomes
+
+Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
+
+website: http://www.dyogen.ens.fr/genomicus/
+
+I have developed a set of new methods to predict the genome structure of ancestral species (all the last common ancestors of any given group of extant species. Here: about 50 vertebrate species) at different levels (number of chromosomes, chromosome content, gene order). We have also set up a database and a genome browser, Genomicus, to make the data available to the community. As we use the data from the Ensembl project, Genomicus is updated every 2 months, after each Ensembl release.
+
+Field: Comparative genomics, Phylogenetics, Graph algorithms
+Technologies used: Python, Perl, MySQL, SVG, XHTML, CSS, Apache, mod_perl
+
+
+
+
+Trainee
+
+Company Name
+
+École normale supérieure
+Dates Employed Jun 2005 – Aug 2005
+Employment Duration 3 mos
+Location Paris Area, France
+
+I worked on improving the user interface of Exogean, a software for annotating gene structures in eukaryotic genomic DNA
+
+Field: Automatic gene annotation, Graph algorithms
+Technologies used: OCaml, PHP
+
+
+
+# Education
+
+## PhD, Bioinformatics
+
+_ENS Paris / Évry university, France_
+
+## MSc, Bioinformatics
+
+_ENS Paris / Évry university, France_
+
+## MSc, Computer Science
+
+_ENSIIE, France_
+
+## BSc, Mathematics
+
+_Paris Diderot university, France_
+
+Sept. 2006 to Dec. 2010
+Sept. 2005 to Aug. 2006
+Sept. 2003 to Aug. 2006
+“Reconstruction of ancestral vertebrate genomes”
+
+
+
+Degree Name Bachelor of Science - BS
+
+Field Of Study Mathematics
+
+Dates attended or expected graduation 2004 – 2005
+
+Done on my spare time, alongside the ENSIIE degree
+Lycée Louis-le-Grand
+Lycée Louis-le-Grand
+
+Field Of Study Mathematics, Physics
+
+Dates attended or expected graduation 2001 – 2003
+
+
+
+
+PhD student
+
+Company Name
+
+École normale supérieure
+Dates Employed Sep 2006 – Dec 2010
+Employment Duration 4 yrs 4 mos
+Location Paris Area, France
+
+Title: Reconstruction of ancestral vertebrate genomes
+
+Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
+
+website: http://www.dyogen.ens.fr/genomicus/
+
+I have developed a set of new methods to predict the genome structure of ancestral species (all the last common ancestors of any given group of extant species. Here: about 50 vertebrate species) at different levels (number of chromosomes, chromosome content, gene order). We have also set up a database and a genome browser, Genomicus, to make the data available to the community. As we use the data from the Ensembl project, Genomicus is updated every 2 months, after each Ensembl release.
+
+Field: Comparative genomics, Phylogenetics, Graph algorithms
+Technologies used: Python, Perl, MySQL, SVG, XHTML, CSS, Apache, mod_perl
+
+
+
+
+Trainee
+
+Company Name
+
+École normale supérieure
+Dates Employed Jun 2005 – Aug 2005
+Employment Duration 3 mos
+Location Paris Area, France
+
+I worked on improving the user interface of Exogean, a software for annotating gene structures in eukaryotic genomic DNA
+
+Field: Automatic gene annotation, Graph algorithms
+Technologies used: OCaml, PHP
+
+
+# Projects
 ## EMBL Postdoc Retreat 2013
 
 _May 2013_
