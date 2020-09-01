@@ -23,7 +23,6 @@ _Since Oct 2019_
 <u>Keywords</u>: Development management. Technical leadership. Recruitment. Mentorship.
 API development. Database design and optimisation. Workflow design and development. 
 User support (data, API, workflows).
-
 <u>Team size</u>: 3 people.
 
 In this role, I transfer the knowledge I have accumulated in the past 8 years
@@ -101,9 +100,7 @@ TensorFlow, directly from sequence data -without using any phylogenetics
 methods-. The method achieved high accuracy (>90% in most settings) and we
 are now developing a plan to use it in production in Ensembl.
 
-<u>Project URL</u>: [https://github.com/EnsemblGSOC/compara-deep-learning]
-
-## Google Summer of Code Mentor
+<u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
 ### 2016 Mentor
 
@@ -135,26 +132,27 @@ The project submitted to Google is not specific to eHive and the proposed
 editor should be able of handling any specifications written using the
 Relax NG schema.
 
-<u>Project URL</u>: (https://ensembl.github.io/XML-To-Blockly/)
+<u>Project URL</u>: [Website](https://ensembl.github.io/XML-To-Blockly/),
+[GitHub](https://github.com/Ensembl/XML-To-Blockly)
 
+# Education
 
-## École normale supérieure, Paris, France
+## PhD, Bioinformatics
 
-### PhD student
+**École normale supérieure, Paris, and Évry university, France**
 
 _Sep 2006 to Dec 2010_
 
 <u>Title</u>: Reconstruction of ancestral vertebrate genomes
-
-Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
-
-website: http://www.dyogen.ens.fr/genomicus/
 
 I have developed a set of new methods to predict the genome structure of ancestral species (all the last common ancestors of any given group of extant species. Here: about 50 vertebrate species) at different levels (number of chromosomes, chromosome content, gene order). We have also set up a database and a genome browser, Genomicus, to make the data available to the community. As we use the data from the Ensembl project, Genomicus is updated every 2 months, after each Ensembl release.
 
 Field: Comparative genomics, Phylogenetics, Graph algorithms
 Technologies used: Python, Perl, MySQL, SVG, XHTML, CSS, Apache, mod_perl
 
+Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
+
+<u>Website</u>: http://www.dyogen.ens.fr/genomicus/
 
 
 
@@ -172,70 +170,34 @@ I worked on improving the user interface of Exogean, a software for annotating g
 Field: Automatic gene annotation, Graph algorithms
 Technologies used: OCaml, PHP
 
-
-
-# Education
-
-## PhD, Bioinformatics
-
-_ENS Paris / Évry university, France_
-
 ## MSc, Bioinformatics
 
-_ENS Paris / Évry university, France_
+**École normale supérieure, Paris, and Évry university, France**
+
+_Sep 2005 to Aug 2006_
+
 
 ## MSc, Computer Science
 
-_ENSIIE, France_
+**ENSIIE, Évry, France**
+
+_Sep 2003 to Aug 2006_
 
 ## BSc, Mathematics
 
 _Paris Diderot university, France_
 
-Sept. 2006 to Dec. 2010
-Sept. 2005 to Aug. 2006
-Sept. 2003 to Aug. 2006
-“Reconstruction of ancestral vertebrate genomes”
-
-
-
-Degree Name Bachelor of Science - BS
-
-Field Of Study Mathematics
-
-Dates attended or expected graduation 2004 – 2005
+_Sep 2004 to Jun 2005_
 
 Done on my spare time, alongside the ENSIIE degree
-Lycée Louis-le-Grand
-Lycée Louis-le-Grand
 
-Field Of Study Mathematics, Physics
+## Classes préparatoires, MPSI and MP\*
 
-Dates attended or expected graduation 2001 – 2003
+_Lycée Louis-le-Grand, Paris, France_
 
+_Sep 2001 to Jun 2003_
 
-
-
-PhD student
-
-Company Name
-
-École normale supérieure
-Dates Employed Sep 2006 – Dec 2010
-Employment Duration 4 yrs 4 mos
-Location Paris Area, France
-
-Title: Reconstruction of ancestral vertebrate genomes
-
-Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
-
-website: http://www.dyogen.ens.fr/genomicus/
-
-I have developed a set of new methods to predict the genome structure of ancestral species (all the last common ancestors of any given group of extant species. Here: about 50 vertebrate species) at different levels (number of chromosomes, chromosome content, gene order). We have also set up a database and a genome browser, Genomicus, to make the data available to the community. As we use the data from the Ensembl project, Genomicus is updated every 2 months, after each Ensembl release.
-
-Field: Comparative genomics, Phylogenetics, Graph algorithms
-Technologies used: Python, Perl, MySQL, SVG, XHTML, CSS, Apache, mod_perl
-
+Mathematics, Physics, Computer Science.
 
 
 
