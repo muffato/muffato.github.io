@@ -39,7 +39,7 @@ keeping it the most efficient solution for the Ensembl Comparative Genomics work
 
 ### Project Leader
 
-_May 2014 to Sep 2019._
+_May 2014 to Sep 2019_
 
 <u>Keywords</u>: Project planning and management. Scientific and public communication. Technical leadership. Recruitment. Mentorship.
 Development management. Reporting. Data-production planning and operational management.
@@ -55,7 +55,7 @@ for eHive.
 
 ### Interim Manager
 
-_May 2013 to May 2014._
+_May 2013 to May 2014_
 
 <u>Keywords</u>: Development management. Reporting. Technical advisor. Data-production planning and operational management.
 API development. Database design and optimisation. Workflow design and development. Data
@@ -70,7 +70,7 @@ extending the software. I was still giving some Ensembl API workshops.
 
 ### Software Developer
 
-_Jan 2011 to May 2013._
+_Jan 2011 to May 2013_
 
 <u>Keywords</u>: API development. Database design and optimisation. Workflow design and development. Data
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
@@ -147,35 +147,16 @@ _Sep 2006 to Dec 2010_
 
 I have developed a set of new methods to predict the genome structure of ancestral species (all the last common ancestors of any given group of extant species. Here: about 50 vertebrate species) at different levels (number of chromosomes, chromosome content, gene order). We have also set up a database and a genome browser, Genomicus, to make the data available to the community. As we use the data from the Ensembl project, Genomicus is updated every 2 months, after each Ensembl release.
 
-Field: Comparative genomics, Phylogenetics, Graph algorithms
-Technologies used: Python, Perl, MySQL, SVG, XHTML, CSS, Apache, mod_perl
-
 Thesis available online at http://tel.archives-ouvertes.fr/tel-00552138_v1/ (thesis in French, presentation in English)
 
 <u>Website</u>: http://www.dyogen.ens.fr/genomicus/
 
-
-
-Trainee
-
-Company Name
-
-École normale supérieure
-Dates Employed Jun 2005 – Aug 2005
-Employment Duration 3 mos
-Location Paris Area, France
-
-I worked on improving the user interface of Exogean, a software for annotating gene structures in eukaryotic genomic DNA
-
-Field: Automatic gene annotation, Graph algorithms
-Technologies used: OCaml, PHP
 
 ## MSc, Bioinformatics
 
 **École normale supérieure, Paris, and Évry university, France**
 
 _Sep 2005 to Aug 2006_
-
 
 ## MSc, Computer Science
 
@@ -199,24 +180,8 @@ _Sep 2001 to Jun 2003_
 
 Mathematics, Physics, Computer Science.
 
-
-
-Trainee
-
-Company Name
-
-École normale supérieure
-Dates Employed Jun 2005 – Aug 2005
-Employment Duration 3 mos
-Location Paris Area, France
-
-I worked on improving the user interface of Exogean, a software for annotating gene structures in eukaryotic genomic DNA
-
-Field: Automatic gene annotation, Graph algorithms
-Technologies used: OCaml, PHP
-
-
 # Projects
+
 ## EMBL Postdoc Retreat 2013
 
 _May 2013_
@@ -225,14 +190,23 @@ The EMBL postdoc retreat is an official annual EMBL event under the
 patronage of the EMBL Heads of Units. It promotes scientific exchange among
 postdocs and provides a platform to address problems relevant to postdocs.
 
-## Cost-analysis tool for electronics manufacturers
+## Internship - Web interface for gene annotation
+
+**École normale supérieure, Paris, France**
+
+_Jun 2005 to Aug 2005_
+
+I worked on improving the user interface of Exogean, a software for
+annotating gene structures in eukaryotic genomic DNA
+
+## Contractor - Cost-analysis tool for electronics manufacturers
 
 _2005_
 
 Conception of a new software to analyse and manage costs for electronics
 manufacturers (project & product visualisation, resources management).
 
-## 3D Renderer
+## Personal project - 3D Renderer
 
 _2002 to 2003_
 
