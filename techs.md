@@ -71,7 +71,7 @@ novice, competent, proficient, expert, master.
 | `bash` scripting | ![topic](/assets/img/topics/bash.png) | ![5 &#x2605;](/assets/img/5.svg) | 2003- |
 | Linuxbrew | ![topic](/assets/img/topics/homebrew.png) | ![4 &#x2605;](/assets/img/4.svg) | 2015- |
 | Git (command-line) &amp; GitHub | ![topic](/assets/img/topics/git.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
-| CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![4 &#x2605;](/assets/img/4.svg) | 2014- |
+| CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![5 &#x2605;](/assets/img/5.svg) | 2014- |
 | CI/CD on GitLab | ![topic](/assets/img/topics/gitlab.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
 {: class="skills"}
 
