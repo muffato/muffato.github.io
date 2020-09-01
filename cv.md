@@ -98,10 +98,90 @@ _ENSIIE, France_
 
 ## BSc, Mathematics
 
-### Project Fundamentals Qualification (PFQ) certification
+# Projects
+
+## Google Summer of Code Mentor
+
+_May 2019 to Sep 2019_
+
+**Using Deep Learning techniques to enhance orthology calls**
+
+This project was funded by the 2019 edition of the Google Summer of Code
+program. Harshit Gupta has been selected to develop a machine-learning
+algorithm to predict orthologies in the Ensembl Genomes Browser organization
+under the supervision of myself and Mateus Patricio.
+
+
+We developed a machine-learning algorithm to predict orthologies, using
+TensorFlow, directly from sequence data -without using any phylogenetics
+methods-. The method achieved high accuracy (>90% in most settings) and we
+are now developing a plan to use it in production in Ensembl.
+
+## Google Summer of Code Mentor
+
+_May 2016 to Sep 2016_
+
+**Graphical editor of XML files**
+
+This project was funded by the 2016 edition of the Google Summer of Code
+program. Anuj Khandelwal has been selected to work on a Graphical workflow
+editor for eHive using Blockly in the Ensembl Genomes Browser organization
+under the supervision of myself and Leo Gordon.
+
+eHive is a system used to run computation pipelines in distributed
+environments. Currently the eHive workflows are configured in a specific
+file format that requires basic programming skills. This project aimed at
+removing this drawback by creating a graphical editor for eHive workflows
+using Google's Blockly library.
+
+We were envisaging XML as the file format, with a Relax NG specification.
+The backbone of this graphical editor would be an automated conversion of a
+Relax NG specification to Blockly blocks and matching rules so that the
+Blockly diagrams conform to the specification. The graphical interface will
+have to be able to import existing XML files to visualize them in terms of
+Blockly blocks, edit them, and export the diagram back to XML.
+
+The project submitted to Google is not specific to eHive and the proposed
+editor should be able of handling any specifications written using the
+Relax NG schema.
+
+## EMBL Postdoc Retreat 2013
+
+_May 2013_
+
+The EMBL postdoc retreat is an official annual EMBL event under the
+patronage of the EMBL Heads of Units. It promotes scientific exchange among
+postdocs and provides a platform to address problems relevant to postdocs.
+
+## Cost-analysis tool for electronics manufacturers
+
+_2005_
+
+Conception of a new software to analyse and manage costs for electronics
+manufacturers (project & product visualisation, resources management).
+
+## 3D Renderer
+
+_2002 to 2003_
+
+I implemented a 3D renderer from scratch, i.e. without using any libraries
+such as OpenGL. The program is able to render (project) 3D objects onto a
+plane as raster images, including colours & transparency, but also
+lightings and shadings. It's all written in C++.
+
+I also know about ray-tracing, BSP trees, Bezier curves, B-splines.
+
+# Certifications
+
+## Project Fundamentals Qualification (PFQ) certification
 
 _Association for Project Management (APM), 2017_
 
 Course on project management. Principles and approaches have since been applied to all Ensembl
 management layers to plan and manage projects (development and others).
+
+
+## "Policy manager" and "Antivirus Client Security"
+
+_F-Secure Corporation, 2004_
 
