@@ -30,6 +30,8 @@ novice, competent, proficient, expert, master.
 | (X)HTML &amp; CSS | ![topic](/assets/img/topics/html.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004- |
 | SVG | ![topic](/assets/img/topics/svg.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008- |
 | Javascript (ES5, JQuery, D3, Node.js) | ![topic](/assets/img/topics/javascript.png) | ![2 &#x2605;](/assets/img/2.svg) | 2015- |
+| Jekyll site generator | ![topic](/assets/img/topics/jekyll.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
+| Apache and Nginx | ![topic](/assets/img/topics/nginx.png) | ![1 &#x2605;](/assets/img/1.svg) | 2008- |
 {: class="skills"}
 
 ### Database technologies
