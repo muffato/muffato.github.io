@@ -2,6 +2,8 @@ theme: jekyll-theme-minimal
 title: Matthieu Muffato
 logo: assets/img/canard.png
 description: Welcome !
+kramdown:
+  parse_block_html: true
 
 defaults:
   -
