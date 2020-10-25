@@ -78,7 +78,7 @@ _BioEssays : news and reviews in molecular, cellular and developmental biology_ 
 </dd>
 </dl>
 
-## Quest for Orthologues
+## Quest for Orthologs
 
 <dl>
 <dt>The Quest for Orthologs benchmark service and consensus calls in 2020.</dt>
