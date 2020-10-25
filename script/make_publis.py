@@ -122,7 +122,7 @@ def print_publication(publi):
     if publi["journalInfo"]["dateOfPublication"] != publi["journalInfo"]["volume"]:
         journal_string += ', ' + publi["journalInfo"]["dateOfPublication"]
     print(journal_string, '\\\\')
-    print(f'DOI: [`{publi["doi"]}`](https://doi.org/{publi["doi"]})')
+    print(f'DOI: [{publi["doi"]}](https://doi.org/{publi["doi"]})')
     print('</dd>')
 
 def make_page():
