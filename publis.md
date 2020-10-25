@@ -19,26 +19,22 @@ and [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/
 <dl>
 <dt>ncRNA orthologies in the vertebrate lineage.</dt>
 <dd>
-Pignatelli M, Vilella AJ, Muffato M, Gordon L, White S, Flicek P, Herrero J.
-
+Pignatelli M, Vilella AJ, Muffato M, Gordon L, White S, Flicek P, Herrero J. \\
 _Database : the journal of biological databases and curation_ 2016, 2016
 </dd>
 <dt>Ensembl comparative genomics resources.</dt>
 <dd>
-Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, Vilella AJ, Searle SM, Amode R, Brent S, Spooner W, Kulesha E, Yates A, Flicek P.
-
+Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, Vilella AJ, Searle SM, Amode R, Brent S, Spooner W, Kulesha E, Yates A, Flicek P. \\
 _Database : the journal of biological databases and curation_ 2016, 2016
 </dd>
 <dt>Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference.</dt>
 <dd>
-Tan G, Muffato M, Ledergerber C, Herrero J, Goldman N, Gil M, Dessimoz C.
-
+Tan G, Muffato M, Ledergerber C, Herrero J, Goldman N, Gil M, Dessimoz C. \\
 _Systematic biology_ 64(5):778-791, 2015 Sep
 </dd>
 <dt>TreeFam v9: a new website, more species and orthology-on-the-fly.</dt>
 <dd>
-Schreiber F, Patricio M, Muffato M, Pignatelli M, Bateman A.
-
+Schreiber F, Patricio M, Muffato M, Pignatelli M, Bateman A. \\
 _Nucleic acids research_ 42(Database issue):D922-5, 2014 Jan
 </dd>
 </dl>
@@ -48,38 +44,32 @@ _Nucleic acids research_ 42(Database issue):D922-5, 2014 Jan
 <dl>
 <dt>The 3D organization of chromatin explains evolutionary fragile genomic regions.</dt>
 <dd>
-Berthelot C, Muffato M, Abecassis J, Roest Crollius H.
-
+Berthelot C, Muffato M, Abecassis J, Roest Crollius H. \\
 _Cell reports_ 10(11):1913-1924, 2015 Mar
 </dd>
 <dt>Genomicus update 2015: KaryoView and MatrixView provide a genome-wide perspective to multispecies comparative genomics.</dt>
 <dd>
-Louis A, Nguyen NT, Muffato M, Roest Crollius H.
-
+Louis A, Nguyen NT, Muffato M, Roest Crollius H. \\
 _Nucleic acids research_ 43(Database issue):D682-9, 2015 Jan
 </dd>
 <dt>PhylDiag: identifying complex synteny blocks that include tandem duplications using phylogenetic gene trees.</dt>
 <dd>
-Lucas JM, Muffato M, Roest Crollius H.
-
+Lucas JM, Muffato M, Roest Crollius H. \\
 _BMC bioinformatics_ 15:268, 2014 
 </dd>
 <dt>Genomicus: five genome browsers for comparative genomics in eukaryota.</dt>
 <dd>
-Louis A, Muffato M, Roest Crollius H.
-
+Louis A, Muffato M, Roest Crollius H. \\
 _Nucleic acids research_ 41(Database issue):D700-5, 2013 Jan
 </dd>
 <dt>Genomicus: a database and a browser to study gene synteny in modern and ancestral genomes.</dt>
 <dd>
-Muffato M, Louis A, Poisnel CE, Roest Crollius H.
-
+Muffato M, Louis A, Poisnel CE, Roest Crollius H. \\
 _Bioinformatics (Oxford, England)_ 26(8):1119-1121, 2010 Apr
 </dd>
 <dt>Paleogenomics in vertebrates, or the recovery of lost genomes from the mist of time.</dt>
 <dd>
-Muffato M, Roest Crollius H.
-
+Muffato M, Roest Crollius H. \\
 _BioEssays : news and reviews in molecular, cellular and developmental biology_ 30(2):122-134, 2008 Feb
 </dd>
 </dl>
@@ -89,45 +79,38 @@ _BioEssays : news and reviews in molecular, cellular and developmental biology_ 
 <dl>
 <dt>The Quest for Orthologs benchmark service and consensus calls in 2020.</dt>
 <dd>
-Altenhoff AM _et al._
-
+Altenhoff AM _et al._ \\
 _Nucleic acids research_ 48(W1):W538-W545, 2020 Jul
 </dd>
 <dt>Advances and Applications in the Quest for Orthologs.</dt>
 <dd>
-Glover N _et al._
-
+Glover N _et al._ \\
 _Molecular biology and evolution_ 36(10):2157-2164, 2019 Oct
 </dd>
 <dt>Gearing up to handle the mosaic nature of life in the quest for orthologs.</dt>
 <dd>
 Forslund K, Pereira C, Capella-Gutierrez S, da Silva AS, Altenhoff A, Huerta-Cepas J, Muffato M, Patricio M, Vandepoele K, Ebersberger I, Blake J, Fernández Breis JT, Quest for Orthologs Consortium, Boeckmann B, Gabaldón T, Sonnhammer E, Dessimoz C, Lewis S, Quest for Orthologs Consortium
-.
-
+. \\
 _Bioinformatics (Oxford, England)_ 34(2):323-329, 2018 Jan
 </dd>
 <dt>Standardized benchmarking in the quest for orthologs.</dt>
 <dd>
-Altenhoff AM _et al._
-
+Altenhoff AM _et al._ \\
 _Nature methods_ 13(5):425-430, 2016 May
 </dd>
 <dt>Quest for Orthologs Entails Quest for Tree of Life: In Search of the Gene Stream.</dt>
 <dd>
-Boeckmann B, Marcet-Houben M, Rees JA, Forslund K, Huerta-Cepas J, Muffato M, Yilmaz P, Xenarios I, Bork P, Lewis SE, Gabaldón T, Quest for Orthologs Species Tree Working Group.
-
+Boeckmann B, Marcet-Houben M, Rees JA, Forslund K, Huerta-Cepas J, Muffato M, Yilmaz P, Xenarios I, Bork P, Lewis SE, Gabaldón T, Quest for Orthologs Species Tree Working Group. \\
 _Genome biology and evolution_ 7(7):1988-1999, 2015 Jul
 </dd>
 <dt>Big data and other challenges in the quest for orthologs.</dt>
 <dd>
-Sonnhammer EL _et al._
-
+Sonnhammer EL _et al._ \\
 _Bioinformatics (Oxford, England)_ 30(21):2993-2998, 2014 Nov
 </dd>
 <dt>Toward community standards in the quest for orthologs.</dt>
 <dd>
-Dessimoz C _et al._
-
+Dessimoz C _et al._ \\
 _Bioinformatics (Oxford, England)_ 28(6):900-904, 2012 Mar
 </dd>
 </dl>
@@ -137,50 +120,42 @@ _Bioinformatics (Oxford, England)_ 28(6):900-904, 2012 Mar
 <dl>
 <dt>The tuatara genome reveals ancient features of amniote evolution.</dt>
 <dd>
-Gemmell NJ _et al._
-
+Gemmell NJ _et al._ \\
 _Nature_ 584(7821):403-409, 2020 Aug
 </dd>
 <dt>The comparative genomics and complex population history of Papio baboons.</dt>
 <dd>
-Rogers J _et al._
-
+Rogers J _et al._ \\
 _Science advances_ 5(1):eaau6947, 2019 Jan
 </dd>
 <dt>Repeat associated mechanisms of genome evolution and function revealed by the Mus caroli and Mus pahari genomes.</dt>
 <dd>
-Thybert D _et al._
-
+Thybert D _et al._ \\
 _Genome research_ 28(4):448-459, 2018 Apr
 </dd>
 <dt>LaGomiCs-Lagomorph Genomics Consortium: An International Collaborative Effort for Sequencing the Genomes of an Entire Mammalian Order.</dt>
 <dd>
-Fontanesi L _et al._
-
+Fontanesi L _et al._ \\
 _The Journal of heredity_ 107(4):295-308, 2016 Jul
 </dd>
 <dt>Gibbon genome and the fast karyotype evolution of small apes.</dt>
 <dd>
-Carbone L _et al._
-
+Carbone L _et al._ \\
 _Nature_ 513(7517):195-201, 2014 Sep
 </dd>
 <dt>The zebrafish reference genome sequence and its relationship to the human genome.</dt>
 <dd>
-Howe K, Clark MD, Torroja CF, Torrance J, Berthelot C, Muffato M, Collins JE, Humphray S, McLaren K, Matthews L, McLaren S, Sealy I, Caccamo M, Churcher C, Scott C, Barrett JC, Koch R, Rauch GJ, White S, Chow W, Kilian B, Quintais LT, Guerra-Assunção JA, Zhou Y, Gu Y, Yen J, Vogel JH, Eyre T, Redmond S, Banerjee R, Chi J, Fu B, Langley E, Maguire SF, Laird GK, Lloyd D, Kenyon E, Donaldson S, Sehra H, Almeida-King J, Loveland J, Trevanion S, Jones M, Quail M, Willey D, Hunt A, Burton J, Sims S, McLay K, Plumb B, Davis J, Clee C, Oliver K, Clark R, Riddle C, Elliot D, Threadgold G, Harden G, Ware D, Begum S, Mortimore B, Kerry G, Heath P, Phillimore B, Tracey A, Corby N, Dunn M, Johnson C, Wood J, Clark S, Pelan S, Griffiths G, Smith M, Glithero R, Howden P, Barker N, Lloyd C, Stevens C, Harley J, Holt K, Panagiotidis G, Lovell J, Beasley H, Henderson C, Gordon D, Auger K, Wright D, Collins J, Raisen C, Dyer L, Leung K, Robertson L, Ambridge K, Leongamornlert D, McGuire S, Gilderthorp R, Griffiths C, Manthravadi D, Nichol S, Barker G, Whitehead S, Kay M, Brown J, Murnane C, Gray E, Humphries M, Sycamore N, Barker D, Saunders D, Wallis J, Babbage A, Hammond S, Mashreghi-Mohammadi M, Barr L, Martin S, Wray P, Ellington A, Matthews N, Ellwood M, Woodmansey R, Clark G, Cooper J, Tromans A, Grafham D, Skuce C, Pandian R, Andrews R, Harrison E, Kimberley A, Garnett J, Fosker N, Hall R, Garner P, Kelly D, Bird C, Palmer S, Gehring I, Berger A, Dooley CM, Ersan-Ürün Z, Eser C, Geiger H, Geisler M, Karotki L, Kirn A, Konantz J, Konantz M, Oberländer M, Rudolph-Geiger S, Teucke M, Lanz C, Raddatz G, Osoegawa K, Zhu B, Rapp A, Widaa S, Langford C, Yang F, Schuster SC, Carter NP, Harrow J, Ning Z, Herrero J, Searle SM, Enright A, Geisler R, Plasterk RH, Lee C, Westerfield M, de Jong PJ, Zon LI, Postlethwait JH, Nüsslein-Volhard C, Hubbard TJ, Roest Crollius H, Rogers J, Stemple DL.
-
+Howe K, Clark MD, Torroja CF, Torrance J, Berthelot C, Muffato M, Collins JE, Humphray S, McLaren K, Matthews L, McLaren S, Sealy I, Caccamo M, Churcher C, Scott C, Barrett JC, Koch R, Rauch GJ, White S, Chow W, Kilian B, Quintais LT, Guerra-Assunção JA, Zhou Y, Gu Y, Yen J, Vogel JH, Eyre T, Redmond S, Banerjee R, Chi J, Fu B, Langley E, Maguire SF, Laird GK, Lloyd D, Kenyon E, Donaldson S, Sehra H, Almeida-King J, Loveland J, Trevanion S, Jones M, Quail M, Willey D, Hunt A, Burton J, Sims S, McLay K, Plumb B, Davis J, Clee C, Oliver K, Clark R, Riddle C, Elliot D, Threadgold G, Harden G, Ware D, Begum S, Mortimore B, Kerry G, Heath P, Phillimore B, Tracey A, Corby N, Dunn M, Johnson C, Wood J, Clark S, Pelan S, Griffiths G, Smith M, Glithero R, Howden P, Barker N, Lloyd C, Stevens C, Harley J, Holt K, Panagiotidis G, Lovell J, Beasley H, Henderson C, Gordon D, Auger K, Wright D, Collins J, Raisen C, Dyer L, Leung K, Robertson L, Ambridge K, Leongamornlert D, McGuire S, Gilderthorp R, Griffiths C, Manthravadi D, Nichol S, Barker G, Whitehead S, Kay M, Brown J, Murnane C, Gray E, Humphries M, Sycamore N, Barker D, Saunders D, Wallis J, Babbage A, Hammond S, Mashreghi-Mohammadi M, Barr L, Martin S, Wray P, Ellington A, Matthews N, Ellwood M, Woodmansey R, Clark G, Cooper J, Tromans A, Grafham D, Skuce C, Pandian R, Andrews R, Harrison E, Kimberley A, Garnett J, Fosker N, Hall R, Garner P, Kelly D, Bird C, Palmer S, Gehring I, Berger A, Dooley CM, Ersan-Ürün Z, Eser C, Geiger H, Geisler M, Karotki L, Kirn A, Konantz J, Konantz M, Oberländer M, Rudolph-Geiger S, Teucke M, Lanz C, Raddatz G, Osoegawa K, Zhu B, Rapp A, Widaa S, Langford C, Yang F, Schuster SC, Carter NP, Harrow J, Ning Z, Herrero J, Searle SM, Enright A, Geisler R, Plasterk RH, Lee C, Westerfield M, de Jong PJ, Zon LI, Postlethwait JH, Nüsslein-Volhard C, Hubbard TJ, Roest Crollius H, Rogers J, Stemple DL. \\
 _Nature_ 496(7446):498-503, 2013 Apr
 </dd>
 <dt>Sequencing of the sea lamprey (Petromyzon marinus) genome provides insights into vertebrate evolution.</dt>
 <dd>
-Smith JJ _et al._
-
+Smith JJ _et al._ \\
 _Nature genetics_ 45(4):415-21, 421e1-2, 2013 Apr
 </dd>
 <dt>Plasticity of animal genome architecture unmasked by rapid evolution of a pelagic tunicate.</dt>
 <dd>
-Denoeud F _et al._
-
+Denoeud F _et al._ \\
 _Science (New York, N.Y.)_ 330(6009):1381-1385, 2010 Dec
 </dd>
 </dl>
@@ -190,62 +165,52 @@ _Science (New York, N.Y.)_ 330(6009):1381-1385, 2010 Dec
 <dl>
 <dt>Ensembl 2020.</dt>
 <dd>
-Yates AD _et al._
-
+Yates AD _et al._ \\
 _Nucleic acids research_ 48(D1):D682-D688, 2020 Jan
 </dd>
 <dt>Ensembl Genomes 2020-enabling non-vertebrate genomic research.</dt>
 <dd>
-Howe KL _et al._
-
+Howe KL _et al._ \\
 _Nucleic acids research_ 48(D1):D689-D695, 2020 Jan
 </dd>
 <dt>Ensembl 2019.</dt>
 <dd>
-Cunningham F _et al._
-
+Cunningham F _et al._ \\
 _Nucleic acids research_ 47(D1):D745-D751, 2019 Jan
 </dd>
 <dt>Ensembl 2018.</dt>
 <dd>
-Zerbino DR _et al._
-
+Zerbino DR _et al._ \\
 _Nucleic acids research_ 46(D1):D754-D761, 2018 Jan
 </dd>
 <dt>Ensembl 2017.</dt>
 <dd>
-Aken BL _et al._
-
+Aken BL _et al._ \\
 _Nucleic acids research_ 45(D1):D635-D642, 2017 Jan
 </dd>
 <dt>Ensembl 2016.</dt>
 <dd>
-Yates A _et al._
-
+Yates A _et al._ \\
 _Nucleic acids research_ 44(D1):D710-6, 2016 Jan
 </dd>
 <dt>Ensembl 2015.</dt>
 <dd>
-Cunningham F _et al._
-
+Cunningham F _et al._ \\
 _Nucleic acids research_ 43(Database issue):D662-9, 2015 Jan
 </dd>
 <dt>Ensembl 2014.</dt>
 <dd>
-Flicek P _et al._
-
+Flicek P _et al._ \\
 _Nucleic acids research_ 42(Database issue):D749-55, 2014 Jan
 </dd>
 <dt>Ensembl 2013.</dt>
 <dd>
-Flicek P _et al._
-
+Flicek P _et al._ \\
 _Nucleic acids research_ 41(Database issue):D48-55, 2013 Jan
 </dd>
 <dt>Ensembl 2012.</dt>
 <dd>
-Flicek P _et al._
-
+Flicek P _et al._ \\
 _Nucleic acids research_ 40(Database issue):D84-90, 2012 Jan
 </dd>
 </dl>
