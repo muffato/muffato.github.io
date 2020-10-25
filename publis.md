@@ -8,7 +8,7 @@ position: 4
 The complete list of publications is available at these databases:
 
 * [![icon](/assets/img/icon/epmc.png) Europe PubMed
-  Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
+  Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date)
   ([profile](http://europepmc.org/authors/0000-0002-7860-3560)),
 * [![icon](/assets/img/icon/googlescholar.png) Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
 * [![icon](/assets/img/icon/orcid.png) ORCID](https://orcid.org/0000-0002-7860-3560),
