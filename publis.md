@@ -14,7 +14,7 @@ Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=D
 and [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100).
 
 
-## ![icon](/assets/img/icon/ensembl.png) Ensembl Comparative Genomics
+## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam
 
 <dl>
 <dt>ncRNA orthologies in the vertebrate lineage.</dt>
@@ -39,7 +39,7 @@ _Nucleic acids research_ 42(Database issue):D922-5, 2014 Jan
 </dd>
 </dl>
 
-## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral-genome reconstruction
+## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction
 
 <dl>
 <dt>The 3D organization of chromatin explains evolutionary fragile genomic regions.</dt>
@@ -159,7 +159,7 @@ _Science (New York, N.Y.)_ 330(6009):1381-1385, 2010 Dec
 </dd>
 </dl>
 
-## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam NAR updates
+## ![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates
 
 <dl>
 <dt>Ensembl 2020.</dt>
