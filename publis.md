@@ -1,0 +1,18 @@
+---
+title: Publications
+position: 4
+---
+
+# Publications
+
+My ORCID iD is
+[![icon](/assets/img/icon/orcid.png)
+0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
+Find the complete list of publications at [![icon](/assets/img/icon/epmc.png) Europe PubMed
+Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
+[![icon](/assets/img/icon/googlescholar.png) Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
+and [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100).
+
+<dl id="here">
+</dl>
+<script src="/assets/js/publis.js"></script>
