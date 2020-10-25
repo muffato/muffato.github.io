@@ -24,7 +24,7 @@ _Database : the journal of biological databases and curation_ 2016, 2016
 </dd>
 <dt>Ensembl comparative genomics resources.</dt>
 <dd>
-Herrero J, Muffato M, Beal K, Fitzgerald S, Gordon L, Pignatelli M, Vilella AJ, Searle SM, Amode R, Brent S, Spooner W, Kulesha E, Yates A, Flicek P. \\
+Herrero J, Muffato M, _et al._ \\
 _Database : the journal of biological databases and curation_ 2016, 2016
 </dd>
 <dt>Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference.</dt>
@@ -89,8 +89,7 @@ _Molecular biology and evolution_ 36(10):2157-2164, 2019 Oct
 </dd>
 <dt>Gearing up to handle the mosaic nature of life in the quest for orthologs.</dt>
 <dd>
-Forslund K, Pereira C, Capella-Gutierrez S, da Silva AS, Altenhoff A, Huerta-Cepas J, Muffato M, Patricio M, Vandepoele K, Ebersberger I, Blake J, Fernández Breis JT, Quest for Orthologs Consortium, Boeckmann B, Gabaldón T, Sonnhammer E, Dessimoz C, Lewis S, Quest for Orthologs Consortium
-. \\
+Forslund K, Pereira C, Capella-Gutierrez S, da Silva AS, Altenhoff A, Huerta-Cepas J, Muffato M, _et al._ \\
 _Bioinformatics (Oxford, England)_ 34(2):323-329, 2018 Jan
 </dd>
 <dt>Standardized benchmarking in the quest for orthologs.</dt>
@@ -100,7 +99,7 @@ _Nature methods_ 13(5):425-430, 2016 May
 </dd>
 <dt>Quest for Orthologs Entails Quest for Tree of Life: In Search of the Gene Stream.</dt>
 <dd>
-Boeckmann B, Marcet-Houben M, Rees JA, Forslund K, Huerta-Cepas J, Muffato M, Yilmaz P, Xenarios I, Bork P, Lewis SE, Gabaldón T, Quest for Orthologs Species Tree Working Group. \\
+Boeckmann B, Marcet-Houben M, Rees JA, Forslund K, Huerta-Cepas J, Muffato M, _et al._ \\
 _Genome biology and evolution_ 7(7):1988-1999, 2015 Jul
 </dd>
 <dt>Big data and other challenges in the quest for orthologs.</dt>
@@ -145,7 +144,7 @@ _Nature_ 513(7517):195-201, 2014 Sep
 </dd>
 <dt>The zebrafish reference genome sequence and its relationship to the human genome.</dt>
 <dd>
-Howe K, Clark MD, Torroja CF, Torrance J, Berthelot C, Muffato M, Collins JE, Humphray S, McLaren K, Matthews L, McLaren S, Sealy I, Caccamo M, Churcher C, Scott C, Barrett JC, Koch R, Rauch GJ, White S, Chow W, Kilian B, Quintais LT, Guerra-Assunção JA, Zhou Y, Gu Y, Yen J, Vogel JH, Eyre T, Redmond S, Banerjee R, Chi J, Fu B, Langley E, Maguire SF, Laird GK, Lloyd D, Kenyon E, Donaldson S, Sehra H, Almeida-King J, Loveland J, Trevanion S, Jones M, Quail M, Willey D, Hunt A, Burton J, Sims S, McLay K, Plumb B, Davis J, Clee C, Oliver K, Clark R, Riddle C, Elliot D, Threadgold G, Harden G, Ware D, Begum S, Mortimore B, Kerry G, Heath P, Phillimore B, Tracey A, Corby N, Dunn M, Johnson C, Wood J, Clark S, Pelan S, Griffiths G, Smith M, Glithero R, Howden P, Barker N, Lloyd C, Stevens C, Harley J, Holt K, Panagiotidis G, Lovell J, Beasley H, Henderson C, Gordon D, Auger K, Wright D, Collins J, Raisen C, Dyer L, Leung K, Robertson L, Ambridge K, Leongamornlert D, McGuire S, Gilderthorp R, Griffiths C, Manthravadi D, Nichol S, Barker G, Whitehead S, Kay M, Brown J, Murnane C, Gray E, Humphries M, Sycamore N, Barker D, Saunders D, Wallis J, Babbage A, Hammond S, Mashreghi-Mohammadi M, Barr L, Martin S, Wray P, Ellington A, Matthews N, Ellwood M, Woodmansey R, Clark G, Cooper J, Tromans A, Grafham D, Skuce C, Pandian R, Andrews R, Harrison E, Kimberley A, Garnett J, Fosker N, Hall R, Garner P, Kelly D, Bird C, Palmer S, Gehring I, Berger A, Dooley CM, Ersan-Ürün Z, Eser C, Geiger H, Geisler M, Karotki L, Kirn A, Konantz J, Konantz M, Oberländer M, Rudolph-Geiger S, Teucke M, Lanz C, Raddatz G, Osoegawa K, Zhu B, Rapp A, Widaa S, Langford C, Yang F, Schuster SC, Carter NP, Harrow J, Ning Z, Herrero J, Searle SM, Enright A, Geisler R, Plasterk RH, Lee C, Westerfield M, de Jong PJ, Zon LI, Postlethwait JH, Nüsslein-Volhard C, Hubbard TJ, Roest Crollius H, Rogers J, Stemple DL. \\
+Howe K, Clark MD, Torroja CF, Torrance J, Berthelot C, Muffato M, _et al._ \\
 _Nature_ 496(7446):498-503, 2013 Apr
 </dd>
 <dt>Sequencing of the sea lamprey (Petromyzon marinus) genome provides insights into vertebrate evolution.</dt>
