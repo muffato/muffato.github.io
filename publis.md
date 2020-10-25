@@ -5,14 +5,16 @@ position: 4
 
 # Publications
 
-My ORCID iD is
-[![icon](/assets/img/icon/orcid.png)
-0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
-Find the complete list of publications at [![icon](/assets/img/icon/epmc.png) Europe PubMed
-Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
-[![icon](/assets/img/icon/googlescholar.png) Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
-and [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100).
+The complete list of publications is available at these databases:
 
+* [![icon](/assets/img/icon/orcid.png) ORCID](http://europepmc.org/authors/0000-0002-7860-3560)
+  (my iD is 0000-0002-7860-3560),
+* [![icon](/assets/img/icon/epmc.png) Europe PubMed
+  Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
+* [![icon](/assets/img/icon/googlescholar.png) Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
+* [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100).
+
+Find below a selection organised by themes.
 
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam
 
