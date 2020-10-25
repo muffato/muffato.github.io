@@ -20,12 +20,12 @@ and [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/
 <dt>ncRNA orthologies in the vertebrate lineage.</dt>
 <dd>
 Pignatelli M, Vilella AJ, Muffato M, Gordon L, White S, Flicek P, Herrero J. \\
-_Database : the journal of biological databases and curation_ 2016, 2016
+_Database : the journal of biological databases and curation_ 2016
 </dd>
 <dt>Ensembl comparative genomics resources.</dt>
 <dd>
 Herrero J, Muffato M, _et al._ \\
-_Database : the journal of biological databases and curation_ 2016, 2016
+_Database : the journal of biological databases and curation_ 2016
 </dd>
 <dt>Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference.</dt>
 <dd>
