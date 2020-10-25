@@ -31,23 +31,6 @@ I've got some experience in:
 * &#x1F465; Whole genome duplications
 * &#x26A1; High-throughput computing
 
-## Publications
-
-My ORCID iD is
-[![icon](/assets/img/icon/orcid.png)
-0000-0002-7860-3560](http://europepmc.org/authors/0000-0002-7860-3560).
-My publications ([![icon](/assets/img/icon/epmc.png) Europe PubMed
-Central](http://europepmc.org/search?query=AUTHORID:0000-0002-7860-3560&sortby=Date),
-[![icon](/assets/img/icon/googlescholar.png) Google Scholar](https://scholar.google.com/citations?user=CAik9V8AAAAJ),
-[![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100))
-fall in these five topics:
-
-* [![icon](/assets/img/icon/ensembl.png) Ensembl](http://www.ensembl.org) and [![icon](/assets/img/icon/treefam.png) TreeFam](http://www.treefam.org)
-* [Quest for Orthologues](https://questfororthologs.org)
-* Genome analysis
-* [![icon](/assets/img/icon/genomicus.png) Genomicus](http://www.dyogen.ens.fr/genomicus/) and ancestral-genome reconstruction
-* Research in comparative genomics
-
 ## Background
 
 I graduated in 2006 from both the [![icon](/assets/img/icon/ensiie.png) Institut d\'Informatique
