@@ -35,6 +35,12 @@ Tan G, Muffato M, Ledergerber C, Herrero J, Goldman N, Gil M, Dessimoz C.
 
 _Systematic biology_ 64(5):778-791, 2015 Sep
 </dd>
+<dt>TreeFam v9: a new website, more species and orthology-on-the-fly.</dt>
+<dd>
+Schreiber F, Patricio M, Muffato M, Pignatelli M, Bateman A.
+
+_Nucleic acids research_ 42(Database issue):D922-5, 2014 Jan
+</dd>
 </dl>
 
 ## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral-genome reconstruction
@@ -229,12 +235,6 @@ _Nucleic acids research_ 43(Database issue):D662-9, 2015 Jan
 Flicek P, Amode MR, Barrell D, Beal K, Billis K, Brent S, Carvalho-Silva D, Clapham P, Coates G, Fitzgerald S, Gil L, Girón CG, Gordon L, Hourlier T, Hunt S, Johnson N, Juettemann T, Kähäri AK, Keenan S, Kulesha E, Martin FJ, Maurel T, McLaren WM, Murphy DN, Nag R, Overduin B, Pignatelli M, Pritchard B, Pritchard E, Riat HS, Ruffier M, Sheppard D, Taylor K, Thormann A, Trevanion SJ, Vullo A, Wilder SP, Wilson M, Zadissa A, Aken BL, Birney E, Cunningham F, Harrow J, Herrero J, Hubbard TJ, Kinsella R, Muffato M, Parker A, Spudich G, Yates A, Yates A, Zerbino DR, Searle SM.
 
 _Nucleic acids research_ 42(Database issue):D749-55, 2014 Jan
-</dd>
-<dt>TreeFam v9: a new website, more species and orthology-on-the-fly.</dt>
-<dd>
-Schreiber F, Patricio M, Muffato M, Pignatelli M, Bateman A.
-
-_Nucleic acids research_ 42(Database issue):D922-5, 2014 Jan
 </dd>
 <dt>Ensembl 2013.</dt>
 <dd>
