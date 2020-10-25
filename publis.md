@@ -16,6 +16,8 @@ The complete list of publications is available at these databases:
 
 Find below a selection organised by themes.
 
+{::comment}
+{:/comment}
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam
 
 <dl>
