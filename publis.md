@@ -120,13 +120,13 @@ _Genome biology and evolution_ 7(7):1988-1999, 2015 Jul
 </dd>
 <dt>Big data and other challenges in the quest for orthologs.</dt>
 <dd>
-Sonnhammer EL, Gabaldón T, Sousa da Silva AW, Martin M, Robinson-Rechavi M, Boeckmann B, Thomas PD, Dessimoz C, Quest for Orthologs consortium.
+Sonnhammer EL _et al._
 
 _Bioinformatics (Oxford, England)_ 30(21):2993-2998, 2014 Nov
 </dd>
 <dt>Toward community standards in the quest for orthologs.</dt>
 <dd>
-Dessimoz C, Gabaldón T, Roos DS, Sonnhammer EL, Herrero J, Quest for Orthologs Consortium.
+Dessimoz C _et al._
 
 _Bioinformatics (Oxford, England)_ 28(6):900-904, 2012 Mar
 </dd>
@@ -155,7 +155,7 @@ _Genome research_ 28(4):448-459, 2018 Apr
 </dd>
 <dt>LaGomiCs-Lagomorph Genomics Consortium: An International Collaborative Effort for Sequencing the Genomes of an Entire Mammalian Order.</dt>
 <dd>
-Fontanesi L, Di Palma F, Flicek P, Smith AT, Thulin CG, Alves PC, Lagomorph Genomics Consortium.
+Fontanesi L _et al._
 
 _The Journal of heredity_ 107(4):295-308, 2016 Jul
 </dd>
