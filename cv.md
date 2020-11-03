@@ -189,7 +189,7 @@ _2005_
 Conception of a new software to analyse and manage costs for electronics
 manufacturers (project & product visualisation, resources management).
 
-## Personal project - 3D Renderer
+## Personal project - 3D renderer
 
 _2002 to 2003_
 
