@@ -22,7 +22,7 @@ I've got some experience in:
 * Algorithmics, Graph theory, Code optimization.
 * Algorithms for 3D rendering.
 
-## Topics of interest
+And I love:
 
 - &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
   orthologies
