@@ -141,7 +141,11 @@ def make_page():
         print(category, publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
         publis[category].append(publi)
     for category in PubCategories:
-        print('##', category_descriptions[category])
+        if publis[category]:
+            print('*', '['+category_descriptions[category]+'](#'+category.name+')')
+    print()
+    for category in PubCategories:
+        print('##', category_descriptions[category], '{#'+category.name+'}')
         print()
         print('<dl>')
         for publi in publis[category]:

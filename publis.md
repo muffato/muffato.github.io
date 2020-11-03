@@ -14,11 +14,17 @@ The complete list of publications is available at these databases:
 * [![icon](/assets/img/icon/orcid.png) ORCID](https://orcid.org/0000-0002-7860-3560),
 * [![icon](/assets/img/icon/scopus.png) Scopus](https://www.scopus.com/authid/detail.uri?authorId=23485883100).
 
-Find below a selection organised by themes.
+Find below a selection organised by themes:
 
 {::comment}
 {:/comment}
-## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam
+* [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam](#ENSEMBL)
+* [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
+* [Quest for Orthologs](#QFO)
+* [Genome analysis](#GENOMES)
+* [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
+
+## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam {#ENSEMBL}
 
 <dl>
 <dt>ncRNA orthologies in the vertebrate lineage.</dt>
@@ -47,7 +53,7 @@ DOI: [10.1093/nar/gkt1055](https://doi.org/10.1093/nar/gkt1055)
 </dd>
 </dl>
 
-## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction
+## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction {#GENOMICUS}
 
 <dl>
 <dt>The 3D organization of chromatin explains evolutionary fragile genomic regions.</dt>
@@ -88,7 +94,7 @@ DOI: [10.1002/bies.20707](https://doi.org/10.1002/bies.20707)
 </dd>
 </dl>
 
-## Quest for Orthologs
+## Quest for Orthologs {#QFO}
 
 <dl>
 <dt>The Quest for Orthologs benchmark service and consensus calls in 2020.</dt>
@@ -135,7 +141,7 @@ DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts0
 </dd>
 </dl>
 
-## Genome analysis
+## Genome analysis {#GENOMES}
 
 <dl>
 <dt>The tuatara genome reveals ancient features of amniote evolution.</dt>
@@ -188,7 +194,7 @@ DOI: [10.1126/science.1194167](https://doi.org/10.1126/science.1194167)
 </dd>
 </dl>
 
-## ![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates
+## ![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates {#ENSEMBL_NAR}
 
 <dl>
 <dt>Ensembl 2020.</dt>
