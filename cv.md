@@ -200,6 +200,16 @@ lightings and shadings. It's all written in C++.
 
 I also know about ray-tracing, BSP trees, Bezier curves, B-splines.
 
+## Personal project - JPEG encoder/decoder
+
+_2001 to 2002_
+
+I implemented a JPEG encoder/decoder from scratch, i.e. without using any
+libraries, reading the documentation of the compression algorithm.
+
+I also wrote a reader / writer for the BMP file format, and a library to
+manipulate, transform, and apply effects to images.
+
 # Certifications
 
 ## Project Fundamentals Qualification (PFQ) certification
