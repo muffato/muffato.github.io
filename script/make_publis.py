@@ -21,7 +21,7 @@ args = {
 
 PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO GENOMES ENSEMBL_NAR')
 
-category_names = {
+category_descriptions = {
         PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam',
         PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
         PubCategories.QFO: 'Quest for Orthologs',
@@ -141,7 +141,7 @@ def make_page():
         print(category, publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
         publis[category].append(publi)
     for category in PubCategories:
-        print('##', category_names[category])
+        print('##', category_descriptions[category])
         print()
         print('<dl>')
         for publi in publis[category]:
