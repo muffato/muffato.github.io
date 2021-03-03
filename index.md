@@ -26,7 +26,7 @@ My experience is in:
 
 And I love:
 
-- &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
+* &#x1F52D; Reconstruction of protein phylogenetic trees and inference of
   orthologies
 * &#x1F52E; Reconstruction of ancestral genomes
 * &#x1F333; Tree of Life projects
