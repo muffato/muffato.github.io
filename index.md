@@ -15,12 +15,14 @@ powers all the production work in Ensembl.
 
 My experience is in:
 
+* Software development
 * Computational biology, Genome analysis.
 * Comparative genomics, Evolution, Phylogenetics.
 * Genome assembly and annotation
 * Sequence alignment, Sequence classification, Homology inference.
 * Algorithmics, Graph theory, Code optimization.
 * Algorithms for 3D rendering.
+* Project management
 
 And I love:
 
