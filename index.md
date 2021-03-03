@@ -5,13 +5,11 @@ position: 1
 
 ## About
 
-I am the Principal Developer of the [comparative
-genomics](http://www.ensembl.org/info/docs/compara/index.html) team (aka
-Compara) of the [![icon](/assets/img/icon/ensembl.png) Ensembl](http://www.ensembl.org) project, which
-includes the development of the [![icon](/assets/img/icon/treefam.png) TreeFam](http://treefam.org/) project.
-I also routinely contribute to
-[![icon](/assets/img/icon/guihive.png) eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
-powers all the production work in Ensembl.
+I am the Informatics Infrastructure Team Lead of the [Tree of Life
+programme](https://www.sanger.ac.uk/programme/tree-of-life/) of the
+[![icon](/assets/img/icon/src/sanger.ico) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
+My team oversees the implementation and delivery of the genome assembly pipelines,
+and provides support for large-scale genome analyses for the faculty teams.
 
 My experience is in:
 
@@ -55,14 +53,30 @@ builds protein-trees for the Ensembl release, but I have since worked on
 every aspect of the Perl API and every pipeline, and I have gained
 extensive knowledge of the ![icon](/assets/img/icon/guihive.png) eHive workflow
 manager. I have given a number of [API workshops](https://www.ebi.ac.uk/~muffato/workshops/) too. I led the team from
-Javier\'s departure in 2013 to 2019, and now act as a Principal Developer,
-overseeing and guiding the software development.
+Javier\'s departure in 2013 to 2019, and acted as a Principal Developer,
+overseeing and guiding the software development, during a transition phase
+with the new management.
+
+Since 2021, I am at the [![icon](/assets/img/icon/src/sanger.ico) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
+My ambition is to provide the most efficient platform for assembling and
+analysing genomes at an unprecedented scale. The Tree of Life projects will
+generate tens of thousands of high-quality genomes over the coming years
+&mdash;
+more than have ever been sequenced ! It is a challenging and extremely
+exciting task that will shape the future of biology.
+
+We are the interface between the Tree of Life teams (assembly production
+and faculty research) and the Sanger's IT teams, working together with the
+informatics teams of the other programmes. The work involves a wide range
+of scientific fields and technologies such as assembly methods, genomics,
+comparative genomics, cloud computing, large-scale analyses, with a strong
+emphasis on metadata tracking, quality controls, and event recording.
 
 ## Contact
 
 Various profile pages with contact details &#x1F44B;:
 
-* my [![icon](/assets/img/icon/ebi.png) EBI profile](https://www.ebi.ac.uk/about/people/matthieu-muffato),
+* my [![icon](/assets/img/icon/src/sanger.ico) Sanger profile](https://www.sanger.ac.uk/person/muffato-matthieu/),
 * my [![icon](/assets/img/icon/linkedin.png) LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
 * my [![icon](/assets/img/icon/github.png) GitHub page](https://github.com/muffato).
 
