@@ -13,7 +13,7 @@ I also routinely contribute to
 [![icon](/assets/img/icon/guihive.png) eHive](https://ensembl-hive.readthedocs.io), the workflow manager that
 powers all the production work in Ensembl.
 
-I've got some experience in:
+My experience is in:
 
 * Computational biology, Genome analysis.
 * Comparative genomics, Evolution, Phylogenetics.
