@@ -7,7 +7,7 @@ position: 1
 
 I am the Informatics Infrastructure Team Lead of the [Tree of Life
 programme](https://www.sanger.ac.uk/programme/tree-of-life/) of the
-[![icon](/assets/img/icon/src/sanger.ico) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
+[![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
 My team oversees the implementation and delivery of the genome assembly pipelines,
 and provides support for large-scale genome analyses for the faculty teams.
 
@@ -57,7 +57,7 @@ Javier\'s departure in 2013 to 2019, and acted as a Principal Developer,
 overseeing and guiding the software development, during a transition phase
 with the new management.
 
-Since 2021, I am at the [![icon](/assets/img/icon/src/sanger.ico) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
+Since 2021, I am at the [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
 My ambition is to provide the most efficient platform for assembling and
 analysing genomes at an unprecedented scale. The Tree of Life projects will
 generate tens of thousands of high-quality genomes over the coming years
@@ -76,7 +76,7 @@ emphasis on metadata tracking, quality controls, and event recording.
 
 Various profile pages with contact details &#x1F44B;:
 
-* my [![icon](/assets/img/icon/src/sanger.ico) Sanger profile](https://www.sanger.ac.uk/person/muffato-matthieu/),
+* my [![icon](/assets/img/icon/sanger.png) Sanger profile](https://www.sanger.ac.uk/person/muffato-matthieu/),
 * my [![icon](/assets/img/icon/linkedin.png) LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
 * my [![icon](/assets/img/icon/github.png) GitHub page](https://github.com/muffato).
 
