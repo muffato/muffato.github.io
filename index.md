@@ -8,8 +8,12 @@ position: 1
 I am the Informatics Infrastructure Team Lead of the [Tree of Life
 programme](https://www.sanger.ac.uk/programme/tree-of-life/) of the
 [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
-My team oversees the implementation and delivery of the genome assembly pipelines,
-and provides support for large-scale genome analyses for the faculty teams.
+My team will oversee the implementation and delivery of the genome assembly pipelines,
+and provide support for large-scale genome analyses for the faculty teams.
+
+&#1F393; Recruitment will start soon. Watch this space and don't hesitate to contact
+me !
+
 
 My experience is in:
 
@@ -46,31 +50,22 @@ with the Ensembl releases. The algorithms are described in my
 [&#x1F393; thesis](http://hal.archives-ouvertes.fr/docs/00/55/21/38/PDF/these.pdf)
 (in French).
 
-I have joined the comparative-genomics team of the [![icon](/assets/img/icon/ensembl.png) Ensembl
-project](http://www.ensembl.org) (aka Compara) in January 2011, under
+I joined the comparative-genomics team of the [![icon](/assets/img/icon/ensembl.png) Ensembl
+project](http://www.ensembl.org) (aka Compara) in 2011, under
 the leadership of Javier Herrero. My initial focus was the pipeline that
-builds protein-trees for the Ensembl release, but I have since worked on
-every aspect of the Perl API and every pipeline, and I have gained
+builds protein-trees for the Ensembl release, but I since worked on
+every aspect of the Perl API and every pipeline, and I gained
 extensive knowledge of the ![icon](/assets/img/icon/guihive.png) eHive workflow
-manager. I have given a number of [API workshops](https://www.ebi.ac.uk/~muffato/workshops/) too. I led the team from
-Javier\'s departure in 2013 to 2019, and acted as a Principal Developer,
+manager.
+
+I led the team from Javier\'s departure in 2013 to 2019, leading a profound
+automation of all our production processes. I then acted as a Principal Developer,
 overseeing and guiding the software development, during a transition phase
 with the new management.
 
-Since 2021, I am at the [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
-My ambition is to provide the most efficient platform for assembling and
-analysing genomes at an unprecedented scale. The Tree of Life projects will
-generate tens of thousands of high-quality genomes over the coming years
-&mdash;
-more than have ever been sequenced ! It is a challenging and extremely
-exciting task that will shape the future of biology.
-
-We are the interface between the Tree of Life teams (assembly production
-and faculty research) and the Sanger's IT teams, working together with the
-informatics teams of the other programmes. The work involves a wide range
-of scientific fields and technologies such as assembly methods, genomics,
-comparative genomics, cloud computing, large-scale analyses, with a strong
-emphasis on metadata tracking, quality controls, and event recording.
+I joined the [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/)
+in 2021 to lead the Informatics Infrastructure team of the
+[Tree of Life programme](https://www.sanger.ac.uk/programme/tree-of-life/).
 
 ## Contact
 

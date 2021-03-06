@@ -5,36 +5,63 @@ position: 2
 
 # Experience
 
+## Wellcome Sanger Institute, Hinxton, United Kingdom
+
+### Informatics Infrastructure Team Lead
+
+_Since Feb 2021_
+
+<u>Keywords</u>: Project planning. Resource management. Strategic
+thinking.
+
+I lead the Informatics Infrastructure team of the Tree of Life programme,
+which oversees the implementation and delivery of the genome assembly
+pipelines, and provides support for large-scale genome analyses for the
+Tree of Life faculty teams.
+
+My ambition is to provide the most efficient platform for assembling and
+analysing genomes at an unprecedented scale. The Tree of Life projects will
+generate tens of thousands of high-quality genomes over the coming years
+&mdash; more than have ever been sequenced ! It is a challenging and
+extremely exciting task that will shape the future of biology.
+
+We are the interface between the Tree of Life teams (assembly production
+and faculty research) and the Sanger’s IT teams, working together with the
+informatics teams of the other programmes. The work involves a wide range
+of scientific fields and technologies such as assembly methods, genomics,
+comparative genomics, cloud computing, large-scale analyses, with a strong
+emphasis on metadata tracking, quality controls, and event recording.
+
 ## European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
 
-I work in the Comparative Genomics team of the Ensembl genome browser. We are in charge of
+I worked in the Comparative Genomics team of the Ensembl genome browser. The team is in charge of
 comparing the genomes to one another, implementing new methods and algorithms
-(extending our API and database schema), and applying them on new datasets. Scalability is
-our main focus as we have to process hundreds (soon thousands !) of genomes in a limited timescale.
+(extending our API and database schema), and applying them on new datasets. Scalability was
+our main focus as we had to process hundreds (soon thousands !) of genomes in a limited timescale.
 
-I am also involved in the development of the eHive workflow manager, a system for creating
+I was also involved in the development of the eHive workflow manager, a system for creating
 and running workflows on a distributed compute resource. It is now responsible for
 scheduling and executing in excess of 1,000 CPU years of compute per year in Ensembl.
 
 ### Principal Developer
 
-_Since Oct 2019_
+_Oct 2019 to Jan 2021_
 
 <u>Keywords</u>: Development management. Technical leadership. Recruitment. Mentorship.
 API development. Database design and optimisation. Workflow design and development. 
 User support (data, API, workflows).
 <u>Team size</u>: 3 people.
 
-In this role, I transfer the knowledge I have accumulated in the past 8 years
+In this role, I transferred the knowledge I had accumulated in the past 8 years
 to the new Project Leader and the developers, whilst helping them and
 overseeing the development of the software.
 
-We are undertaking a massive revamp of our compute workflows and data storage
+We initiated a massive revamp of our compute workflows and data storage
 strategy, in order to cope with the scale of data that projects such as the
-Darwin Tree of Life will generate. Our aim is ambitious: provide comparative
+Darwin Tree of Life will generate. Our aim was ambitious: provide comparative
 analyses on tens of thousands of genomes, and more.
 
-I still maintain and contribute to the development of the eHive workflow manager,
+I was still maintaining and contributing to the development of the eHive workflow manager,
 keeping it the most efficient solution for the Ensembl Comparative Genomics workflows.
 
 ### Project Leader
