@@ -11,7 +11,7 @@ programme](https://www.sanger.ac.uk/programme/tree-of-life/) of the
 My team will oversee the implementation and delivery of the genome assembly pipelines,
 and provide support for large-scale genome analyses for the faculty teams.
 
-&#1F393; Recruitment will start soon. Watch this space and don't hesitate to contact
+&#x1F393; Recruitment will start soon. Watch this space and don't hesitate to contact
 me !
 
 

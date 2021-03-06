@@ -5,7 +5,7 @@ position: 2
 
 # Experience
 
-## Wellcome Sanger Institute, Hinxton, United Kingdom
+## Wellcome Sanger Institute, Hinxton, United Kingdom
 
 ### Informatics Infrastructure Team Lead
 
@@ -22,7 +22,7 @@ Tree of Life faculty teams.
 My ambition is to provide the most efficient platform for assembling and
 analysing genomes at an unprecedented scale. The Tree of Life projects will
 generate tens of thousands of high-quality genomes over the coming years
-&mdash; more than have ever been sequenced ! It is a challenging and
+&ndash; more than have ever been sequenced ! It is a challenging and
 extremely exciting task that will shape the future of biology.
 
 We are the interface between the Tree of Life teams (assembly production
@@ -37,7 +37,7 @@ emphasis on metadata tracking, quality controls, and event recording.
 I worked in the Comparative Genomics team of the Ensembl genome browser. The team is in charge of
 comparing the genomes to one another, implementing new methods and algorithms
 (extending our API and database schema), and applying them on new datasets. Scalability was
-our main focus as we had to process hundreds (soon thousands !) of genomes in a limited timescale.
+our main focus as we had to process hundreds  of genomes in a limited timescale.
 
 I was also involved in the development of the eHive workflow manager, a system for creating
 and running workflows on a distributed compute resource. It is now responsible for
