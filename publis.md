@@ -71,7 +71,7 @@ DOI: [10.1093/nar/gku1112](https://doi.org/10.1093/nar/gku1112)
 <dt>PhylDiag: identifying complex synteny blocks that include tandem duplications using phylogenetic gene trees.</dt>
 <dd>
 Lucas JM, Muffato M, Roest Crollius H. \\
-_BMC bioinformatics_ 15:268, 2014  \\
+_BMC bioinformatics_ 15:268, 2014 Aug \\
 DOI: [10.1186/1471-2105-15-268](https://doi.org/10.1186/1471-2105-15-268)
 </dd>
 <dt>Genomicus: five genome browsers for comparative genomics in eukaryota.</dt>
@@ -150,13 +150,13 @@ Gemmell NJ _et al._ \\
 _Nature_ 584(7821):403-409, 2020 Aug \\
 DOI: [10.1038/s41586-020-2561-9](https://doi.org/10.1038/s41586-020-2561-9)
 </dd>
-<dt>The comparative genomics and complex population history of Papio baboons.</dt>
+<dt>The comparative genomics and complex population history of <i>Papio</i> baboons.</dt>
 <dd>
 Rogers J _et al._ \\
 _Science advances_ 5(1):eaau6947, 2019 Jan \\
 DOI: [10.1126/sciadv.aau6947](https://doi.org/10.1126/sciadv.aau6947)
 </dd>
-<dt>Repeat associated mechanisms of genome evolution and function revealed by the Mus caroli and Mus pahari genomes.</dt>
+<dt>Repeat associated mechanisms of genome evolution and function revealed by the <i>Mus caroli</i> and <i>Mus pahari</i> genomes.</dt>
 <dd>
 Thybert D _et al._ \\
 _Genome research_ 28(4):448-459, 2018 Apr \\
@@ -197,6 +197,12 @@ DOI: [10.1126/science.1194167](https://doi.org/10.1126/science.1194167)
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates {#ENSEMBL_NAR}
 
 <dl>
+<dt>Ensembl 2021.</dt>
+<dd>
+Howe KL _et al._ \\
+_Nucleic acids research_ 49(D1):D884-D891, 2021 Jan \\
+DOI: [10.1093/nar/gkaa942](https://doi.org/10.1093/nar/gkaa942)
+</dd>
 <dt>Ensembl 2020.</dt>
 <dd>
 Yates AD _et al._ \\
