@@ -19,7 +19,7 @@ novice, competent, proficient, expert, master.
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998-2020 |
 | x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2020 |
-| Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2020 |
+| Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016 |
 | Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2005 |
 | PHP | ![topic](/assets/img/topics/php.png) | ![1 &#x2605;](/assets/img/1.svg) | 2004-2005 |
 {: class="skills"}
