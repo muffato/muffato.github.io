@@ -17,8 +17,11 @@ novice, competent, proficient, expert, master.
 | Java | ![topic](/assets/img/topics/java.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004-2020 |
 | C++ | ![topic](/assets/img/topics/cpp.png) | ![3 &#x2605;](/assets/img/3.svg) | 1999-2020 |
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998-2020 |
-| x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2020 |
+| BASIC |  | ![4 &#x2605;](/assets/img/3.svg) | 1997-2002 |
+| x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
+| Z80 assembly |  | ![2 &#x2605;](/assets/img/2.svg) | 1999-2001 |
+| 68K assembly |  | ![3 &#x2605;](/assets/img/2.svg) | 2001-2003 |
 | Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016 |
 | Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2005 |
 | PHP | ![topic](/assets/img/topics/php.png) | ![1 &#x2605;](/assets/img/1.svg) | 2004-2005 |
