@@ -68,6 +68,7 @@ novice, competent, proficient, expert, master.
 | Kubenertes | ![topic](/assets/img/topics/kubernetes.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019 |
 | Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
 | OpenStack | ![topic](/assets/img/topics/openstack.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
+| Infinidash | ![topic](/assets/img/topics/infinidash.png) | ![5 &#x2605;](/assets/img/5.svg) | 2017- |
 {: class="skills"}
 
 ### Infrastructure
