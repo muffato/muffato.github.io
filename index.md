@@ -75,7 +75,7 @@ Various profile pages with contact details &#x1F44B;:
 * my [![icon](/assets/img/icon/linkedin.png) LinkedIn profile](https://uk.linkedin.com/in/matthieu-muffato),
 * my [![icon](/assets/img/icon/github.png) GitHub page](https://github.com/muffato).
 
-Write me in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
+Send me a message in &#x1F1EC;&#x1F1E7; English or in &#x1F1EB;&#x1F1F7; French.
 Unfortunately, my notions of &#x1F1EA;&#x1F1F8; Spanish and
 &#x1F1F0;&#x1F1F7; Korean are too limited for professional settings.
 
