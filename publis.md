@@ -27,6 +27,12 @@ Find below a selection organised by themes:
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam {#ENSEMBL}
 
 <dl>
+<dt>Scripting Analyses of Genomes in Ensembl Plants.</dt>
+<dd>
+Contreras-Moreira B, Naamati G, Rosello M, Allen JE, Hunt SE, Muffato M, _et al._ \\
+_Methods in molecular biology (Clifton, N.J.)_ 2443:27-55, 2022  \\
+DOI: [10.1007/978-1-0716-2067-0_2](https://doi.org/10.1007/978-1-0716-2067-0_2)
+</dd>
 <dt>ncRNA orthologies in the vertebrate lineage.</dt>
 <dd>
 Pignatelli M, Vilella AJ, Muffato M, Gordon L, White S, Flicek P, Herrero J. \\
@@ -97,6 +103,12 @@ DOI: [10.1002/bies.20707](https://doi.org/10.1002/bies.20707)
 ## Quest for Orthologs {#QFO}
 
 <dl>
+<dt>Ten Years of Collaborative Progress in the Quest for Orthologs.</dt>
+<dd>
+Linard B _et al._ \\
+_Molecular biology and evolution_ 38(8):3033-3045, 2021 Jul \\
+DOI: [10.1093/molbev/msab098](https://doi.org/10.1093/molbev/msab098)
+</dd>
 <dt>The Quest for Orthologs benchmark service and consensus calls in 2020.</dt>
 <dd>
 Altenhoff AM _et al._ \\
@@ -197,6 +209,18 @@ DOI: [10.1126/science.1194167](https://doi.org/10.1126/science.1194167)
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates {#ENSEMBL_NAR}
 
 <dl>
+<dt>Ensembl Genomes 2022: an expanding genome resource for non-vertebrates.</dt>
+<dd>
+Yates AD _et al._ \\
+_Nucleic acids research_ 50(D1):D996-D1003, 2022 Jan \\
+DOI: [10.1093/nar/gkab1007](https://doi.org/10.1093/nar/gkab1007)
+</dd>
+<dt>Ensembl 2022.</dt>
+<dd>
+Cunningham F _et al._ \\
+_Nucleic acids research_ 50(D1):D988-D995, 2022 Jan \\
+DOI: [10.1093/nar/gkab1049](https://doi.org/10.1093/nar/gkab1049)
+</dd>
 <dt>Ensembl 2021.</dt>
 <dd>
 Howe KL _et al._ \\
