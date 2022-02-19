@@ -22,6 +22,7 @@ novice, competent, proficient, expert, master.
 | x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | Z80 assembly |  | ![2 &#x2605;](/assets/img/2.svg) | 1999-2001 |
 | 68K assembly |  | ![3 &#x2605;](/assets/img/2.svg) | 2001-2003 |
+| Rust | ![topic](/assets/img/topics/rust.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020- |
 | Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016 |
 | Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2005 |
 | PHP | ![topic](/assets/img/topics/php.png) | ![1 &#x2605;](/assets/img/1.svg) | 2004-2005 |
@@ -42,7 +43,7 @@ novice, competent, proficient, expert, master.
 |---|---|---|---|
 | MySQL | ![topic](/assets/img/topics/mysql.png) | ![4 &#x2605;](/assets/img/4.svg) | 2008- |
 | SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
-| PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014- |
+| PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014-2020 |
 {: class="skills"}
 
 ### Distributed computing
@@ -65,7 +66,8 @@ novice, competent, proficient, expert, master.
 | Docker, Singularity | ![topic](/assets/img/topics/docker.png) | ![4 &#x2605;](/assets/img/4.svg) | 2016- |
 | Docker Swarm | ![topic](/assets/img/topics/swarm.png) | ![3 &#x2605;](/assets/img/3.svg) | 2017- |
 | Google Cloud Platform | ![topic](/assets/img/topics/googlecloud.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
-| Kubenertes | ![topic](/assets/img/topics/kubernetes.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019 |
+| Kubenertes | ![topic](/assets/img/topics/kubernetes.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019,2021- |
+| Helm | ![topic](/assets/img/topics/helm.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
 | Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
 | OpenStack | ![topic](/assets/img/topics/openstack.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
 | Infinidash | ![topic](/assets/img/topics/infinidash.png) | ![5 &#x2605;](/assets/img/5.svg) | 2017- |
@@ -76,10 +78,11 @@ novice, competent, proficient, expert, master.
 |---|---|---|---|
 | Linux environment (Debian, Ubuntu) | ![topic](/assets/img/topics/linux.png) | ![5 &#x2605;](/assets/img/5.svg) | 2003- |
 | `bash` scripting | ![topic](/assets/img/topics/bash.png) | ![5 &#x2605;](/assets/img/5.svg) | 2003- |
-| Linuxbrew | ![topic](/assets/img/topics/homebrew.png) | ![4 &#x2605;](/assets/img/4.svg) | 2015- |
+| Homebrew | ![topic](/assets/img/topics/homebrew.png) | ![4 &#x2605;](/assets/img/4.svg) | 2015- |
+| Conda | ![topic](/assets/img/topics/anaconda.png) | ![3 &#x2605;](/assets/img/3.svg) | 2021- |
 | Git (command-line) &amp; GitHub | ![topic](/assets/img/topics/git.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
 | CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![5 &#x2605;](/assets/img/5.svg) | 2014- |
 | CI/CD on GitLab | ![topic](/assets/img/topics/gitlab.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
-| Ansible | ![topic](/assets/img/topics/ansible.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
+| Ansible | ![topic](/assets/img/topics/ansible.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021 |
 {: class="skills"}
 
