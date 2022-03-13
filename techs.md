@@ -20,8 +20,8 @@ novice, competent, proficient, expert, master.
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2020 |
 | BASIC |  | ![4 &#x2605;](/assets/img/3.svg) | 1997-2002 |
 | x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
-| Z80 assembly |  | ![2 &#x2605;](/assets/img/2.svg) | 1999-2001 |
-| 68K assembly |  | ![3 &#x2605;](/assets/img/2.svg) | 2001-2003 |
+| Z80 assembly | ![topic](/assets/img/topics/z80.png) | ![2 &#x2605;](/assets/img/2.svg) | 1999-2001 |
+| 68000 assembly | ![topic](/assets/img/topics/68k.png) | ![3 &#x2605;](/assets/img/2.svg) | 2001-2003 |
 | Rust | ![topic](/assets/img/topics/rust.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
 | Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016 |
 | Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2005 |
