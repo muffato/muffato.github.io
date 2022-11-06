@@ -63,7 +63,7 @@ novice, competent, proficient, expert, master.
 ### Cloud and containerisation
 
 |---|---|---|---|
-| Docker, Singularity | ![topic](/assets/img/topics/docker.png) | ![4 &#x2605;](/assets/img/4.svg) | 2016- |
+| Docker, Singularity | ![topic](/assets/img/topics/docker.png) | ![5 &#x2605;](/assets/img/5.svg) | 2016- |
 | Docker Swarm | ![topic](/assets/img/topics/swarm.png) | ![3 &#x2605;](/assets/img/3.svg) | 2017-2021 |
 | Kubernetes | ![topic](/assets/img/topics/kubernetes.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019,2021- |
 | Google Cloud Platform | ![topic](/assets/img/topics/googlecloud.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
