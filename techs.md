@@ -12,8 +12,8 @@ novice, competent, proficient, expert, master.
 ### Programming languages
 
 |---|---|---|---|
-| Perl | ![topic](/assets/img/topics/perl.png) | ![5 &#x2605;](/assets/img/5.svg) | 2008-2021 |
 | Python | ![topic](/assets/img/topics/python.png) | ![5 &#x2605;](/assets/img/5.svg) | 2006- |
+| Perl | ![topic](/assets/img/topics/perl.png) | ![5 &#x2605;](/assets/img/5.svg) | 2008-2021 |
 | Java | ![topic](/assets/img/topics/java.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004-2020 |
 | C++ | ![topic](/assets/img/topics/cpp.png) | ![3 &#x2605;](/assets/img/3.svg) | 1999-2020 |
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998-2020 |
@@ -65,11 +65,11 @@ novice, competent, proficient, expert, master.
 |---|---|---|---|
 | Docker, Singularity | ![topic](/assets/img/topics/docker.png) | ![4 &#x2605;](/assets/img/4.svg) | 2016- |
 | Docker Swarm | ![topic](/assets/img/topics/swarm.png) | ![3 &#x2605;](/assets/img/3.svg) | 2017-2021 |
-| Google Cloud Platform | ![topic](/assets/img/topics/googlecloud.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 | Kubernetes | ![topic](/assets/img/topics/kubernetes.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019,2021- |
+| Google Cloud Platform | ![topic](/assets/img/topics/googlecloud.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 | Helm | ![topic](/assets/img/topics/helm.png) | ![2 &#x2605;](/assets/img/2.svg) | 2021- |
-| Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
 | OpenStack | ![topic](/assets/img/topics/openstack.png) | ![2 &#x2605;](/assets/img/2.svg) | 2021- |
+| Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
 | Infinidash | ![topic](/assets/img/topics/infinidash.png) | ![5 &#x2605;](/assets/img/5.svg) | 2017- |
 {: class="skills"}
 
