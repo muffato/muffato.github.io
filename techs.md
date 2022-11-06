@@ -12,16 +12,16 @@ novice, competent, proficient, expert, master.
 ### Programming languages
 
 |---|---|---|---|
-| Perl | ![topic](/assets/img/topics/perl.png) | ![5 &#x2605;](/assets/img/5.svg) | 2008- |
+| Perl | ![topic](/assets/img/topics/perl.png) | ![5 &#x2605;](/assets/img/5.svg) | 2008-2021 |
 | Python | ![topic](/assets/img/topics/python.png) | ![5 &#x2605;](/assets/img/5.svg) | 2006- |
 | Java | ![topic](/assets/img/topics/java.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004-2020 |
 | C++ | ![topic](/assets/img/topics/cpp.png) | ![3 &#x2605;](/assets/img/3.svg) | 1999-2020 |
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998-2020 |
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2020 |
-| BASIC |  | ![4 &#x2605;](/assets/img/3.svg) | 1997-2002 |
+| BASIC |  | ![4 &#x2605;](/assets/img/4.svg) | 1997-2002 |
 | x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | Z80 assembly | ![topic](/assets/img/topics/z80.png) | ![2 &#x2605;](/assets/img/2.svg) | 1999-2001 |
-| 68000 assembly | ![topic](/assets/img/topics/68k.png) | ![3 &#x2605;](/assets/img/2.svg) | 2001-2003 |
+| 68000 assembly | ![topic](/assets/img/topics/68k.png) | ![2 &#x2605;](/assets/img/2.svg) | 2001-2003 |
 | Rust | ![topic](/assets/img/topics/rust.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
 | Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016 |
 | Ocaml | ![topic](/assets/img/topics/ocaml.png) | ![1 &#x2605;](/assets/img/1.svg) | 2002-2005 |
@@ -31,7 +31,7 @@ novice, competent, proficient, expert, master.
 ### Web
 
 |---|---|---|---|
-| (X)HTML &amp; CSS | ![topic](/assets/img/topics/html.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004- |
+| (X)HTML &amp; CSS | ![topic](/assets/img/topics/html.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004-2021 |
 | SVG | ![topic](/assets/img/topics/svg.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2015 |
 | Javascript (ES5, JQuery, D3, Node.js) | ![topic](/assets/img/topics/javascript.png) | ![2 &#x2605;](/assets/img/2.svg) | 2015-2020 |
 | Apache and Nginx | ![topic](/assets/img/topics/nginx.png) | ![2 &#x2605;](/assets/img/2.svg) | 2008-2020 |
@@ -42,7 +42,7 @@ novice, competent, proficient, expert, master.
 
 |---|---|---|---|
 | MySQL | ![topic](/assets/img/topics/mysql.png) | ![4 &#x2605;](/assets/img/4.svg) | 2008- |
-| SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
+| SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011-2020 |
 | PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014-2020 |
 {: class="skills"}
 
@@ -55,8 +55,8 @@ novice, competent, proficient, expert, master.
 | PBS | ![topic](/assets/img/topics/pbs.png) | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
 | Slurm | ![topic](/assets/img/topics/slurm.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 | eHive workflow manager | ![topic](/assets/img/topics/guihive.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
+| Nextflow | ![topic](/assets/img/topics/nextflow.png) | ![3 &#x2605;](/assets/img/3.svg) | 2019- |
 | Snakemake | ![topic](/assets/img/topics/snakemake.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
-| Nextflow | ![topic](/assets/img/topics/nextflow.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
 | CWL | ![topic](/assets/img/topics/cwl.png) | ![1 &#x2605;](/assets/img/1.svg) | 2016 |
 {: class="skills"}
 
@@ -64,12 +64,12 @@ novice, competent, proficient, expert, master.
 
 |---|---|---|---|
 | Docker, Singularity | ![topic](/assets/img/topics/docker.png) | ![4 &#x2605;](/assets/img/4.svg) | 2016- |
-| Docker Swarm | ![topic](/assets/img/topics/swarm.png) | ![3 &#x2605;](/assets/img/3.svg) | 2017- |
+| Docker Swarm | ![topic](/assets/img/topics/swarm.png) | ![3 &#x2605;](/assets/img/3.svg) | 2017-2021 |
 | Google Cloud Platform | ![topic](/assets/img/topics/googlecloud.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
-| Kubenertes | ![topic](/assets/img/topics/kubernetes.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019,2021- |
-| Helm | ![topic](/assets/img/topics/helm.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
+| Kubernetes | ![topic](/assets/img/topics/kubernetes.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019,2021- |
+| Helm | ![topic](/assets/img/topics/helm.png) | ![2 &#x2605;](/assets/img/2.svg) | 2021- |
 | Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
-| OpenStack | ![topic](/assets/img/topics/openstack.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021- |
+| OpenStack | ![topic](/assets/img/topics/openstack.png) | ![2 &#x2605;](/assets/img/2.svg) | 2021- |
 | Infinidash | ![topic](/assets/img/topics/infinidash.png) | ![5 &#x2605;](/assets/img/5.svg) | 2017- |
 {: class="skills"}
 
@@ -81,8 +81,9 @@ novice, competent, proficient, expert, master.
 | Homebrew | ![topic](/assets/img/topics/homebrew.png) | ![4 &#x2605;](/assets/img/4.svg) | 2015- |
 | Conda | ![topic](/assets/img/topics/anaconda.png) | ![3 &#x2605;](/assets/img/3.svg) | 2021- |
 | Git (command-line) &amp; GitHub | ![topic](/assets/img/topics/git.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
-| CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![5 &#x2605;](/assets/img/5.svg) | 2014- |
-| CI/CD on GitLab | ![topic](/assets/img/topics/gitlab.png) | ![1 &#x2605;](/assets/img/1.svg) | 2019- |
+| CI/CD on Travis | ![topic](/assets/img/topics/travis.png) | ![5 &#x2605;](/assets/img/5.svg) | 2014- |
+| CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
+| CI/CD on GitLab | ![topic](/assets/img/topics/gitlab.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
 | Ansible | ![topic](/assets/img/topics/ansible.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021 |
 {: class="skills"}
 
