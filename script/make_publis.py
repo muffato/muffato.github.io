@@ -88,7 +88,7 @@ def retrieve_publications():
         if ('Muffato' not in publi['authorString']) and ('consortium' not in publi['authorString'].lower()):
             print('SKIP', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
             continue
-        if 'Preprint' in publi['pubTypeList']['pubType']:
+        if 'Preprint' in publi['pubTypeList']['pubType'] and publi['doi'] not in ['10.1101/2022.02.17.480882']:
             print('PREPRINT', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
             continue
         if "correction" in publi["pubTypeList"]["pubType"]:
@@ -112,14 +112,18 @@ def print_publication(publi):
                 print(publi['authorString'], '\\\\')
         else:
             print(authors[0]['fullName'], '_et al._', '\\\\')
-    journal_string = '_' + publi["journalInfo"]["journal"]["title"] + '_'
-    journal_string += ' ' + publi["journalInfo"]["volume"]
-    if "issue" in publi["journalInfo"]:
-        journal_string += '(' + publi["journalInfo"]["issue"] + ')'
-    if "pageInfo" in publi:
-        journal_string += ':' + publi["pageInfo"]
-    if publi["journalInfo"]["dateOfPublication"] != publi["journalInfo"]["volume"]:
-        journal_string += ', ' + publi["journalInfo"]["dateOfPublication"]
+    if "journalInfo" in publi:
+        journal_string = '_' + publi["journalInfo"]["journal"]["title"] + '_'
+        journal_string += ' ' + publi["journalInfo"]["volume"]
+        if "issue" in publi["journalInfo"]:
+            journal_string += '(' + publi["journalInfo"]["issue"] + ')'
+        if "pageInfo" in publi:
+            journal_string += ':' + publi["pageInfo"]
+        if publi["journalInfo"]["dateOfPublication"] != publi["journalInfo"]["volume"]:
+            journal_string += ', ' + publi["journalInfo"]["dateOfPublication"]
+    else:
+        journal_string = '_' + publi["bookOrReportDetails"]["publisher"] + '_'
+        journal_string += ', ' + publi["firstPublicationDate"]
     print(journal_string, '\\\\')
     print(f'DOI: [{publi["doi"]}](https://doi.org/{publi["doi"]})')
     print('</dd>')

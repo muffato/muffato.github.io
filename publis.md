@@ -98,6 +98,12 @@ Muffato M, Roest Crollius H. \\
 _BioEssays : news and reviews in molecular, cellular and developmental biology_ 30(2):122-134, 2008 Feb \\
 DOI: [10.1002/bies.20707](https://doi.org/10.1002/bies.20707)
 </dd>
+<dt>Reconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdom</dt>
+<dd>
+Muffato M, Louis A, Nguyen NTT, Lucas J, Berthelot C, Crollius HR. \\
+_bioRxiv_, 2022-02-19 \\
+DOI: [10.1101/2022.02.17.480882](https://doi.org/10.1101/2022.02.17.480882)
+</dd>
 </dl>
 
 ## Quest for Orthologs {#QFO}
