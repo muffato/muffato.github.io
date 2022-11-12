@@ -30,11 +30,12 @@ category_descriptions = {
 }
 
 category_keywords = [
-        ('quest', PubCategories.QFO),
-        ('genomicus', PubCategories.GENOMICUS),
-        ('treefam', PubCategories.ENSEMBL),
-        ('^10.1093/nar/', PubCategories.ENSEMBL_NAR),
-        ('ensembl', PubCategories.ENSEMBL),
+        ('title', 'quest', PubCategories.QFO),
+        ('title', 'ancest', PubCategories.GENOMICUS),
+        ('title', 'genomicus', PubCategories.GENOMICUS),
+        ('title', 'treefam', PubCategories.ENSEMBL),
+        ('doi', '10.1093/nar/', PubCategories.ENSEMBL_NAR),
+        ('title', 'ensembl', PubCategories.ENSEMBL),
     ]
 
 # Force some publications into a category
@@ -64,16 +65,19 @@ def classify(publi):
     if doi in known_categories:
         return known_categories[doi]
     title = publi['title'].lower()
-    for (keyword, category) in category_keywords:
-        if keyword[0] == '^':
-            if '/' in keyword:
-                if publi['doi'].startswith(keyword[1:]):
-                    return category
-            else:
-                if title.startswith(keyword[1:]):
-                    return category
-        elif keyword in title:
-            return category
+    authors = publi['authorString'].lower()
+    for (field, keyword, category) in category_keywords:
+        if field == "title":
+            if keyword in title:
+                return category
+        elif field == "doi":
+            if publi['doi'].startswith(keyword):
+                return category
+        elif field == "authors":
+            if keyword in authors:
+                return category
+        else:
+            raise ValueError("Unknown field: " + field)
     return PubCategories.GENOMES
 
 def retrieve_publications():
