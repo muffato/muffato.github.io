@@ -99,7 +99,7 @@ def retrieve_publications():
 
 def print_publication(publi):
     """Print a publication entry in markdown"""
-    print('<dt>' + publi['title'] + '</dt>')
+    print('<dt>' + publi['title'].strip() + '</dt>')
     print('<dd>')
     authors = publi['authorList']['author']
     if 'Muffato' not in publi['authorString']:
