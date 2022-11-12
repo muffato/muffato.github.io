@@ -61,6 +61,7 @@ DOI: [10.1093/nar/gkt1055](https://doi.org/10.1093/nar/gkt1055)
 
 ## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction {#GENOMICUS}
 
+<dl>
 <dt>Reconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdom</dt>
 <dd>
 Muffato M, Louis A, Nguyen NTT, Lucas J, Berthelot C, Crollius HR. \\
@@ -68,7 +69,6 @@ _bioRxiv_, 2022-02-19 \\
 DOI: [10.1101/2022.02.17.480882](https://doi.org/10.1101/2022.02.17.480882)
 </dd>
 </dl>
-<dl>
 <dt>The 3D organization of chromatin explains evolutionary fragile genomic regions.</dt>
 <dd>
 Berthelot C, Muffato M, Abecassis J, Roest Crollius H. \\
