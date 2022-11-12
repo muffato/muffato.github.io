@@ -91,14 +91,9 @@ def retrieve_publications():
         if 'Preprint' in publi['pubTypeList']['pubType']:
             print('PREPRINT', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
             continue
-        if 'commentCorrectionList' in publi:
-            types = set(x['type'] for x in publi['commentCorrectionList']['commentCorrection'])
-            if 'Erratum for' in types:
-                print('ERRATUM', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
-                continue
-            # if 'Preprint of' in types:
-                # print('CPREPRINT', publi.get('pmcid'), publi['doi'], publi['title'])
-                # continue
+        if "correction" in publi["pubTypeList"]["pubType"]:
+            print('ERRATUM', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
+            continue
         yield publi
 
 def print_publication(publi):
