@@ -62,13 +62,12 @@ DOI: [10.1093/nar/gkt1055](https://doi.org/10.1093/nar/gkt1055)
 ## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction {#GENOMICUS}
 
 <dl>
-<dt>Reconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdom</dt>
+<dt>Reconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdom.</dt>
 <dd>
-Muffato M, Louis A, Nguyen NTT, Lucas J, Berthelot C, Crollius HR. \\
-_bioRxiv_, 2022-02-19 \\
-DOI: [10.1101/2022.02.17.480882](https://doi.org/10.1101/2022.02.17.480882)
+Muffato M, Louis A, Nguyen NTT, Lucas J, Berthelot C, Roest Crollius H. \\
+_Nature ecology & evolution_ 7(3):355-366, 2023 Mar \\
+DOI: [10.1038/s41559-022-01956-z](https://doi.org/10.1038/s41559-022-01956-z)
 </dd>
-</dl>
 <dt>The 3D organization of chromatin explains evolutionary fragile genomic regions.</dt>
 <dd>
 Berthelot C, Muffato M, Abecassis J, Roest Crollius H. \\
@@ -105,6 +104,7 @@ Muffato M, Roest Crollius H. \\
 _BioEssays : news and reviews in molecular, cellular and developmental biology_ 30(2):122-134, 2008 Feb \\
 DOI: [10.1002/bies.20707](https://doi.org/10.1002/bies.20707)
 </dd>
+</dl>
 
 ## Quest for Orthologs {#QFO}
 
