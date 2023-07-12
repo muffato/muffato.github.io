@@ -21,7 +21,7 @@ Find below a selection organised by themes:
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam](#ENSEMBL)
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
 * [Quest for Orthologs](#QFO)
-* [Genome analysis](#GENOMES)
+* [![icon](/assets/img/icon/zebrafish.png) [Genome analysis](#GENOMES)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
 
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam {#ENSEMBL}
