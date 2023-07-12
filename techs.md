@@ -31,9 +31,9 @@ novice, competent, proficient, expert, master.
 ### Web
 
 |---|---|---|---|
-| (X)HTML &amp; CSS | ![topic](/assets/img/topics/html.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004-2021 |
+| (X)HTML &amp; CSS | ![topic](/assets/img/topics/html.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004- |
 | SVG | ![topic](/assets/img/topics/svg.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2015 |
-| Javascript (ES5, JQuery, D3, Node.js) | ![topic](/assets/img/topics/javascript.png) | ![2 &#x2605;](/assets/img/2.svg) | 2015-2020 |
+| Javascript (ES5, JQuery, D3) | ![topic](/assets/img/topics/javascript.png) | ![3 &#x2605;](/assets/img/3.svg) | 2015- |
 | Apache and Nginx | ![topic](/assets/img/topics/nginx.png) | ![2 &#x2605;](/assets/img/2.svg) | 2008-2020 |
 | Jekyll site generator | ![topic](/assets/img/topics/jekyll.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 {: class="skills"}
@@ -43,7 +43,7 @@ novice, competent, proficient, expert, master.
 |---|---|---|---|
 | MySQL | ![topic](/assets/img/topics/mysql.png) | ![4 &#x2605;](/assets/img/4.svg) | 2008- |
 | SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011-2020 |
-| PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014-2020 |
+| PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014- |
 {: class="skills"}
 
 ### Distributed computing
@@ -55,7 +55,7 @@ novice, competent, proficient, expert, master.
 | PBS | ![topic](/assets/img/topics/pbs.png) | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
 | Slurm | ![topic](/assets/img/topics/slurm.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
 | eHive workflow manager | ![topic](/assets/img/topics/guihive.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
-| Nextflow | ![topic](/assets/img/topics/nextflow.png) | ![3 &#x2605;](/assets/img/3.svg) | 2019- |
+| Nextflow | ![topic](/assets/img/topics/nextflow.png) | ![4 &#x2605;](/assets/img/4.svg) | 2019- |
 | Snakemake | ![topic](/assets/img/topics/snakemake.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
 | CWL | ![topic](/assets/img/topics/cwl.png) | ![1 &#x2605;](/assets/img/1.svg) | 2016 |
 {: class="skills"}
@@ -81,7 +81,7 @@ novice, competent, proficient, expert, master.
 | Homebrew | ![topic](/assets/img/topics/homebrew.png) | ![4 &#x2605;](/assets/img/4.svg) | 2015- |
 | Conda | ![topic](/assets/img/topics/anaconda.png) | ![3 &#x2605;](/assets/img/3.svg) | 2021- |
 | Git (command-line) &amp; GitHub | ![topic](/assets/img/topics/git.png) | ![5 &#x2605;](/assets/img/5.svg) | 2011- |
-| CI/CD on Travis | ![topic](/assets/img/topics/travis.png) | ![5 &#x2605;](/assets/img/5.svg) | 2014- |
+| CI/CD on Travis | ![topic](/assets/img/topics/travis.png) | ![4 &#x2605;](/assets/img/4.svg) | 2014-2020 |
 | CI/CD on GitHub | ![topic](/assets/img/topics/github.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
 | CI/CD on GitLab | ![topic](/assets/img/topics/gitlab.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019- |
 | Ansible | ![topic](/assets/img/topics/ansible.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021 |
