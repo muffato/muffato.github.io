@@ -91,7 +91,7 @@ novice, competent, proficient, expert, master.
 
 |---|---|---|---|
 | Jira | ![topic](/assets/img/topics/jira.png) | ![4 &#x2605;](/assets/img/4.svg) | 2012- |
-| Confluence | ![topic](/assets/img/topics/confluence-0.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
+| Confluence | ![topic](/assets/img/topics/confluence.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
 | GitHub | ![topic](/assets/img/topics/github.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
 | GitLab | ![topic](/assets/img/topics/gitlab.png) | ![3 &#x2605;](/assets/img/3.svg) | 2021- |
 {: class="skills"}
