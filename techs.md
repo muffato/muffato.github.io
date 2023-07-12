@@ -87,3 +87,12 @@ novice, competent, proficient, expert, master.
 | Ansible | ![topic](/assets/img/topics/ansible.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021 |
 {: class="skills"}
 
+### Applications
+
+|---|---|---|---|
+| Jira | ![topic](/assets/img/topics/jira.png) | ![4 &#x2605;](/assets/img/4.svg) | 2012- |
+| Confluence | ![topic](/assets/img/topics/confluence-0.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
+| GitHub | ![topic](/assets/img/topics/github.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
+| GitLab | ![topic](/assets/img/topics/gitlab.png) | ![3 &#x2605;](/assets/img/3.svg) | 2021- |
+{: class="skills"}
+
