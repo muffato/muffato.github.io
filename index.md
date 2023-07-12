@@ -5,11 +5,15 @@ position: 1
 
 ## About
 
-I am the Informatics Infrastructure Team Lead of the [![icon](/assets/img/icon/tol.png) Tree of Life
+I lead the Informatics Infrastructure of the [![icon](/assets/img/icon/tol.png) Tree of Life
 programme](https://www.sanger.ac.uk/programme/tree-of-life/) of the
 [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
-My team will oversee the implementation and delivery of the genome assembly pipelines,
-and provide support for large-scale genome analyses for the faculty teams.
+
+The team's mission is to _enable Tree of Life operations and research by
+providing data management, informatics, and infrastructure solutions_.
+We oversee the implementation and delivery of the genome assembly pipelines,
+implement large-scale genome analyses for the faculty teams, and curate the
+metadata held in the various production systems.
 
 My experience is in:
 
