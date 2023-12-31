@@ -26,6 +26,7 @@ category_descriptions = {
         PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
         PubCategories.QFO: 'Quest for Orthologs',
         PubCategories.GENOMES: 'Genome analysis',
+        PubCategories.GENOMES: '![icon](/assets/img/icon/zebrafish.png) Genome analysis',
         PubCategories.ENSEMBL_NAR: '![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates',
 }
 
