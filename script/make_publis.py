@@ -114,7 +114,8 @@ def print_publication(publi):
             print(authors[0]['fullName'], '_et al._', '\\\\')
     if "journalInfo" in publi:
         journal_string = '_' + publi["journalInfo"]["journal"]["title"] + '_'
-        journal_string += ', ' + publi["journalInfo"]["volume"]
+        if "volume" in publi["journalInfo"]:
+            journal_string += ', ' + publi["journalInfo"]["volume"]
         if "issue" in publi["journalInfo"]:
             journal_string += ' (' + publi["journalInfo"]["issue"] + ')'
         if "pageInfo" in publi:
@@ -122,7 +123,7 @@ def print_publication(publi):
                 journal_string += ', ' + publi["pageInfo"]
             else:
                 journal_string += ', pages ' + publi["pageInfo"]
-        if publi["journalInfo"]["dateOfPublication"] != publi["journalInfo"]["volume"]:
+        if "volume" in publi["journalInfo"] and publi["journalInfo"]["dateOfPublication"] != publi["journalInfo"]["volume"]:
             journal_string += ', ' + publi["journalInfo"]["dateOfPublication"]
     else:
         journal_string = '_' + publi["bookOrReportDetails"]["publisher"] + '_'

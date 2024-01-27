@@ -162,6 +162,12 @@ DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts0
 ## ![icon](/assets/img/icon/zebrafish.png) Genome analysis {#GENOMES}
 
 <dl>
+<dt>Hagfish genome elucidates vertebrate whole-genome duplication events and their evolutionary consequences.</dt>
+<dd>
+Yu D, Ren Y, Uesaka M, Beavan AJS, Muffato M, _et al._ \\
+_Nature ecology & evolution_ \\
+DOI: [10.1038/s41559-023-02299-z](https://doi.org/10.1038/s41559-023-02299-z)
+</dd>
 <dt>The tuatara genome reveals ancient features of amniote evolution.</dt>
 <dd>
 Gemmell NJ _et al._ \\
