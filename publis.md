@@ -20,7 +20,7 @@ Find below a selection organised by themes:
 {:/comment}
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam](#ENSEMBL)
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
-* [Quest for Orthologs](#QFO)
+* [![icon](/assets/img/icon/orthology.png) Quest for Orthologs](#QFO)
 * [![icon](/assets/img/icon/zebrafish.png) Genome analysis](#GENOMES)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
 
@@ -106,7 +106,7 @@ DOI: [10.1002/bies.20707](https://doi.org/10.1002/bies.20707)
 </dd>
 </dl>
 
-## Quest for Orthologs {#QFO}
+## ![icon](/assets/img/icon/orthology.png) Quest for Orthologs {#QFO}
 
 <dl>
 <dt>Ten Years of Collaborative Progress in the Quest for Orthologs.</dt>
