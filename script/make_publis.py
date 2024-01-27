@@ -22,9 +22,9 @@ args = {
 PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO GENOMES ENSEMBL_NAR')
 
 category_descriptions = {
-        PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam',
+        PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods',
         PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
-        PubCategories.QFO: '![icon](/assets/img/icon/orthology.png) Quest for Orthologs',
+        PubCategories.QFO: '![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ',
         PubCategories.GENOMES: '![icon](/assets/img/icon/zebrafish.png) Genome analysis',
         PubCategories.ENSEMBL_NAR: '![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates',
 }
