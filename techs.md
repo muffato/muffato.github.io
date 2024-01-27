@@ -12,8 +12,8 @@ novice, competent, proficient, expert, master.
 ### Programming languages
 
 |---|---|---|---|
-| Python | ![topic](/assets/img/topics/python.png) | ![5 &#x2605;](/assets/img/5.svg) | 2006- |
-| Perl | ![topic](/assets/img/topics/perl.png) | ![5 &#x2605;](/assets/img/5.svg) | 2008-2021 |
+| Python | ![topic](/assets/img/topics/python.png) | ![4 &#x2605;](/assets/img/4.svg) | 2006- |
+| Perl | ![topic](/assets/img/topics/perl.png) | ![4 &#x2605;](/assets/img/4.svg) | 2008-2021 |
 | Java | ![topic](/assets/img/topics/java.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004-2020 |
 | C++ | ![topic](/assets/img/topics/cpp.png) | ![3 &#x2605;](/assets/img/3.svg) | 1999-2020 |
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998-2020 |
