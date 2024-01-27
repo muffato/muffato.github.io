@@ -19,12 +19,13 @@ args = {
         'sort': 'P_PDATE_D desc',
 }
 
-PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO GENOMES ENSEMBL_NAR')
+PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO TREEOFLIFE GENOMES ENSEMBL_NAR')
 
 category_descriptions = {
         PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods',
         PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
         PubCategories.QFO: '![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ',
+        PubCategories.TREEOFLIFE: '![icon](/assets/img/icon/tol.png) Tree of Life',
         PubCategories.GENOMES: '![icon](/assets/img/icon/zebrafish.png) Genome analysis',
         PubCategories.ENSEMBL_NAR: '![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates',
 }
@@ -36,6 +37,7 @@ category_keywords = [
         ('title', 'treefam', PubCategories.ENSEMBL),
         ('doi', '10.1093/nar/', PubCategories.ENSEMBL_NAR),
         ('title', 'ensembl', PubCategories.ENSEMBL),
+        ('authors', 'tree of life', PubCategories.TREEOFLIFE),
     ]
 
 # Force some publications into a category
@@ -85,8 +87,8 @@ def retrieve_publications():
     r = requests.get(base_url + endpoint, params=args)
     struct = r.json()
     for publi in struct['resultList']['result']:
-        if ('Muffato' not in publi['authorString']) and ('consortium' not in publi['authorString'].lower()):
-            print('SKIP', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
+        if ('Muffato' not in publi['authorString']) and ('consortium' not in publi['authorString'].lower()) and ('tree of life programme' not in publi['authorString'].lower()):
+            print('SKIP', publi.get('pmcid'), publi['doi'], publi['title'], publi['authorString'].lower(), file=sys.stderr)
             continue
         if 'Preprint' in publi['pubTypeList']['pubType'] and publi['doi'] not in ['10.1101/2022.02.17.480882']:
             print('PREPRINT', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)

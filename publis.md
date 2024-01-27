@@ -21,6 +21,7 @@ Find below a selection organised by themes:
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods](#ENSEMBL)
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
 * [![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ](#QFO)
+* [![icon](/assets/img/icon/tol.png) Tree of Life](#TREEOFLIFE)
 * [![icon](/assets/img/icon/zebrafish.png) Genome analysis](#GENOMES)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
 
@@ -156,6 +157,17 @@ DOI: [10.1093/bioinformatics/btu492](https://doi.org/10.1093/bioinformatics/btu4
 Dessimoz C _et al._ \\
 _Bioinformatics (Oxford, England)_, 28 (6), pages 900-904, 2012 Mar \\
 DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts050)
+</dd>
+</dl>
+
+## ![icon](/assets/img/icon/tol.png) Tree of Life {#TREEOFLIFE}
+
+<dl>
+<dt>Fine mapping of the Cepaea nemoralis shell colour and mid-banded loci using a high-density linkage map.</dt>
+<dd>
+Johansen M _et al._ \\
+_Heredity_, 131 (5-6), pages 327-337, 2023 Dec \\
+DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
 </dd>
 </dl>
 
