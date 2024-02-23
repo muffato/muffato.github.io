@@ -14,7 +14,7 @@ Find below a selection organised by themes:
 
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods](#ENSEMBL)
 * [![icon](/assets/img/icon/guihive.png) eHive workflow manager](#EHIVE)
-* [![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure](#TREEOFLIFE)
+* [![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure](#TOLIT)
 
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods {#ENSEMBL}
 
@@ -71,7 +71,7 @@ DOI: [10.7490/f1000research.1111870.1](https://doi.org/10.7490/f1000research.111
 </dd>
 </dl>
 
-## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TREEOFLIFE}
+## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
 
 <dl>
 <dt>Core resources for genome analysis</dt>

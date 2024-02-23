@@ -21,7 +21,7 @@ Find below a selection organised by themes:
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods](#ENSEMBL)
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
 * [![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ](#QFO)
-* [![icon](/assets/img/icon/tol.png) Tree of Life](#TREEOFLIFE)
+* [![icon](/assets/img/icon/tol.png) Tree of Life genomes](#TREEOFLIFE)
 * [![icon](/assets/img/icon/zebrafish.png) Genome analysis](#GENOMES)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
 
