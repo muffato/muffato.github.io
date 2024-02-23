@@ -64,7 +64,7 @@ overseeing and guiding the software development, during a transition phase
 with the new management.
 
 I joined the [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/)
-in 2021 to lead the Informatics Infrastructure team of the
+in 2021 to create the Informatics Infrastructure team of the
 [![icon](/assets/img/icon/tol.png) Tree of Life programme](https://www.sanger.ac.uk/programme/tree-of-life/).
 
 ## Contact
