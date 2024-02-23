@@ -164,7 +164,7 @@ DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts0
 ## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
 
 <dl>
-<dt>assets/img/icon/zenodo.png.</dt>
+<dt>Automated Discovery of Container Executables.</dt>
 <dd>
 Vanessa Sochat, Matthieu Muffato, _et al._ \\
 DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
