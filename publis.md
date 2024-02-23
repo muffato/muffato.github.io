@@ -167,6 +167,7 @@ DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts0
 <dt>Automated Discovery of Container Executables.</dt>
 <dd>
 Vanessa Sochat, Matthieu Muffato, _et al._ \\
+_Journal of Open Research Software_, 11 (1), 6, 2023 Apr \\
 DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
 </dd>
 <dl>
