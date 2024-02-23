@@ -5,9 +5,9 @@ position: 1
 
 ## About
 
-I lead the Informatics Infrastructure of the [![icon](/assets/img/icon/tol.png) Tree of Life
-programme](https://www.sanger.ac.uk/programme/tree-of-life/) of the
-[![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
+I lead the [Informatics Infrastructure team](https://www.sanger.ac.uk/group/tree-of-life-informatics-infrastructure/)
+of the [![icon](/assets/img/icon/tol.png) Tree of Life programme](https://www.sanger.ac.uk/programme/tree-of-life/)
+of the [![icon](/assets/img/icon/sanger.png) Wellcome Sanger Institute](https://www.sanger.ac.uk/).
 
 The team's mission is to _enable Tree of Life operations and research by
 providing data management, informatics, and infrastructure solutions_.
