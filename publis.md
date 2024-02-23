@@ -21,6 +21,7 @@ Find below a selection organised by themes:
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods](#ENSEMBL)
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
 * [![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ](#QFO)
+* [![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure](#TOLIT)
 * [![icon](/assets/img/icon/tol.png) Tree of Life genomes](#TREEOFLIFE)
 * [![icon](/assets/img/icon/zebrafish.png) Genome analysis](#GENOMES)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
@@ -159,6 +160,16 @@ _Bioinformatics (Oxford, England)_, 28 (6), pages 900-904, 2012 Mar \\
 DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts050)
 </dd>
 </dl>
+
+## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
+
+<dl>
+<dt>assets/img/icon/zenodo.png.</dt>
+<dd>
+Vanessa Sochat, Matthieu Muffato, _et al._ \\
+DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
+</dd>
+<dl>
 
 ## ![icon](/assets/img/icon/tol.png) Tree of Life {#TREEOFLIFE}
 
