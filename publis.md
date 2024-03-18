@@ -189,7 +189,7 @@ DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
 <dt>Hagfish genome elucidates vertebrate whole-genome duplication events and their evolutionary consequences.</dt>
 <dd>
 Yu D, Ren Y, Uesaka M, Beavan AJS, Muffato M, _et al._ \\
-_Nature ecology & evolution_ \\
+_Nature ecology & evolution_, 8 (3), pages 519-535, 2024 Mar \\
 DOI: [10.1038/s41559-023-02299-z](https://doi.org/10.1038/s41559-023-02299-z)
 </dd>
 <dt>The tuatara genome reveals ancient features of amniote evolution.</dt>
