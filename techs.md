@@ -19,6 +19,7 @@ novice, competent, proficient, expert, master.
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1998-2020 |
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/3.svg) | 2008-2020 |
 | BASIC |  | ![4 &#x2605;](/assets/img/4.svg) | 1997-2002 |
+| Groovy | ![topic](/assets/img/topics/grooy.png) | ![2 &#x2605;](/assets/img/2.svg) | 2022- |
 | x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | Z80 assembly | ![topic](/assets/img/topics/z80.png) | ![2 &#x2605;](/assets/img/2.svg) | 1999-2001 |
 | 68000 assembly | ![topic](/assets/img/topics/68k.png) | ![2 &#x2605;](/assets/img/2.svg) | 2001-2003 |
@@ -44,6 +45,7 @@ novice, competent, proficient, expert, master.
 | MySQL | ![topic](/assets/img/topics/mysql.png) | ![4 &#x2605;](/assets/img/4.svg) | 2008- |
 | SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011-2020 |
 | PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014- |
+| DuckDB | ![topic](/assets/img/topics/duckdb.png) | ![41&#x2605;](/assets/img/1.svg) | 2025- |
 {: class="skills"}
 
 ### Distributed computing
