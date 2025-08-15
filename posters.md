@@ -84,5 +84,10 @@ DOI: [10.5281/zenodo.806387](https://doi.org/10.5281/zenodo.8063873)
 Philip R. Kensche, Valentin Schneider-Lunitz, Cibin Sadasivan Baby, Alexander Kanitz, Matthieu Muffato, _et al._ \\
 DOI: [10.7490/f1000research.1119541.1](https://doi.org/10.7490/f1000research.1119541.1)
 </dd>
+<dt>Sharing Nextflow code across organizations using the nf-core infrastructure</dt>
+<dd>
+João Vitor Ferreira Cavalcante, The nf-core community, Tree of Life Informatics Infrastructure Team, Matthieu Muffato \\
+DOI: [10.5281/zenodo.13913054](https://doi.org/10.5281/zenodo.13913054)
+</dd>
 </dl>
 
