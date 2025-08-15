@@ -11,8 +11,10 @@ position: 2
 
 _Since Feb 2021_
 
-<u>Keywords</u>: Project planning. Resource management. Strategic
-thinking.
+<u>Keywords</u>: Strategic thinking, Technical leadership, Systems design,
+Mentorship, People management, Software development management, Operations
+management, Recruitment, Documentation, User training and support.<br/>
+<u>Team size</u>: 5-7 people.
 
 I lead the Informatics Infrastructure team of the Tree of Life programme,
 which oversees the implementation and delivery of the genome assembly
@@ -49,7 +51,7 @@ _Oct 2019 to Jan 2021_
 
 <u>Keywords</u>: Development management. Technical leadership. Recruitment. Mentorship.
 API development. Database design and optimisation. Workflow design and development. 
-User support (data, API, workflows).
+User support (data, API, workflows).<br/>
 <u>Team size</u>: 3 people.
 
 In this role, I transferred the knowledge I had accumulated in the past 8 years
@@ -71,8 +73,8 @@ _May 2014 to Sep 2019_
 <u>Keywords</u>: Project planning and management. Scientific and public communication. Technical leadership. Recruitment. Mentorship.
 Development management. Reporting. Data-production planning and operational management.
 API development. Database design and optimisation. Workflow design and development. Data
-production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
-<u>Team size</u>: 2-6 people.
+production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
+<u>Team size</u>: 2-5 people.
 
 I managed the whole Comparative Genomics team of the Ensembl project,
 incl. the development of the eHive workflow manager.
@@ -86,7 +88,7 @@ _May 2013 to May 2014_
 
 <u>Keywords</u>: Development management. Reporting. Technical advisor. Data-production planning and operational management.
 API development. Database design and optimisation. Workflow design and development. Data
-production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
+production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
 <u>Team size</u>: 2 people.
 
 I was managing part of the Comparative Genomics team of
@@ -116,7 +118,7 @@ _Sep 2006 to Dec 2010_
 
 I have developed a set of new methods to predict the genome structure of
 ancestral species (all the last common ancestors of any given group of
-extant species. Here: about 50 vertebrate species) at different levels
+extant species - here about 50 vertebrate species) at different levels
 (number of chromosomes, chromosome content, gene order). We have also set
 up a database and a genome browser,
 [Genomicus](http://www.dyogen.ens.fr/genomicus/), to make the data available
@@ -237,7 +239,19 @@ libraries, reading the documentation of the compression algorithm.
 I also wrote a reader / writer for the BMP file format, and a library to
 manipulate, transform, and apply effects to images.
 
-# Certifications
+# Certifications and training
+
+## Managing Successful Programmes
+
+_QA, 2024_
+
+Course on programme management, building up on project-management notions (see below).
+
+## Professional Scrum Master
+
+_2020_
+
+Scrum is a leading Agile methodology.
 
 ## Project Fundamentals Qualification (PFQ) certification
 
