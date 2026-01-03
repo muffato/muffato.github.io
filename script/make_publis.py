@@ -6,6 +6,7 @@ import enum
 import os
 import sys
 import requests
+import html
 
 orcid = '0000-0002-7860-3560'
 
@@ -100,7 +101,8 @@ def retrieve_publications():
 
 def print_publication(publi):
     """Print a publication entry in markdown"""
-    print('<dt>' + publi['title'].strip() + '</dt>')
+    title = html.unescape(publi['title']).strip()
+    print('<dt>' + title + '</dt>')
     print('<dd>')
     authors = publi['authorList']['author']
     if 'Muffato' not in publi['authorString']:
