@@ -71,10 +71,20 @@ DOI: [10.7490/f1000research.1111870.1](https://doi.org/10.7490/f1000research.111
 ## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
 
 <dl>
+<dt>Sharing Nextflow code across organizations using the nf-core infrastructure</dt>
+<dd>
+João Vitor Ferreira Cavalcante, The nf-core community, Tree of Life Informatics Infrastructure Team, Matthieu Muffato \\
+DOI: [10.5281/zenodo.13913055](https://doi.org/10.5281/zenodo.13913055)
+</dd>
 <dt>WESkit: Workflow execution for HTC and cloud</dt>
 <dd>
 Philip R. Kensche, Valentin Schneider-Lunitz, Cibin Sadasivan Baby, Alexander Kanitz, Matthieu Muffato, Sven Twardziok, Ivo Buchhalter \\
 DOI: [10.7490/f1000research.1119541.1](https://doi.org/10.7490/f1000research.1119541.1)
+</dd>
+<dt>Core resources for genome analysis</dt>
+<dd>
+Matthieu Muffato, Mark Blaxter \\
+DOI: [10.5281/zenodo.8063873](https://doi.org/10.5281/zenodo.8063873)
 </dd>
 </dl>
 
