@@ -51,6 +51,11 @@ DOI: [10.7490/f1000research.1115012.1](https://doi.org/10.7490/f1000research.111
 Mateus Patricio, Matthieu Muffato, Uma Maheswari, Nishadi De Silva, Paul Kersey, Bronwen Aken, Paul Flicek \\
 DOI: [10.7490/f1000research.1115011.1](https://doi.org/10.7490/f1000research.1115011.1)
 </dd>
+<dt>Ensembl comparative genomics update – HMMs and Orthology QC</dt>
+<dd>
+Mateus Patricio, _et al._ \\
+DOI: [10.7490/f1000research.1114127.1](https://doi.org/10.7490/f1000research.1114127.1)
+</dd>
 <dt>TreeFam and Ensembl: Phylogenetic resources</dt>
 <dd>
 Mateus Patricio, Matthieu Muffato, Bronwen Aken, Paul Flicek \\

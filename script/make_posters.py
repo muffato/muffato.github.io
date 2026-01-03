@@ -7,6 +7,7 @@ import os
 import sys
 import requests
 import html
+from urllib.parse import quote
 
 base_url = 'https://api.crossref.org/works'
 
@@ -29,6 +30,11 @@ category_keywords = [
     ('title', 'nf-core', PubCategories.TOLIT),
 ]
 
+# Hardcoded DOIs to include even when the CrossRef author list does not contain "Muffato"
+EXTRA_DOIS = [
+    '10.7490/f1000research.1114127.1',
+]
+
 def classify(publi):
     title = publi.get('title', '').lower()
     for (field, keyword, category) in category_keywords:
@@ -36,74 +42,110 @@ def classify(publi):
             return category
     return PubCategories.TOLIT
 
-def retrieve_posters():
+def retrieve_posters_crossref_f1000():
     params = {
-        'query.author': 'Matthieu Muffato',
+        'filter': 'prefix:10.7490',
+        'query.author': 'muffato',
         'rows': 200,
     }
     r = requests.get(base_url, params=params)
     r.raise_for_status()
     struct = r.json()
     for item in struct.get('message', {}).get('items', []):
-        doi = item['DOI']
-        # prefer F1000 Research items
-        publisher = item.get('publisher', '')
-        resource_urls = []
-        if isinstance(item.get('resource'), list):
-            for res in item['resource']:
-                if isinstance(res, dict):
-                    resource_urls.append(res.get('URL', ''))
-        if item.get('resource') and isinstance(item.get('resource'), dict):
-            primary = item['resource'].get('primary', {})
-            if isinstance(primary, dict):
-                resource_urls.append(primary.get('URL', ''))
+        parsed = process_crossref_item(item, require_muffato=True)
+        if parsed:
+            yield parsed
 
-        if 'f1000' not in publisher.lower() and not any('f1000research.com' in u for u in resource_urls):
-            continue
 
-        # build author string
-        authors = item.get('author', [])
-        author_names = []
-        for a in authors:
-            given = a.get('given', '')
-            family = a.get('family', '')
-            if given and family:
-                author_names.append(given + ' ' + family)
-            elif family:
-                author_names.append(family)
-            elif given:
-                author_names.append(given)
-        author_string = ', '.join(author_names)
-        if 'Muffato' not in author_string:
-            continue
+def process_crossref_item(item, require_muffato=True):
+    """Normalize a CrossRef item into the internal poster dict or return None.
 
-        title = ''
-        if item.get('title'):
-            title = item['title'][0]
+    If `require_muffato` is True, the function will only return items that
+    include "Muffato" in the author list. Always requires the item to be
+    associated with F1000Research (publisher or resource URL).
+    """
+    doi = item.get('DOI', '')
+    if not doi:
+        return None
+    # prefer F1000 Research items
+    publisher = item.get('publisher', '')
+    resource_urls = []
+    if isinstance(item.get('resource'), list):
+        for res in item['resource']:
+            if isinstance(res, dict):
+                resource_urls.append(res.get('URL', ''))
+    if item.get('resource') and isinstance(item.get('resource'), dict):
+        primary = item['resource'].get('primary', {})
+        if isinstance(primary, dict):
+            resource_urls.append(primary.get('URL', ''))
 
-        # determine published date: prefer 'published-print', then 'published-online', then 'issued'
-        pubdate = None
-        for key in ('published-print', 'published-online', 'published', 'issued'):
-            v = item.get(key)
-            if v and isinstance(v, dict) and v.get('date-parts'):
-                parts = v['date-parts'][0]
-                # normalize to (year, month, day)
-                y = parts[0] if len(parts) > 0 else 0
-                m = parts[1] if len(parts) > 1 else 0
-                d = parts[2] if len(parts) > 2 else 0
-                pubdate = (y, m, d)
-                break
-        if pubdate is None:
-            pubdate = (0, 0, 0)
+    if 'f1000' not in publisher.lower() and not any('f1000research.com' in u for u in resource_urls):
+        return None
 
-        yield {
-            'title': title,
-            'doi': doi,
-            'authorString': author_string,
-            'authorList': author_names,
-            'resource_urls': resource_urls,
-            'published_date': pubdate,
-        }
+    # build author string
+    authors = item.get('author', [])
+    author_names = []
+    for a in authors:
+        given = a.get('given', '')
+        family = a.get('family', '')
+        if given and family:
+            author_names.append(given + ' ' + family)
+        elif family:
+            author_names.append(family)
+        elif given:
+            author_names.append(given)
+    author_string = ', '.join(author_names)
+    if require_muffato and 'Muffato' not in author_string:
+        return None
+
+    title = ''
+    if item.get('title'):
+        title = item['title'][0]
+
+    # determine published date: prefer 'published-print', then 'published-online', then 'issued'
+    pubdate = None
+    for key in ('published-print', 'published-online', 'published', 'issued'):
+        v = item.get(key)
+        if v and isinstance(v, dict) and v.get('date-parts'):
+            parts = v['date-parts'][0]
+            y = parts[0] if len(parts) > 0 else 0
+            m = parts[1] if len(parts) > 1 else 0
+            d = parts[2] if len(parts) > 2 else 0
+            pubdate = (y, m, d)
+            break
+    if pubdate is None:
+        pubdate = (0, 0, 0)
+
+    return {
+        'title': title,
+        'doi': doi,
+        'authorString': author_string,
+        'authorList': author_names,
+        'resource_urls': resource_urls,
+        'published_date': pubdate,
+    }
+
+
+def retrieve_posters_by_dois(dois):
+    """Fetch specific DOIs from CrossRef and yield normalized poster dicts.
+
+    These DOIs are included even when the CrossRef author list doesn't
+    contain "Muffato". Items are filtered to F1000Research by publisher/URL.
+    """
+    for doi in dois:
+        try:
+            url = base_url + '/' + quote(doi, safe='')
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            struct = r.json()
+            item = struct.get('message')
+            if not item:
+                continue
+            parsed = process_crossref_item(item, require_muffato=False)
+            if parsed:
+                yield parsed
+        except Exception as e:
+            print('Error fetching DOI', doi, e, file=sys.stderr)
 
 
 def retrieve_posters_zenodo():
@@ -227,8 +269,17 @@ def make_page():
     existing_dois = set()
 
     # First, collect Crossref results
-    for publi in retrieve_posters():
+    for publi in retrieve_posters_crossref_f1000():
         doi = (publi.get('doi') or '').strip()
+        if doi:
+            existing_dois.add(doi)
+        posters[classify(publi)].append(publi)
+
+    # Then, include any hardcoded DOIs (fetch from CrossRef) and avoid duplicates
+    for publi in retrieve_posters_by_dois(EXTRA_DOIS):
+        doi = (publi.get('doi') or '').strip()
+        if doi and doi in existing_dois:
+            continue
         if doi:
             existing_dois.add(doi)
         posters[classify(publi)].append(publi)
