@@ -30,10 +30,11 @@ category_keywords = [
     ('title', 'nf-core', PubCategories.TOLIT),
 ]
 
-# Hardcoded DOIs to include even when the CrossRef author list does not contain "Muffato"
-EXTRA_DOIS = [
-    '10.7490/f1000research.1114127.1',
-]
+# Hardcoded DOIs to include even when the CrossRef author list does not contain "Muffato".
+# Map DOI -> author string to display.
+EXTRA_DOIS = {
+    '10.7490/f1000research.1114127.1': 'Mateus Patricio, Matthieu Muffato, Wasiu Akanni, Carla Cummins, Bronwen Aken, Paul Flicek',
+}
 
 def classify(publi):
     title = publi.get('title', '').lower()
@@ -129,10 +130,10 @@ def process_crossref_item(item, require_muffato=True):
 def retrieve_posters_by_dois(dois):
     """Fetch specific DOIs from CrossRef and yield normalized poster dicts.
 
-    These DOIs are included even when the CrossRef author list doesn't
-    contain "Muffato". Items are filtered to F1000Research by publisher/URL.
+    `dois` is a mapping DOI->author_string that overrides the CrossRef
+    author list for display purposes.
     """
-    for doi in dois:
+    for doi, author_override in dois.items():
         try:
             url = base_url + '/' + quote(doi, safe='')
             r = requests.get(url, timeout=30)
@@ -142,8 +143,12 @@ def retrieve_posters_by_dois(dois):
             if not item:
                 continue
             parsed = process_crossref_item(item, require_muffato=False)
-            if parsed:
-                yield parsed
+            if not parsed:
+                continue
+            parsed['authorString'] = author_override
+            # build authorList from the provided string
+            parsed['authorList'] = [a.strip() for a in author_override.split(',') if a.strip()]
+            yield parsed
         except Exception as e:
             print('Error fetching DOI', doi, e, file=sys.stderr)
 

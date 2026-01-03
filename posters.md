@@ -53,7 +53,7 @@ DOI: [10.7490/f1000research.1115011.1](https://doi.org/10.7490/f1000research.111
 </dd>
 <dt>Ensembl comparative genomics update – HMMs and Orthology QC</dt>
 <dd>
-Mateus Patricio, _et al._ \\
+Mateus Patricio, Matthieu Muffato, Wasiu Akanni, Carla Cummins, Bronwen Aken, Paul Flicek \\
 DOI: [10.7490/f1000research.1114127.1](https://doi.org/10.7490/f1000research.1114127.1)
 </dd>
 <dt>TreeFam and Ensembl: Phylogenetic resources</dt>
