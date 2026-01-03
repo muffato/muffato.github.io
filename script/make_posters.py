@@ -248,6 +248,9 @@ def print_poster(publi):
     print('<dt>' + title + '</dt>')
     print('<dd>')
     authors = publi['authorList']
+    def _underline_name(text):
+        return text.replace("Matthieu Muffato", '<u>Matthieu Muffato</u>')
+
     # format authors similar to make_publis.py
     families = [n.split()[-1] for n in authors]
     mypos = None
@@ -261,9 +264,9 @@ def print_poster(publi):
     else:
         if mypos < 7:
             if len(authors) > 7:
-                print(', '.join(authors[:mypos+1]) + ', _et al._ \\\\')
+                print(_underline_name(', '.join(authors[:mypos+1])) + ', _et al._ \\\\')
             else:
-                print(publi['authorString'] + ' \\\\')
+                print(_underline_name(publi['authorString']) + ' \\\\')
         else:
             print(authors[0] + ', _et al._ \\\\')
     print('DOI: [' + publi['doi'] + '](https://doi.org/' + publi['doi'] + ')')
