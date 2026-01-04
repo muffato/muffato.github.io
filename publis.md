@@ -31,31 +31,31 @@ Find below a selection organised by themes:
 <dl>
 <dt>Scripting Analyses of Genomes in Ensembl Plants.</dt>
 <dd>
-Contreras-Moreira B, Naamati G, Rosello M, Allen JE, Hunt SE, Muffato M, _et al._ \\
+Contreras-Moreira B, Naamati G, Rosello M, Allen JE, Hunt SE, <u>Muffato M</u>, _et al._ \\
 _Methods in molecular biology (Clifton, N.J.)_, 2443, pages 27-55, 2022  \\
 DOI: [10.1007/978-1-0716-2067-0_2](https://doi.org/10.1007/978-1-0716-2067-0_2)
 </dd>
 <dt>ncRNA orthologies in the vertebrate lineage.</dt>
 <dd>
-Pignatelli M, Vilella AJ, Muffato M, Gordon L, White S, Flicek P, Herrero J. \\
+Pignatelli M, Vilella AJ, <u>Muffato M</u>, Gordon L, White S, Flicek P, Herrero J. \\
 _Database : the journal of biological databases and curation_, 2016, bav127 \\
 DOI: [10.1093/database/bav127](https://doi.org/10.1093/database/bav127)
 </dd>
 <dt>Ensembl comparative genomics resources.</dt>
 <dd>
-Herrero J, Muffato M, _et al._ \\
+Herrero J, <u>Muffato M</u>, _et al._ \\
 _Database : the journal of biological databases and curation_, 2016, bav096 \\
 DOI: [10.1093/database/bav096](https://doi.org/10.1093/database/bav096)
 </dd>
 <dt>Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference.</dt>
 <dd>
-Tan G, Muffato M, Ledergerber C, Herrero J, Goldman N, Gil M, Dessimoz C. \\
+Tan G, <u>Muffato M</u>, Ledergerber C, Herrero J, Goldman N, Gil M, Dessimoz C. \\
 _Systematic biology_, 64 (5), pages 778-791, 2015 Sep \\
 DOI: [10.1093/sysbio/syv033](https://doi.org/10.1093/sysbio/syv033)
 </dd>
 <dt>TreeFam v9: a new website, more species and orthology-on-the-fly.</dt>
 <dd>
-Schreiber F, Patricio M, Muffato M, Pignatelli M, Bateman A. \\
+Schreiber F, Patricio M, <u>Muffato M</u>, Pignatelli M, Bateman A. \\
 _Nucleic acids research_, 42 (Database issue), pages D922-5, 2014 Jan \\
 DOI: [10.1093/nar/gkt1055](https://doi.org/10.1093/nar/gkt1055)
 </dd>
@@ -66,43 +66,43 @@ DOI: [10.1093/nar/gkt1055](https://doi.org/10.1093/nar/gkt1055)
 <dl>
 <dt>Reconstruction of hundreds of reference ancestral genomes across the eukaryotic kingdom.</dt>
 <dd>
-Muffato M, Louis A, Nguyen NTT, Lucas J, Berthelot C, Roest Crollius H. \\
+<u>Muffato M</u>, Louis A, Nguyen NTT, Lucas J, Berthelot C, Roest Crollius H. \\
 _Nature ecology & evolution_, 7 (3), pages 355-366, 2023 Mar \\
 DOI: [10.1038/s41559-022-01956-z](https://doi.org/10.1038/s41559-022-01956-z)
 </dd>
 <dt>The 3D organization of chromatin explains evolutionary fragile genomic regions.</dt>
 <dd>
-Berthelot C, Muffato M, Abecassis J, Roest Crollius H. \\
+Berthelot C, <u>Muffato M</u>, Abecassis J, Roest Crollius H. \\
 _Cell reports_, 10 (11), pages 1913-1924, 2015 Mar \\
 DOI: [10.1016/j.celrep.2015.02.046](https://doi.org/10.1016/j.celrep.2015.02.046)
 </dd>
 <dt>Genomicus update 2015: KaryoView and MatrixView provide a genome-wide perspective to multispecies comparative genomics.</dt>
 <dd>
-Louis A, Nguyen NT, Muffato M, Roest Crollius H. \\
+Louis A, Nguyen NT, <u>Muffato M</u>, Roest Crollius H. \\
 _Nucleic acids research_, 43 (Database issue), pages D682-9, 2015 Jan \\
 DOI: [10.1093/nar/gku1112](https://doi.org/10.1093/nar/gku1112)
 </dd>
 <dt>PhylDiag: identifying complex synteny blocks that include tandem duplications using phylogenetic gene trees.</dt>
 <dd>
-Lucas JM, Muffato M, Roest Crollius H. \\
+Lucas JM, <u>Muffato M</u>, Roest Crollius H. \\
 _BMC bioinformatics_, 15, pages 268, 2014 Aug \\
 DOI: [10.1186/1471-2105-15-268](https://doi.org/10.1186/1471-2105-15-268)
 </dd>
 <dt>Genomicus: five genome browsers for comparative genomics in eukaryota.</dt>
 <dd>
-Louis A, Muffato M, Roest Crollius H. \\
+Louis A, <u>Muffato M</u>, Roest Crollius H. \\
 _Nucleic acids research_, 41 (Database issue), pages D700-5, 2013 Jan \\
 DOI: [10.1093/nar/gks1156](https://doi.org/10.1093/nar/gks1156)
 </dd>
 <dt>Genomicus: a database and a browser to study gene synteny in modern and ancestral genomes.</dt>
 <dd>
-Muffato M, Louis A, Poisnel CE, Roest Crollius H. \\
+<u>Muffato M</u>, Louis A, Poisnel CE, Roest Crollius H. \\
 _Bioinformatics (Oxford, England)_, 26 (8), pages 1119-1121, 2010 Apr \\
 DOI: [10.1093/bioinformatics/btq079](https://doi.org/10.1093/bioinformatics/btq079)
 </dd>
 <dt>Paleogenomics in vertebrates, or the recovery of lost genomes from the mist of time.</dt>
 <dd>
-Muffato M, Roest Crollius H. \\
+<u>Muffato M</u>, Roest Crollius H. \\
 _BioEssays : news and reviews in molecular, cellular and developmental biology_, 30 (2), pages 122-134, 2008 Feb \\
 DOI: [10.1002/bies.20707](https://doi.org/10.1002/bies.20707)
 </dd>
@@ -131,7 +131,7 @@ DOI: [10.1093/molbev/msz150](https://doi.org/10.1093/molbev/msz150)
 </dd>
 <dt>Gearing up to handle the mosaic nature of life in the quest for orthologs.</dt>
 <dd>
-Forslund K, Pereira C, Capella-Gutierrez S, da Silva AS, Altenhoff A, Huerta-Cepas J, Muffato M, _et al._ \\
+Forslund K, Pereira C, Capella-Gutierrez S, da Silva AS, Altenhoff A, Huerta-Cepas J, <u>Muffato M</u>, _et al._ \\
 _Bioinformatics (Oxford, England)_, 34 (2), pages 323-329, 2018 Jan \\
 DOI: [10.1093/bioinformatics/btx542](https://doi.org/10.1093/bioinformatics/btx542)
 </dd>
@@ -143,7 +143,7 @@ DOI: [10.1038/nmeth.3830](https://doi.org/10.1038/nmeth.3830)
 </dd>
 <dt>Quest for Orthologs Entails Quest for Tree of Life: In Search of the Gene Stream.</dt>
 <dd>
-Boeckmann B, Marcet-Houben M, Rees JA, Forslund K, Huerta-Cepas J, Muffato M, _et al._ \\
+Boeckmann B, Marcet-Houben M, Rees JA, Forslund K, Huerta-Cepas J, <u>Muffato M</u>, _et al._ \\
 _Genome biology and evolution_, 7 (7), pages 1988-1999, 2015 Jul \\
 DOI: [10.1093/gbe/evv121](https://doi.org/10.1093/gbe/evv121)
 </dd>
@@ -166,7 +166,7 @@ DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts0
 <dl>
 <dt>Automated Discovery of Container Executables.</dt>
 <dd>
-Vanessa Sochat, Matthieu Muffato, _et al._ \\
+Vanessa Sochat, <u>Matthieu Muffato</u>, _et al._ \\
 _Journal of Open Research Software_, 11 (1), 6, 2023 Apr \\
 DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
 </dd>
@@ -188,7 +188,7 @@ DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
 <dl>
 <dt>Hagfish genome elucidates vertebrate whole-genome duplication events and their evolutionary consequences.</dt>
 <dd>
-Yu D, Ren Y, Uesaka M, Beavan AJS, Muffato M, _et al._ \\
+Yu D, Ren Y, Uesaka M, Beavan AJS, <u>Muffato M</u>, _et al._ \\
 _Nature ecology & evolution_, 8 (3), pages 519-535, 2024 Mar \\
 DOI: [10.1038/s41559-023-02299-z](https://doi.org/10.1038/s41559-023-02299-z)
 </dd>
@@ -224,7 +224,7 @@ DOI: [10.1038/nature13679](https://doi.org/10.1038/nature13679)
 </dd>
 <dt>The zebrafish reference genome sequence and its relationship to the human genome.</dt>
 <dd>
-Howe K, Clark MD, Torroja CF, Torrance J, Berthelot C, Muffato M, _et al._ \\
+Howe K, Clark MD, Torroja CF, Torrance J, Berthelot C, <u>Muffato M</u>, _et al._ \\
 _Nature_, 496 (7446), pages 498-503, 2013 Apr \\
 DOI: [10.1038/nature12111](https://doi.org/10.1038/nature12111)
 </dd>

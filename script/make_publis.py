@@ -105,15 +105,20 @@ def print_publication(publi):
     print('<dt>' + title + '</dt>')
     print('<dd>')
     authors = publi['authorList']['author']
+
+    def _underline_name(text):
+        return text.replace('Muffato M', '<u>Muffato M</u>')
+
     if 'Muffato' not in publi['authorString']:
         print(authors[0]['fullName'], '_et al._', '\\\\')
     else:
         mypos = [i for (i, a) in enumerate(authors) if a.get('lastName', '') == 'Muffato'][0]
         if mypos < 7:
             if len(authors) > 7:
-                print(*[a['fullName'] for a in authors[:mypos+1]], '_et al._ \\\\', sep=', ')
+                joined = ', '.join([a['fullName'] for a in authors[:mypos+1]])
+                print(_underline_name(joined) + ', _et al._ \\\\')
             else:
-                print(publi['authorString'], '\\\\')
+                print(_underline_name(publi['authorString']), '\\\\')
         else:
             print(authors[0]['fullName'], '_et al._', '\\\\')
     if "journalInfo" in publi:
