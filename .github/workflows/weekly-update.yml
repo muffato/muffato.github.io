@@ -32,12 +32,24 @@ jobs:
           python script/make_posters.py
           python script/make_publis.py
 
+      - name: Check for generated changes
+        id: check_changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then echo "changed=true" >> $GITHUB_OUTPUT; else echo "changed=false" >> $GITHUB_OUTPUT; fi
+
+      - name: Run make_repos.py (only if posters/publis changed)
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          python script/make_repos.py
+
       - name: Create Pull Request (if changes)
         uses: peter-evans/create-pull-request@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update generated posters and publications
+          commit-message: Update generated posters, publications, and repositories
           branch: update/generated-${{ github.run_id }}
-          title: Update generated posters and publications
-          body: Automated weekly update of posters and publications
+          title: Update generated posters, publications, and repositories
+          body: Automated weekly update of posters, publications, and repositories
           labels: automated
