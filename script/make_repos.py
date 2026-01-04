@@ -24,12 +24,11 @@ TOPICS: Dict[str, str] = {
     'EHIVE': '![icon](/assets/img/icon/guihive.png) eHive workflow manager',
     'SANGERTOL': '![icon](/assets/img/icon/tol.png) Tree of Life Nextflow pipelines',
     'NFCORE': '![icon](/assets/img/icon/nfcore.png) nf-core',
+    'SHPC': '![icon](/assets/img/icon/shpc.png) Singularity HPC for container-based computing',
     'GENOMICUS': '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
 }
-# TODO SHPC
 
 # Hardcoded repository mapping: topic name -> list of repositories (owner/repo)
-# Edit this to classify your repositories. Keys should match TOPICS names.
 REPOS: Dict[str, List[str]] = {
     'COMPARA': [
         'Ensembl/treebest',
@@ -68,6 +67,9 @@ REPOS: Dict[str, List[str]] = {
         'nf-core/modules',
         'nf-core/tools',
         'nf-core/nft-utils',
+    ],
+    'SHPC': [
+        'singularityhub/singularity-hpc',
     ],
     'GENOMICUS': [
         'muffato/ensembl-download-java',
