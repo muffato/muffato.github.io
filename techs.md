@@ -45,7 +45,7 @@ novice, competent, proficient, expert, master.
 | MySQL | ![topic](/assets/img/topics/mysql.png) | ![4 &#x2605;](/assets/img/4.svg) | 2008- |
 | SQLite | ![topic](/assets/img/topics/sqlite.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011-2020 |
 | PostgreSQL| ![topic](/assets/img/topics/postgresql.png) | ![3 &#x2605;](/assets/img/3.svg) | 2004, 2014- |
-| DuckDB | ![topic](/assets/img/topics/duckdb.png) | ![41&#x2605;](/assets/img/1.svg) | 2025- |
+| DuckDB | ![topic](/assets/img/topics/duckdb.png) | ![1 &#x2605;](/assets/img/1.svg) | 2025- |
 {: class="skills"}
 
 ### Distributed computing
