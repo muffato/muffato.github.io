@@ -80,6 +80,7 @@ REPOS: Dict[str, List[str]] = {
     ],
 }
 
+
 def github_headers() -> Dict[str, str]:
     token = os.environ.get('GITHUB_TOKEN')
     headers = {'Accept': 'application/vnd.github.v3+json'}
@@ -120,7 +121,11 @@ def make_page() -> None:
             meta = fetch_repo_meta(full)
             if not meta:
                 # keep a minimal placeholder
-                meta = {'html_url': f'https://github.com/{full}', 'description': '', 'updated_at': ''}
+                meta = {
+                    'html_url': f'https://github.com/{full}',
+                    'description': '',
+                    'updated_at': '',
+                }
             item = {'name': full, **meta}
             grouped[topic].append(item)
 
