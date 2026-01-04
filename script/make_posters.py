@@ -52,7 +52,6 @@ class Poster:
     doi: str
     author_string: str
     author_list: List[str]
-    resource_urls: List[str]
     published_date: Tuple[int, int, int]
 
 
@@ -62,24 +61,6 @@ def classify(p: Poster) -> PubCategories:
         if kw in title:
             return cat
     return PubCategories.TOLIT
-
-
-def extract_urls_from_crossref(item: dict) -> List[str]:
-    urls = []
-    res = item.get('resource')
-    if isinstance(res, list):
-        for r in res:
-            if isinstance(r, dict):
-                u = r.get('URL')
-                if u:
-                    urls.append(u)
-    elif isinstance(res, dict):
-        primary = res.get('primary', {})
-        if isinstance(primary, dict):
-            u = primary.get('URL')
-            if u:
-                urls.append(u)
-    return urls
 
 
 def parse_crossref_date(item: dict) -> Tuple[int, int, int]:
@@ -100,8 +81,6 @@ def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optiona
     doi = item.get('DOI', '') or ''
     if not doi:
         return None
-
-    urls = extract_urls_from_crossref(item)
 
     if item['publisher'] != 'F1000 Research Ltd':
         return None
@@ -128,7 +107,13 @@ def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optiona
 
     pubdate = parse_crossref_date(item)
 
-    return Poster(title=title, doi=doi, author_string=author_str, author_list=author_names, resource_urls=urls, published_date=pubdate)
+    return Poster(
+        title=title,
+        doi=doi,
+        author_string=author_str,
+        author_list=author_names,
+        published_date=pubdate,
+    )
 
 
 def retrieve_posters_crossref_f1000():
@@ -157,19 +142,6 @@ def retrieve_posters_by_dois(dois_map: dict):
         parsed.author_string = author_override
         parsed.author_list = [a.strip() for a in author_override.split(',') if a.strip()]
         yield parsed
-
-
-def extract_urls_from_zenodo(rec: dict) -> List[str]:
-    urls = []
-    if not isinstance(rec, dict):
-        return urls
-    links = rec.get('links') or {}
-    if isinstance(links, dict):
-        for k in ('html', 'doi', 'self'):
-            u = links.get(k)
-            if u:
-                urls.append(u)
-    return urls
 
 
 def parse_zenodo_date(metadata: dict) -> Tuple[int, int, int]:
@@ -209,9 +181,14 @@ def normalize_zenodo_record(rec: dict) -> Poster:
     if isinstance(rec, dict):
         doi = rec.get('doi') or doi
     doi = doi or metadata.get('doi') or ''
-    urls = extract_urls_from_zenodo(rec)
     pubdate = parse_zenodo_date(metadata)
-    return Poster(title=title, doi=doi, author_string=author_str, author_list=author_names, resource_urls=urls, published_date=pubdate)
+    return Poster(
+        title=title,
+        doi=doi,
+        author_string=author_str,
+        author_list=author_names,
+        published_date=pubdate,
+    )
 
 
 def retrieve_posters_zenodo():
