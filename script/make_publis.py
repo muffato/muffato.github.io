@@ -144,6 +144,7 @@ def retrieve_publications_crossref(dois):
                 publi['firstPublicationDate'] = '-'.join(str(x) for x in p)
         yield publi
 
+
 def classify(publi):
     """Classify a publication into one of the above categories"""
     doi = publi['doi']
@@ -151,7 +152,7 @@ def classify(publi):
         return known_categories[doi]
     title = publi['title'].lower()
     authors = publi['authorString'].lower()
-    for (field, keyword, category) in category_keywords:
+    for field, keyword, category in category_keywords:
         if field == "title":
             if keyword in title:
                 return category
@@ -165,6 +166,7 @@ def classify(publi):
             raise ValueError("Unknown field: " + field)
     return PubCategories.GENOMES
 
+
 def retrieve_publications():
     """Fetch the complete list of publications from EuropePMC"""
     r = requests.get(base_url + endpoint, params=args)
@@ -177,6 +179,7 @@ def retrieve_publications():
             print('ERRATUM', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
             continue
         yield publi
+
 
 def print_publication(publi):
     """Print a publication entry in markdown"""
@@ -194,7 +197,7 @@ def print_publication(publi):
         mypos = [i for (i, a) in enumerate(authors) if a.get('lastName', '') == 'Muffato'][0]
         if mypos < 7:
             if len(authors) > 7:
-                joined = ', '.join([a['fullName'] for a in authors[:mypos+1]])
+                joined = ', '.join([a['fullName'] for a in authors[: mypos + 1]])
                 print(_underline_name(joined) + ', _et al._ \\\\')
             else:
                 print(_underline_name(publi['authorString']), '\\\\')
@@ -220,15 +223,19 @@ def print_publication(publi):
     print(f'DOI: [{publi["doi"]}](https://doi.org/{publi["doi"]})')
     print('</dd>')
 
+
 def make_page():
     """Print the entire page in Markdown"""
     indexed_sub_publications = {}
-    for (ref, subs) in sub_publications.items():
+    for ref, subs in sub_publications.items():
         for sub in subs:
             indexed_sub_publications[sub] = ref
     publis = collections.defaultdict(list)
     subs = {}
-    for publi in itertools.chain(retrieve_publications(), retrieve_publications_crossref(EXTRA_DOIS)):
+    for publi in itertools.chain(
+        retrieve_publications(),
+        retrieve_publications_crossref(EXTRA_DOIS),
+    ):
         if publi['doi'] in indexed_sub_publications:
             subs[publi['doi']] = publi
             continue
@@ -240,7 +247,7 @@ def make_page():
             print('*', '['+category_descriptions[category]+'](#'+category.name+')')
     print()
     for category in PubCategories:
-        print('##', category_descriptions[category], '{#'+category.name+'}')
+        print('##', category_descriptions[category], '{#' + category.name + '}')
         print()
         print('<dl>')
         for publi in publis[category]:
