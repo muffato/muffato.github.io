@@ -286,13 +286,13 @@ def make_page():
 
 if __name__ == '__main__':
     posters_path = os.path.join(os.path.dirname(__file__), os.path.pardir, 'posters.md')
-    lines = []
+    header_lines = []
     with open(posters_path, 'r', encoding='utf-8') as fh:
         for line in fh:
-            lines.append(line)
+            header_lines.append(line)
             if line.startswith('{:/comment}'):
                 break
     # write output to stdout as before
     with open(posters_path, 'w', encoding='utf-8') as sys.stdout:
-        sys.stdout.writelines(lines)
+        sys.stdout.writelines(header_lines)
         make_page()

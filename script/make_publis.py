@@ -247,16 +247,17 @@ def make_page():
         print('</dl>')
         print()
 
+
 if __name__ == '__main__':
     publis_path = os.path.join(os.path.dirname(__file__), os.path.pardir, 'publis.md')
     print(publis_path)
-    lines = []
-    with open(publis_path, 'r') as fh:
+    header_lines = []
+    with open(publis_path, 'r', encoding='utf-8') as fh:
         for line in fh:
-            lines.append(line)
+            header_lines.append(line)
             if line.startswith('{:/comment}'):
                 print("found")
                 break
-    with open(publis_path, 'w') as sys.stdout:
-        sys.stdout.writelines(lines)
+    with open(publis_path, 'w', encoding='utf-8') as sys.stdout:
+        sys.stdout.writelines(header_lines)
         make_page()
