@@ -33,7 +33,7 @@ REPOS: Dict[str, List[str]] = {
     'COMPARA': [
         'Ensembl/treebest',
         'Ensembl/ensembl-compara',
-        'Ensembl/ensj-healthcheck',
+        # 'Ensembl/ensj-healthcheck',
         'muffato/docker-ensembl-linuxbrew-compara',
         'muffato/docker-ensembl-linuxbrew-basic-dependencies',
         # 'muffato/ensembl-mysql-monitor',
