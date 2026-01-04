@@ -211,18 +211,17 @@ def make_page():
         items.sort(key=lambda x: x.published_date, reverse=True)
 
     for category in PubCategories:
-        if posters[category]:
-            print('*', '[' + category_descriptions[category] + '](#' + category.name + ')')
+        print('*', '[' + category_descriptions[category] + '](#' + category.name + ')')
     print()
+
     for category in PubCategories:
-        if posters[category]:
-            print('##', category_descriptions[category], '{#' + category.name + '}')
-            print()
-            print('<dl>')
-            for p in posters[category]:
-                print_poster(p)
-            print('</dl>')
-            print()
+        print('##', category_descriptions[category], '{#' + category.name + '}')
+        print()
+        print('<dl>')
+        for p in posters[category]:
+            print_poster(p)
+        print('</dl>')
+        print()
 
 
 if __name__ == '__main__':
