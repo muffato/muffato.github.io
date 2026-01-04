@@ -101,9 +101,9 @@ def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optiona
     if not doi:
         return None
 
-    publisher = item.get('publisher', '') or ''
     urls = extract_urls_from_crossref(item)
-    if 'f1000' not in publisher.lower() and not any('f1000research.com' in (u or '') for u in urls):
+
+    if item['publisher'] != 'F1000 Research Ltd':
         return None
 
     # authors
