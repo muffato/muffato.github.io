@@ -224,7 +224,7 @@ def make_page():
         posters[classify(p)].append(p)
 
     for items in posters.values():
-        items.sort(key=lambda x: x.published_date or (0, 0, 0), reverse=True)
+        items.sort(key=lambda x: x.published_date, reverse=True)
 
     for category in PubCategories:
         if posters[category]:
