@@ -81,6 +81,10 @@ EXTRA_DOIS = {
     '10.5334/jors.451',
 }
 
+# Hardcoded DOIs to exclude entirely
+EXCLUDE_DOIS = {
+    '10.1038/s41437-023-00648-z',
+}
 
 def retrieve_publications_crossref(dois):
     """Fetch minimal publication dicts from CrossRef for the given DOIs.
@@ -236,6 +240,10 @@ def make_page():
         retrieve_publications(),
         retrieve_publications_crossref(EXTRA_DOIS),
     ):
+        doi = publi.get('doi')
+        if doi in EXCLUDE_DOIS:
+            print('EXCLUDE', doi, publi.get('title'), file=sys.stderr)
+            continue
         if publi['doi'] in indexed_sub_publications:
             subs[publi['doi']] = publi
             continue
