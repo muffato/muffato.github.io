@@ -1,0 +1,43 @@
+name: Weekly generate content
+
+on:
+  schedule:
+    - cron: '0 8 * * SAT'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-generated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install requirements (if present)
+        run: |
+          if [ -f requirements.txt ]; then python -m pip install --upgrade pip && pip install -r requirements.txt; fi
+
+      - name: Run generation scripts
+        run: |
+          python script/make_posters.py
+          python script/make_publis.py
+
+      - name: Create Pull Request (if changes)
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update generated posters and publications
+          branch: update/generated-${{ github.run_id }}
+          title: Update generated posters and publications
+          body: Automated weekly update of posters and publications
+          labels: automated
