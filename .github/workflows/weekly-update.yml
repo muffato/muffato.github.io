@@ -2,7 +2,8 @@ name: Weekly generate content
 
 on:
   schedule:
-    - cron: '0 8 * * SAT'
+     # Run at 08:00 UTC on the 5th day of each month
+     - cron: '0 8 5 * *'
   workflow_dispatch:
 
 permissions:
@@ -31,17 +32,6 @@ jobs:
         run: |
           python script/make_posters.py
           python script/make_publis.py
-
-      - name: Check for generated changes
-        id: check_changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain)" ]; then echo "changed=true" >> $GITHUB_OUTPUT; else echo "changed=false" >> $GITHUB_OUTPUT; fi
-
-      - name: Run make_repos.py (only if posters/publis changed)
-        if: steps.check_changes.outputs.changed == 'true'
-        run: |
           python script/make_repos.py
 
       - name: Create Pull Request (if changes)
