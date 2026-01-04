@@ -15,6 +15,7 @@ Find below a selection organised by themes:
 * [![icon](/assets/img/icon/guihive.png) eHive workflow manager](#EHIVE)
 * [![icon](/assets/img/icon/tol.png) Tree of Life Nextflow pipelines](#SANGERTOL)
 * [![icon](/assets/img/icon/nfcore.png) nf-core](#NFCORE)
+* [![icon](/assets/img/icon/shpc.png) Singularity HPC for container-based computing](#SHPC)
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
 
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl Compara {#COMPARA}
@@ -25,15 +26,15 @@ Find below a selection organised by themes:
 The Ensembl Compara Perl API and SQL schema \\
 Last update: 2025-11
 </dd>
+<dt>[Ensembl/treebest](https://github.com/Ensembl/treebest)</dt>
+<dd>
+TreeBeST: Tree Building guided by Species Tree (Ensembl Compara modifications) \\
+Last update: 2024-06
+</dd>
 <dt>[Ensembl/ensj-healthcheck](https://github.com/Ensembl/ensj-healthcheck)</dt>
 <dd>
 Ensembl's Automated QC Framework \\
 Last update: 2024-03
-</dd>
-<dt>[muffato/treebest](https://github.com/muffato/treebest)</dt>
-<dd>
-My git clone of Heng Li's treebest from http://sourceforge.net/p/treesoft/code/HEAD/tree/branches/lh3/ . Further modifications (fork from Ensembl/treebest) are on the ensembl_master branch \\
-Last update: 2023-01
 </dd>
 <dt>[muffato/docker-ensembl-linuxbrew-compara](https://github.com/muffato/docker-ensembl-linuxbrew-compara)</dt>
 <dd>
@@ -43,16 +44,6 @@ Last update: 2023-01
 <dt>[muffato/docker-ensembl-linuxbrew-basic-dependencies](https://github.com/muffato/docker-ensembl-linuxbrew-basic-dependencies)</dt>
 <dd>
 Docker image with the basic dependencies for the Ensembl linuxbrew installation \\
-Last update: 2023-01
-</dd>
-<dt>[muffato/ensembl-mysql-monitor](https://github.com/muffato/ensembl-mysql-monitor)</dt>
-<dd>
-Cron scripts to monitor the Ensembl Compara MySQL servers \\
-Last update: 2023-01
-</dd>
-<dt>[muffato/ensembl-tools](https://github.com/muffato/ensembl-tools)</dt>
-<dd>
-Various tools that simplify working in Ensembl \\
 Last update: 2023-01
 </dd>
 <dt>[muffato/pyEnsemblRest](https://github.com/muffato/pyEnsemblRest)</dt>
@@ -183,6 +174,16 @@ Last update: 2025-12
 <dt>[nf-core/nft-utils](https://github.com/nf-core/nft-utils)</dt>
 <dd>
 nf-test utility functions \\
+Last update: 2025-12
+</dd>
+</dl>
+
+## ![icon](/assets/img/icon/shpc.png) Singularity HPC for container-based computing {#SHPC}
+
+<dl>
+<dt>[singularityhub/singularity-hpc](https://github.com/singularityhub/singularity-hpc)</dt>
+<dd>
+Local filesystem registry for containers (intended for HPC) using Lmod or Environment Modules. Works for users and admins. \\
 Last update: 2025-12
 </dd>
 </dl>
