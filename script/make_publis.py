@@ -16,63 +16,69 @@ orcid = '0000-0002-7860-3560'
 base_url = 'https://www.ebi.ac.uk/europepmc/webservices/rest'
 endpoint = '/search'
 args = {
-        'query': 'AUTHORID:' + orcid,
-        'format': 'json',
-        'resultType': 'core',
-        'pageSize': 200,
-        'sort': 'FIRST_PDATE_D desc',
+    'query': 'AUTHORID:' + orcid,
+    'format': 'json',
+    'resultType': 'core',
+    'pageSize': 200,
+    'sort': 'FIRST_PDATE_D desc',
 }
 
-PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO TOLIT GENOMES ENSEMBL_NAR')
+PubCategories = enum.Enum(
+    'PubCategories', 'ENSEMBL GENOMICUS QFO TOLIT GENOMES ENSEMBL_NAR'
+)
 
 category_descriptions = {
-        PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods',
-        PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
-        PubCategories.QFO: '![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ',
-        PubCategories.TOLIT: '![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure',
-        PubCategories.GENOMES: '![icon](/assets/img/icon/zebrafish.png) Genome analysis',
-        PubCategories.ENSEMBL_NAR: '![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates',
+    PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods',
+    PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
+    PubCategories.QFO: '![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ',
+    PubCategories.TOLIT: '![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure',
+    PubCategories.GENOMES: '![icon](/assets/img/icon/zebrafish.png) Genome analysis',
+    PubCategories.ENSEMBL_NAR: '![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates',
 }
 
 category_keywords = [
-        ('title', 'quest', PubCategories.QFO),
-        ('title', 'ancest', PubCategories.GENOMICUS),
-        ('title', 'genomicus', PubCategories.GENOMICUS),
-        ('title', 'treefam', PubCategories.ENSEMBL),
-        ('doi', '10.1093/nar/', PubCategories.ENSEMBL_NAR),
-        ('title', 'ensembl', PubCategories.ENSEMBL),
-        ('authors', 'tree of life', PubCategories.GENOMES),
-    ]
+    ('title', 'quest', PubCategories.QFO),
+    ('title', 'ancest', PubCategories.GENOMICUS),
+    ('title', 'genomicus', PubCategories.GENOMICUS),
+    ('title', 'treefam', PubCategories.ENSEMBL),
+    ('doi', '10.1093/nar/', PubCategories.ENSEMBL_NAR),
+    ('title', 'ensembl', PubCategories.ENSEMBL),
+    ('authors', 'tree of life', PubCategories.GENOMES),
+]
 
 # Force some publications into a category
 known_categories = {
-        '10.1093/database/bav127': PubCategories.ENSEMBL,        # ncRNA orthologies in the vertebrate lineage
-        '10.1186/1471-2105-15-268': PubCategories.GENOMICUS,     # PhylDiag: identifying complex synteny blocks that include tandem duplications using phylogenetic gene trees
-        '10.1002/bies.20707': PubCategories.GENOMICUS,           # Paleogenomics in vertebrates, or the recovery of lost genomes from the mist of time
-        '10.1016/j.celrep.2015.02.046': PubCategories.GENOMICUS, # The 3D organization of chromatin explains evolutionary fragile genomic regions
-        '10.1093/sysbio/syv033': PubCategories.ENSEMBL,          # Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference
-        '10.5334/jors.451': PubCategories.TOLIT,                 # Automated Discovery of Container Executables
-    }
+    '10.1093/database/bav127': PubCategories.ENSEMBL,  # ncRNA orthologies in the vertebrate lineage
+    '10.1186/1471-2105-15-268': PubCategories.GENOMICUS,  # PhylDiag: identifying complex synteny blocks that include tandem duplications using phylogenetic gene trees
+    '10.1002/bies.20707': PubCategories.GENOMICUS,  # Paleogenomics in vertebrates, or the recovery of lost genomes from the mist of time
+    '10.1016/j.celrep.2015.02.046': PubCategories.GENOMICUS,  # The 3D organization of chromatin explains evolutionary fragile genomic regions
+    '10.1093/sysbio/syv033': PubCategories.ENSEMBL,  # Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference
+    '10.5334/jors.451': PubCategories.TOLIT,  # Automated Discovery of Container Executables
+}
 
 # Discard these
 sub_publications = {
-        # Baboon
-        '10.1126/sciadv.aau6947': set([
+    # Baboon
+    '10.1126/sciadv.aau6947': set(
+        [
             '10.1186/s13100-018-0118-3',
             '10.1186/s13100-018-0115-6',
             '10.1093/gbe/evx130',
             '10.1093/gbe/evx184',
             '10.1186/s13100-019-0187-y',
-            ]),
-        # Hagfish
-        '10.1038/s41559-023-02299-z': set([
+        ]
+    ),
+    # Hagfish
+    '10.1038/s41559-023-02299-z': set(
+        [
             '10.1101/2023.04.08.536076',
-            ]),
-    }
+        ]
+    ),
+}
 
 # Hardcoded DOIs to include via CrossRef
 EXTRA_DOIS = {
-        '10.5334/jors.451',
+    '10.5334/jors.451',
 }
 
 
