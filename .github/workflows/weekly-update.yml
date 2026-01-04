@@ -25,7 +25,7 @@ jobs:
 
       - name: Install requirements (if present)
         run: |
-          if [ -f requirements.txt ]; then python -m pip install --upgrade pip && pip install -r requirements.txt; fi
+          python -m pip install --upgrade pip && pip install -r requirements.txt
 
       - name: Run generation scripts
         run: |
