@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Script to fetch my poster list (F1000Research and Zenodo) and write it as a Markdown page.
-"""
+"""Script to fetch my poster list (F1000Research and Zenodo) and write it as a Markdown page."""
 
 import collections
 import enum
@@ -76,7 +75,9 @@ def parse_crossref_date(item: dict) -> Tuple[int, int, int]:
     return (0, 0, 0)
 
 
-def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optional[Poster]:
+def normalize_crossref_item(
+    item: dict, require_muffato: bool = True
+) -> Optional[Poster]:
     if item['publisher'] != 'F1000 Research Ltd':
         return None
 
@@ -159,7 +160,11 @@ def normalize_zenodo_record(rec: dict) -> Poster:
 
 
 def retrieve_posters_zenodo():
-    params = {'q': 'metadata.creators.person_or_org.identifiers.identifier:"0000-0002-7860-3560"', 'size': 10, 'type': 'poster'}
+    params = {
+        'q': 'metadata.creators.person_or_org.identifiers.identifier:"0000-0002-7860-3560"',
+        'size': 10,
+        'type': 'poster',
+    }
     r = session.get(ZENODO_URL, params=params, timeout=DEFAULT_TIMEOUT)
     r.raise_for_status()
     struct = r.json()
