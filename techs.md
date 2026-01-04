@@ -97,4 +97,3 @@ novice, competent, proficient, expert, master.
 | GitHub | ![topic](/assets/img/topics/github.png) | ![4 &#x2605;](/assets/img/4.svg) | 2011- |
 | GitLab | ![topic](/assets/img/topics/gitlab.png) | ![3 &#x2605;](/assets/img/3.svg) | 2021- |
 {: class="skills"}
-
