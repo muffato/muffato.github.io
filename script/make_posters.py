@@ -80,22 +80,12 @@ def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optiona
     if item['publisher'] != 'F1000 Research Ltd':
         return None
 
-    # authors
-    authors = item['author']
-    author_names: List[str] = []
-    for a in authors:
-        given = a.get('given', '') or ''
-        family = a.get('family', '') or ''
-        if given and family:
-            author_names.append(f"{given} {family}")
-        elif family:
-            author_names.append(family)
-        elif given:
-            author_names.append(given)
-    author_str = ', '.join(author_names)
-    if require_muffato and 'Muffato' not in author_str:
+    if require_muffato and not any(
+        a['family'] == 'Muffato' and a['given'] == 'Matthieu' for a in item['author']
+    ):
         return None
 
+    author_str = ', '.join(f"{a['given']} {a['family']}" for a in item['author'])
     pubdate = parse_crossref_date(item)
 
     return Poster(
