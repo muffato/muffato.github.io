@@ -32,13 +32,13 @@ TOPICS: Dict[str, str] = {
 # Edit this to classify your repositories. Keys should match TOPICS names.
 REPOS: Dict[str, List[str]] = {
     'COMPARA': [
-        'muffato/treebest',
+        'Ensembl/treebest',
         'Ensembl/ensembl-compara',
         'Ensembl/ensj-healthcheck',
         'muffato/docker-ensembl-linuxbrew-compara',
         'muffato/docker-ensembl-linuxbrew-basic-dependencies',
-        'muffato/ensembl-mysql-monitor',
-        'muffato/ensembl-tools',
+        # 'muffato/ensembl-mysql-monitor',
+        # 'muffato/ensembl-tools',
         'muffato/pyEnsemblRest',
     ],
     'EHIVE': [
