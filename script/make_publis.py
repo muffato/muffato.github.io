@@ -9,6 +9,7 @@ from typing import Any
 import requests
 import html
 import itertools
+import re
 from urllib.parse import quote
 
 orcid = '0000-0002-7860-3560'
@@ -254,6 +255,8 @@ def make_page():
         print('*', '['+category_descriptions[category]+'](#'+category.name+')')
     print()
     for category in PubCategories:
+        if category == PubCategories.ENSEMBL_NAR:
+            continue
         print('##', category_descriptions[category], '{#' + category.name + '}')
         print()
         print('<dl>')
@@ -266,6 +269,35 @@ def make_page():
             # print()
         print('</dl>')
         print()
+
+    category = PubCategories.ENSEMBL_NAR
+
+    year_re = re.compile(r'\b(20\d{2})\b')
+    vertebrate_publis = []
+    genomes_publis = []
+    for publi in publis[category]:
+        if publi['title'].startswith('Ensembl Genomes'):
+            genomes_publis.append(publi)
+        else:
+            vertebrate_publis.append(publi)
+        match = year_re.search(publi['title'])
+        if not match:
+            print("NO YEAR", publi['doi'], publi['title'], file=sys.stderr)
+            continue
+        publi['year'] = match.group(1)
+
+    print('##', category_descriptions[category], '{#' + category.name + '}')
+    print()
+    print('<dl>')
+    print('<dt>Ensembl (Vertebrates)</dt>')
+    print('<dd>')
+    print(", ".join(f'[{publi["year"]}](https://doi.org/{publi["doi"]})' for publi in vertebrate_publis))
+    print('</dd>')
+    print('<dt>Ensembl Genomes</dt>')
+    print('<dd>')
+    print(", ".join(f'[{publi["year"]}](https://doi.org/{publi["doi"]})' for publi in genomes_publis))
+    print('</dd>')
+    print('</dl>')
 
 
 if __name__ == '__main__':
