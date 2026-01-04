@@ -20,7 +20,7 @@ args = {
         'format': 'json',
         'resultType': 'core',
         'pageSize': 200,
-        'sort': 'P_PDATE_D desc',
+        'sort': 'FIRST_PDATE_D desc',
 }
 
 PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO TOLIT GENOMES ENSEMBL_NAR')
@@ -63,6 +63,10 @@ sub_publications = {
             '10.1093/gbe/evx130',
             '10.1093/gbe/evx184',
             '10.1186/s13100-019-0187-y',
+            ]),
+        # Hagfish
+        '10.1038/s41559-023-02299-z': set([
+            '10.1101/2023.04.08.536076',
             ]),
     }
 
@@ -162,9 +166,6 @@ def retrieve_publications():
     for publi in struct['resultList']['result']:
         if ('Muffato' not in publi['authorString']) and ('consortium' not in publi['authorString'].lower()) and ('tree of life programme' not in publi['authorString'].lower()):
             print('SKIP', publi.get('pmcid'), publi['doi'], publi['title'], publi['authorString'].lower(), file=sys.stderr)
-            continue
-        if 'Preprint' in publi['pubTypeList']['pubType'] and publi['doi'] not in ['10.1101/2022.02.17.480882']:
-            print('PREPRINT', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)
             continue
         if "correction" in publi["pubTypeList"]["pubType"]:
             print('ERRATUM', publi.get('pmcid'), publi['doi'], publi['title'], file=sys.stderr)

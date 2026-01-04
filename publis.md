@@ -174,6 +174,12 @@ DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
 ## ![icon](/assets/img/icon/zebrafish.png) Genome analysis {#GENOMES}
 
 <dl>
+<dt>A chromosome-level reference genome for the critically endangered Southern Corroboree frog (Pseudophryne corroboree)</dt>
+<dd>
+Kosch TA _et al._ \\
+_Wellcome Open Res_, 2025-04-30 \\
+DOI: [10.12688/wellcomeopenres.23820.1](https://doi.org/10.12688/wellcomeopenres.23820.1)
+</dd>
 <dt>Hagfish genome elucidates vertebrate whole-genome duplication events and their evolutionary consequences.</dt>
 <dd>
 Yu D, Ren Y, Uesaka M, Beavan AJS, <u>Muffato M</u>, _et al._ \\
