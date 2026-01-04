@@ -22,7 +22,6 @@ Find below a selection organised by themes:
 * [![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction](#GENOMICUS)
 * [![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ](#QFO)
 * [![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure](#TOLIT)
-* [![icon](/assets/img/icon/tol.png) Tree of Life genomes](#TREEOFLIFE)
 * [![icon](/assets/img/icon/zebrafish.png) Genome analysis](#GENOMES)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates](#ENSEMBL_NAR)
 
@@ -164,22 +163,11 @@ DOI: [10.1093/bioinformatics/bts050](https://doi.org/10.1093/bioinformatics/bts0
 ## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
 
 <dl>
-<dt>Automated Discovery of Container Executables.</dt>
+<dt>Automated Discovery of Container Executables</dt>
 <dd>
-Vanessa Sochat, <u>Matthieu Muffato</u>, _et al._ \\
-_Journal of Open Research Software_, 11 (1), 6, 2023 Apr \\
+Vanessa Sochat, <u>Matthieu Muffato</u>, Audrey Stott, Marco De La Pierre, Georgia Stuart \\
+_Journal of Open Research Software_, 11, 2023 \\
 DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
-</dd>
-<dl>
-
-## ![icon](/assets/img/icon/tol.png) Tree of Life {#TREEOFLIFE}
-
-<dl>
-<dt>Fine mapping of the Cepaea nemoralis shell colour and mid-banded loci using a high-density linkage map.</dt>
-<dd>
-Johansen M _et al._ \\
-_Heredity_, 131 (5-6), pages 327-337, 2023 Dec \\
-DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
 </dd>
 </dl>
 
@@ -191,6 +179,12 @@ DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
 Yu D, Ren Y, Uesaka M, Beavan AJS, <u>Muffato M</u>, _et al._ \\
 _Nature ecology & evolution_, 8 (3), pages 519-535, 2024 Mar \\
 DOI: [10.1038/s41559-023-02299-z](https://doi.org/10.1038/s41559-023-02299-z)
+</dd>
+<dt>Fine mapping of the Cepaea nemoralis shell colour and mid-banded loci using a high-density linkage map.</dt>
+<dd>
+Johansen M _et al._ \\
+_Heredity_, 131 (5-6), pages 327-337, 2023 Dec \\
+DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
 </dd>
 <dt>The tuatara genome reveals ancient features of amniote evolution.</dt>
 <dd>

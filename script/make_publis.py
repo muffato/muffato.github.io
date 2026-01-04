@@ -5,8 +5,11 @@ import collections
 import enum
 import os
 import sys
+from typing import Any
 import requests
 import html
+import itertools
+from urllib.parse import quote
 
 orcid = '0000-0002-7860-3560'
 
@@ -20,13 +23,13 @@ args = {
         'sort': 'P_PDATE_D desc',
 }
 
-PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO TREEOFLIFE GENOMES ENSEMBL_NAR')
+PubCategories = enum.Enum('PubCategories', 'ENSEMBL GENOMICUS QFO TOLIT GENOMES ENSEMBL_NAR')
 
 category_descriptions = {
         PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods',
         PubCategories.GENOMICUS: '![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction',
         PubCategories.QFO: '![icon](/assets/img/icon/orthology.png) Quest for Orthologs consortium ',
-        PubCategories.TREEOFLIFE: '![icon](/assets/img/icon/tol.png) Tree of Life',
+        PubCategories.TOLIT: '![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure',
         PubCategories.GENOMES: '![icon](/assets/img/icon/zebrafish.png) Genome analysis',
         PubCategories.ENSEMBL_NAR: '![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates',
 }
@@ -38,7 +41,7 @@ category_keywords = [
         ('title', 'treefam', PubCategories.ENSEMBL),
         ('doi', '10.1093/nar/', PubCategories.ENSEMBL_NAR),
         ('title', 'ensembl', PubCategories.ENSEMBL),
-        ('authors', 'tree of life', PubCategories.TREEOFLIFE),
+        ('authors', 'tree of life', PubCategories.GENOMES),
     ]
 
 # Force some publications into a category
@@ -48,6 +51,7 @@ known_categories = {
         '10.1002/bies.20707': PubCategories.GENOMICUS,           # Paleogenomics in vertebrates, or the recovery of lost genomes from the mist of time
         '10.1016/j.celrep.2015.02.046': PubCategories.GENOMICUS, # The 3D organization of chromatin explains evolutionary fragile genomic regions
         '10.1093/sysbio/syv033': PubCategories.ENSEMBL,          # Current Methods for Automated Filtering of Multiple Sequence Alignments Frequently Worsen Single-Gene Phylogenetic Inference
+        '10.5334/jors.451': PubCategories.TOLIT,                 # Automated Discovery of Container Executables
     }
 
 # Discard these
@@ -61,6 +65,74 @@ sub_publications = {
             '10.1186/s13100-019-0187-y',
             ]),
     }
+
+# Hardcoded DOIs to include via CrossRef
+EXTRA_DOIS = {
+        '10.5334/jors.451',
+}
+
+
+def retrieve_publications_crossref(dois):
+    """Fetch minimal publication dicts from CrossRef for the given DOIs.
+    Returns objects compatible with the `publi` dicts yielded by EuropePMC.
+    """
+    for doi in dois:
+        url = 'https://api.crossref.org/works/' + quote(doi, safe='')
+        r = requests.get(url, timeout=30)
+        r.raise_for_status()
+        struct = r.json()
+        item = struct.get('message')
+        if not item:
+            continue
+        title = item.get('title', [''])[0]
+        authors = item.get('author', []) or []
+        author_names = []
+        author_list_entries = []
+        for a in authors:
+            given = a.get('given', '') or ''
+            family = a.get('family', '') or ''
+            if given and family:
+                full = f"{given} {family}"
+            elif family:
+                full = family
+            else:
+                full = given
+            author_names.append(full)
+            author_list_entries.append({'fullName': full, 'lastName': family or ''})
+        authorString = ', '.join(author_names)
+        publi = {
+            'doi': item.get('DOI', ''),
+            'title': title,
+            'authorString': authorString,
+            'authorList': {'author': author_list_entries},
+            'pubTypeList': {'pubType': ''},
+        }
+        # journal/container info
+        container = item.get('container-title', []) or []
+        if container:
+            journal = {'title': container[0]}
+            journal_info: dict[str, Any] = {'journal': journal}
+            if item.get('volume'):
+                journal_info['volume'] = item.get('volume')
+            if item.get('issue'):
+                journal_info['issue'] = item.get('issue')
+            # attempt to set a publication year
+            issued = item.get('issued') or item.get('published-print') or {}
+            parts = issued.get('date-parts') if isinstance(issued, dict) else None
+            if parts and parts[0]:
+                year = parts[0][0]
+                journal_info['dateOfPublication'] = str(year)
+            publi['journalInfo'] = journal_info
+        if item.get('page'):
+            publi['pageInfo'] = item.get('page')
+        # firstPublicationDate fallback
+        issued = item.get('issued') or item.get('published-print') or {}
+        if isinstance(issued, dict):
+            parts = issued.get('date-parts') or []
+            if parts and parts[0]:
+                p = parts[0]
+                publi['firstPublicationDate'] = '-'.join(str(x) for x in p)
+        yield publi
 
 def classify(publi):
     """Classify a publication into one of the above categories"""
@@ -107,7 +179,7 @@ def print_publication(publi):
     authors = publi['authorList']['author']
 
     def _underline_name(text):
-        return text.replace('Muffato M', '<u>Muffato M</u>')
+        return text.replace('Muffato M', '<u>Muffato M</u>').replace('Matthieu Muffato', '<u>Matthieu Muffato</u>')
 
     if 'Muffato' not in publi['authorString']:
         print(authors[0]['fullName'], '_et al._', '\\\\')
@@ -149,7 +221,7 @@ def make_page():
             indexed_sub_publications[sub] = ref
     publis = collections.defaultdict(list)
     subs = {}
-    for publi in retrieve_publications():
+    for publi in itertools.chain(retrieve_publications(), retrieve_publications_crossref(EXTRA_DOIS)):
         if publi['doi'] in indexed_sub_publications:
             subs[publi['doi']] = publi
             continue
