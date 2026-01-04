@@ -187,8 +187,7 @@ def print_poster(p: Poster):
     print('<dt>' + title + '</dt>')
     print('<dd>')
     print(format_authors(p) + ' \\\\')
-    if p.doi:
-        print('DOI: [' + p.doi + '](https://doi.org/' + p.doi + ')')
+    print('DOI: [' + p.doi + '](https://doi.org/' + p.doi + ')')
     print('</dd>')
 
 
@@ -201,10 +200,11 @@ def make_page():
         retrieve_posters_by_dois(EXTRA_DOIS),
         retrieve_posters_zenodo(),
     ):
-        if p.doi and p.doi in existing_dois:
+        if not p.doi:
+            raise ValueError(f'Poster without DOI: {p}')
+        if p.doi in existing_dois:
             continue
-        if p.doi:
-            existing_dois.add(p.doi)
+        existing_dois.add(p.doi)
         posters[classify(p)].append(p)
 
     for items in posters.values():
