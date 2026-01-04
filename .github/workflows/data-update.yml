@@ -1,4 +1,4 @@
-name: Weekly generate content
+name: Regenerate content
 
 on:
   schedule:
@@ -43,5 +43,5 @@ jobs:
           commit-message: Update generated posters, publications, and repositories
           branch: update/generated-${{ github.run_id }}
           title: Update generated posters, publications, and repositories
-          body: Automated weekly update of posters, publications, and repositories
+          body: Automated update of posters, publications, and repositories
           labels: automated
