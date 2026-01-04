@@ -174,13 +174,7 @@ def retrieve_posters_zenodo():
     r = session.get(ZENODO_URL, params=params, timeout=DEFAULT_TIMEOUT)
     r.raise_for_status()
     struct = r.json()
-    if isinstance(struct, dict):
-        items = struct.get('hits', {}).get('hits') or struct.get('hits') or struct.get('results') or []
-    elif isinstance(struct, list):
-        items = struct
-    else:
-        items = []
-    for rec in items:
+    for rec in struct['hits']['hits']:
         yield normalize_zenodo_record(rec)
 
 
