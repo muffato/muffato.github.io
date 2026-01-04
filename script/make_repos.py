@@ -75,6 +75,8 @@ REPOS: Dict[str, List[str]] = {
         'muffato/ensembl-download-java',
         'muffato/pywaltrap',
         'muffato/phd-thesis-scripts',
+        'DyogenIBENS/LibsDyogen',
+        'DyogenIBENS/Agora',
     ],
 }
 

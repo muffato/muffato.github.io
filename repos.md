@@ -191,6 +191,16 @@ Last update: 2025-12
 ## ![icon](/assets/img/icon/genomicus.png) Genomicus and ancestral genome reconstruction {#GENOMICUS}
 
 <dl>
+<dt>[DyogenIBENS/Agora](https://github.com/DyogenIBENS/Agora)</dt>
+<dd>
+Algorithm For Gene Order Reconstruction in Ancestors \\
+Last update: 2025-08
+</dd>
+<dt>[DyogenIBENS/LibsDyogen](https://github.com/DyogenIBENS/LibsDyogen)</dt>
+<dd>
+Library of usual classes and functions written in python and used in the Dyogen team for comparative genomics applications \\
+Last update: 2024-09
+</dd>
 <dt>[muffato/phd-thesis-scripts](https://github.com/muffato/phd-thesis-scripts)</dt>
 <dd>
 Backup of the scripts I used during my PhD thesis to build the Agora ancestral-genome reconstruction toolkit \\
