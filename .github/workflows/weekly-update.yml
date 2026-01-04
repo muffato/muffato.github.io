@@ -29,6 +29,8 @@ jobs:
           python -m pip install --upgrade pip && pip install -r requirements.txt
 
       - name: Run generation scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python script/make_posters.py
           python script/make_publis.py
