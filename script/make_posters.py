@@ -51,7 +51,6 @@ class Poster:
     title: str
     doi: str
     author_string: str
-    author_list: List[str]
     published_date: Tuple[int, int, int]
 
 
@@ -103,7 +102,6 @@ def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optiona
         title=item['title'][0],
         doi=item['DOI'],
         author_string=author_str,
-        author_list=author_names,
         published_date=pubdate,
     )
 
@@ -132,7 +130,6 @@ def retrieve_posters_by_dois(dois_map: dict):
         if not parsed:
             continue
         parsed.author_string = author_override
-        parsed.author_list = [a.strip() for a in author_override.split(',') if a.strip()]
         yield parsed
 
 
@@ -178,7 +175,6 @@ def normalize_zenodo_record(rec: dict) -> Poster:
         title=title,
         doi=doi,
         author_string=author_str,
-        author_list=author_names,
         published_date=pubdate,
     )
 
@@ -199,15 +195,7 @@ def retrieve_posters_zenodo():
 
 
 def format_authors(p: Poster) -> str:
-    def _underline(text: str) -> str:
-        return text.replace('Matthieu Muffato', '<u>Matthieu Muffato</u>')
-
-    if 'Muffato' in p.author_string:
-        # underline Muffato in author string
-        return _underline(p.author_string)
-    if p.author_list:
-        return p.author_list[0] + ', _et al._'
-    return ''
+    return p.author_string.replace('Matthieu Muffato', '<u>Matthieu Muffato</u>')
 
 
 def print_poster(p: Poster):
