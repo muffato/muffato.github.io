@@ -138,32 +138,21 @@ def parse_zenodo_date(metadata: dict) -> Tuple[int, int, int]:
 
 
 def normalize_zenodo_record(rec: dict) -> Poster:
-    metadata = rec.get('metadata') if isinstance(rec, dict) else {}
-    if metadata is None:
-        metadata = {}
-    title = metadata.get('title') or ''
-    creators = metadata.get('creators', []) or []
+    metadata = rec['metadata']
+    creators = metadata['creators']
     author_names: List[str] = []
     for c in creators:
-        name = (c.get('name') or '').strip()
+        name = c['name']
         if ',' in name:
             parts = [p.strip() for p in name.split(',', 1)]
-            if len(parts) == 2:
-                family, given = parts[0], parts[1]
-                author_names.append(f"{given} {family}")
-            else:
-                author_names.append(name)
+            author_names.append(" ".join(reversed(parts)))
         else:
             author_names.append(name)
     author_str = ', '.join(author_names)
-    doi = ''
-    if isinstance(rec, dict):
-        doi = rec.get('doi') or doi
-    doi = doi or metadata.get('doi') or ''
     pubdate = parse_zenodo_date(metadata)
     return Poster(
-        title=title,
-        doi=doi,
+        title=metadata['title'],
+        doi=rec['doi'],
         author_string=author_str,
         published_date=pubdate,
     )
