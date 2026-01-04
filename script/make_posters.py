@@ -78,15 +78,11 @@ def parse_crossref_date(item: dict) -> Tuple[int, int, int]:
 
 
 def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optional[Poster]:
-    doi = item.get('DOI', '') or ''
-    if not doi:
-        return None
-
     if item['publisher'] != 'F1000 Research Ltd':
         return None
 
     # authors
-    authors = item.get('author', []) or []
+    authors = item['author']
     author_names: List[str] = []
     for a in authors:
         given = a.get('given', '') or ''
@@ -101,15 +97,11 @@ def normalize_crossref_item(item: dict, require_muffato: bool = True) -> Optiona
     if require_muffato and 'Muffato' not in author_str:
         return None
 
-    title = ''
-    if item.get('title'):
-        title = item['title'][0]
-
     pubdate = parse_crossref_date(item)
 
     return Poster(
-        title=title,
-        doi=doi,
+        title=item['title'][0],
+        doi=item['DOI'],
         author_string=author_str,
         author_list=author_names,
         published_date=pubdate,
