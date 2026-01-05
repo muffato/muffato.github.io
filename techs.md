@@ -17,16 +17,16 @@ stage (novice, advanced beginner, competent, proficient, expert, master) I achie
 | C++ | ![topic](/assets/img/topics/cpp.png) | ![3 &#x2605;](/assets/img/3.svg) | 1999-2020 |
 | C | ![topic](/assets/img/topics/c.png) | ![3 &#x2605;](/assets/img/3.svg) | 1997-2020 |
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/2.svg) | 2008-2020 |
+| Groovy | ![topic](/assets/img/topics/groovy.png) | ![2 &#x2605;](/assets/img/2.svg) | 2022- |
+| Rust | ![topic](/assets/img/topics/rust.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021-2024 |
+| Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016,2025 |
+| PHP | ![topic](/assets/img/topics/php.png) | ![2 &#x2605;](/assets/img/2.svg) | 2004-2005 |
+| Caml | ![topic](/assets/img/topics/ocaml.png) | ![4 &#x2605;](/assets/img/4.svg) | 2002-2005 |
 | BASIC | ![topic](/assets/img/topics/basic.png) | ![4 &#x2605;](/assets/img/4.svg) | 1997-2002 |
 | Pascal | ![topic](/assets/img/topics/pascal.png) | ![2 &#x2605;](/assets/img/2.svg) | 1998 |
-| Groovy | ![topic](/assets/img/topics/groovy.png) | ![2 &#x2605;](/assets/img/2.svg) | 2022- |
 | x86 assembly | ![topic](/assets/img/topics/x86.png) | ![2 &#x2605;](/assets/img/2.svg) | 1997-2003 |
 | Z80 assembly | ![topic](/assets/img/topics/z80.png) | ![2 &#x2605;](/assets/img/4.svg) | 1999-2001 |
 | 68000 assembly | ![topic](/assets/img/topics/68k.png) | ![2 &#x2605;](/assets/img/4.svg) | 2001-2003 |
-| Rust | ![topic](/assets/img/topics/rust.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021-2024 |
-| Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016,2025 |
-| Caml | ![topic](/assets/img/topics/ocaml.png) | ![4 &#x2605;](/assets/img/4.svg) | 2002-2005 |
-| PHP | ![topic](/assets/img/topics/php.png) | ![2 &#x2605;](/assets/img/2.svg) | 2004-2005 |
 {: class="skills"}
 
 ### Web
