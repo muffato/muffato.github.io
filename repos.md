@@ -31,11 +31,6 @@ Last update: 2025-11
 TreeBeST: Tree Building guided by Species Tree (Ensembl Compara modifications) \\
 Last update: 2024-06
 </dd>
-<dt>[Ensembl/ensj-healthcheck](https://github.com/Ensembl/ensj-healthcheck)</dt>
-<dd>
-Ensembl's Automated QC Framework \\
-Last update: 2024-03
-</dd>
 <dt>[muffato/docker-ensembl-linuxbrew-compara](https://github.com/muffato/docker-ensembl-linuxbrew-compara)</dt>
 <dd>
 Docker image with all dependencies to run the Ensembl Compara pipelines \\
