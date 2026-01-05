@@ -186,12 +186,6 @@ Yu D, Ren Y, Uesaka M, Beavan AJS, <u>Muffato M</u>, _et al._ \\
 _Nature ecology & evolution_, 8 (3), pages 519-535, 2024 Mar \\
 DOI: [10.1038/s41559-023-02299-z](https://doi.org/10.1038/s41559-023-02299-z)
 </dd>
-<dt>Fine mapping of the Cepaea nemoralis shell colour and mid-banded loci using a high-density linkage map.</dt>
-<dd>
-Johansen M _et al._ \\
-_Heredity_, 131 (5-6), pages 327-337, 2023 Dec \\
-DOI: [10.1038/s41437-023-00648-z](https://doi.org/10.1038/s41437-023-00648-z)
-</dd>
 <dt>The tuatara genome reveals ancient features of amniote evolution.</dt>
 <dd>
 Gemmell NJ _et al._ \\
@@ -245,83 +239,12 @@ DOI: [10.1126/science.1194167](https://doi.org/10.1126/science.1194167)
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl yearly NAR updates {#ENSEMBL_NAR}
 
 <dl>
-<dt>Ensembl Genomes 2022: an expanding genome resource for non-vertebrates.</dt>
+<dt>Ensembl (Vertebrates)</dt>
 <dd>
-Yates AD _et al._ \\
-_Nucleic acids research_, 50 (D1), pages D996-D1003, 2022 Jan \\
-DOI: [10.1093/nar/gkab1007](https://doi.org/10.1093/nar/gkab1007)
+[2022](https://doi.org/10.1093/nar/gkab1049), [2021](https://doi.org/10.1093/nar/gkaa942), [2020](https://doi.org/10.1093/nar/gkz966), [2019](https://doi.org/10.1093/nar/gky1113), [2018](https://doi.org/10.1093/nar/gkx1098), [2017](https://doi.org/10.1093/nar/gkw1104), [2016](https://doi.org/10.1093/nar/gkv1157), [2015](https://doi.org/10.1093/nar/gku1010), [2014](https://doi.org/10.1093/nar/gkt1196), [2013](https://doi.org/10.1093/nar/gks1236), [2012](https://doi.org/10.1093/nar/gkr991)
 </dd>
-<dt>Ensembl 2022.</dt>
+<dt>Ensembl Genomes</dt>
 <dd>
-Cunningham F _et al._ \\
-_Nucleic acids research_, 50 (D1), pages D988-D995, 2022 Jan \\
-DOI: [10.1093/nar/gkab1049](https://doi.org/10.1093/nar/gkab1049)
-</dd>
-<dt>Ensembl 2021.</dt>
-<dd>
-Howe KL _et al._ \\
-_Nucleic acids research_, 49 (D1), pages D884-D891, 2021 Jan \\
-DOI: [10.1093/nar/gkaa942](https://doi.org/10.1093/nar/gkaa942)
-</dd>
-<dt>Ensembl 2020.</dt>
-<dd>
-Yates AD _et al._ \\
-_Nucleic acids research_, 48 (D1), pages D682-D688, 2020 Jan \\
-DOI: [10.1093/nar/gkz966](https://doi.org/10.1093/nar/gkz966)
-</dd>
-<dt>Ensembl Genomes 2020-enabling non-vertebrate genomic research.</dt>
-<dd>
-Howe KL _et al._ \\
-_Nucleic acids research_, 48 (D1), pages D689-D695, 2020 Jan \\
-DOI: [10.1093/nar/gkz890](https://doi.org/10.1093/nar/gkz890)
-</dd>
-<dt>Ensembl 2019.</dt>
-<dd>
-Cunningham F _et al._ \\
-_Nucleic acids research_, 47 (D1), pages D745-D751, 2019 Jan \\
-DOI: [10.1093/nar/gky1113](https://doi.org/10.1093/nar/gky1113)
-</dd>
-<dt>Ensembl 2018.</dt>
-<dd>
-Zerbino DR _et al._ \\
-_Nucleic acids research_, 46 (D1), pages D754-D761, 2018 Jan \\
-DOI: [10.1093/nar/gkx1098](https://doi.org/10.1093/nar/gkx1098)
-</dd>
-<dt>Ensembl 2017.</dt>
-<dd>
-Aken BL _et al._ \\
-_Nucleic acids research_, 45 (D1), pages D635-D642, 2017 Jan \\
-DOI: [10.1093/nar/gkw1104](https://doi.org/10.1093/nar/gkw1104)
-</dd>
-<dt>Ensembl 2016.</dt>
-<dd>
-Yates A _et al._ \\
-_Nucleic acids research_, 44 (D1), pages D710-6, 2016 Jan \\
-DOI: [10.1093/nar/gkv1157](https://doi.org/10.1093/nar/gkv1157)
-</dd>
-<dt>Ensembl 2015.</dt>
-<dd>
-Cunningham F _et al._ \\
-_Nucleic acids research_, 43 (Database issue), pages D662-9, 2015 Jan \\
-DOI: [10.1093/nar/gku1010](https://doi.org/10.1093/nar/gku1010)
-</dd>
-<dt>Ensembl 2014.</dt>
-<dd>
-Flicek P _et al._ \\
-_Nucleic acids research_, 42 (Database issue), pages D749-55, 2014 Jan \\
-DOI: [10.1093/nar/gkt1196](https://doi.org/10.1093/nar/gkt1196)
-</dd>
-<dt>Ensembl 2013.</dt>
-<dd>
-Flicek P _et al._ \\
-_Nucleic acids research_, 41 (Database issue), pages D48-55, 2013 Jan \\
-DOI: [10.1093/nar/gks1236](https://doi.org/10.1093/nar/gks1236)
-</dd>
-<dt>Ensembl 2012.</dt>
-<dd>
-Flicek P _et al._ \\
-_Nucleic acids research_, 40 (Database issue), pages D84-90, 2012 Jan \\
-DOI: [10.1093/nar/gkr991](https://doi.org/10.1093/nar/gkr991)
+[2022](https://doi.org/10.1093/nar/gkab1007), [2020](https://doi.org/10.1093/nar/gkz890)
 </dd>
 </dl>
-
