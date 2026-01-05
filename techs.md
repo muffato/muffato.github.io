@@ -6,7 +6,7 @@ position: 3
 Programming languages and technologies I have used, and when.
 The five levels correspond to the highest
 [Dreyfus model](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition)
-(novice, advanced beginner, competent, proficient, expert, master) I achieved.
+stage (novice, advanced beginner, competent, proficient, expert, master) I achieved.
 
 ### Programming languages
 
