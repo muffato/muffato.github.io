@@ -16,16 +16,17 @@ Mentorship, People management, Software development management, Operations
 management, Recruitment, Documentation, User training and support.<br/>
 <u>Team size</u>: 5-7 people.
 
-I lead the Informatics Infrastructure team of the Tree of Life programme,
-which implements large-scale genome analysis pipelines for the faculty teams,
-maintains the production environment (application deployment, pipeline orchestration system),
-and manages and curates the metadata held in the various production systems.
+I lead the Informatics Infrastructure team of the Tree of Life programme, which:
+
+* implements large-scale genome analysis pipelines for the faculty teams;
+* maintains the production environment (application deployment, pipeline orchestration system);
+* manages and curates the metadata held in the various production systems.
 
 I managed the growth of the team as two phases:
 
 1. First focusing on the core systems infrastructure and framework,
-   hiring a DevOps Developer, a Software Developer, and a Bioinformatician.
-2. Then adding the data curation, management, and analysis capabilities.
+   hiring DevOps, software development, and boinformatics capabilities.
+2. Then adding the data curation, management, and analysis capabilities in.
 
 My ambition is to provide the most efficient platform for assembling and
 [analysing genomes at an unprecedented scale](https://doi.org/10.5281/zenodo.8063873).
