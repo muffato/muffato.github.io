@@ -28,12 +28,13 @@ I managed the growth of the team as two phases:
 2. Then adding the data curation, management, and analysis capabilities.
 
 My ambition is to provide the most efficient platform for assembling and
-analysing genomes at an unprecedented scale. The Tree of Life projects will
+[analysing genomes at an unprecedented scale](https://doi.org/10.5281/zenodo.8063873).
+The Tree of Life projects will
 generate tens of thousands of high-quality genomes over the coming years
 &ndash; more than have ever been sequenced ! It is a challenging and
 extremely exciting task that will shape the future of biology.<br/>
 I'm especially proud to have introduced ![icon](/assets/img/icon/nfcore.png)
-rigorous best practices for ![icon](/assets/img/topics/nextflow.png) pipeline
+rigorous [best practices](https://doi.org/10.5281/zenodo.13913055) for ![icon](/assets/img/topics/nextflow.png) pipeline
 development in the programme (![icon](/assets/img/icon/youtube.png)
 [presentation](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)),
 and to have made our teams focus on compute efficiency and green compute
@@ -51,7 +52,8 @@ The team covers the "Genome Engine" from end to end.
 In parallel, I assume the function of _Head of Informatics_ for Tree of Life.
 Within the Institute, this role is about representing and supporting Tree of Life Informatics
 by ensuring sufficient IT capacity, compliance with internal policies and standards,
-but also writing strategy and policy documents for both the department and the Institute.
+but also writing strategy and policy documents for both the department, the Institute,
+and sister projects like ERGA ([links](https://zenodo.org/search?q=metadata.creators.person_or_org.identifiers.identifier%3A%220000-0002-7860-3560%22&f=resource_type%3Apublication)).
 
 ## European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
 
@@ -60,7 +62,7 @@ comparing the genomes to one another, implementing new methods and algorithms
 (extending our API and database schema), and applying them on new datasets. Scalability was
 our main focus as we had to process hundreds of genomes in a limited timescale.
 
-I was also involved in the development of the eHive workflow manager, a system for creating
+I was also involved in the development of the [eHive workflow manager](https://ensembl-hive.readthedocs.io), a system for creating
 and running workflows on a distributed compute resource. eHive was responsible for
 scheduling and executing in excess of 1,000 CPU years of compute every year in Ensembl.
 
@@ -74,8 +76,8 @@ User support (data, API, workflows).<br/>
 <u>Team size</u>: 3 people.
 
 In this role, I transferred the knowledge I had accumulated in the past 8 years
-to the new Project Leader and the developers, whilst helping them and
-overseeing the development of the software.
+to the new Project Leader and the developers, whilst [helping them and
+overseeing the development of the software](https://doi.org/10.7490/f1000research.1118390.1).
 
 We initiated a massive revamp of our compute workflows and data storage
 strategy, in order to cope with the scale of data that projects such as the
@@ -97,9 +99,11 @@ production under tight deadlines. Processing of large datasets. User support (da
 
 I managed the whole Comparative Genomics team of the Ensembl project,
 incl. the development of the eHive workflow manager.
-We had to provide technical support to other Ensembl teams
-who were using our software. During this period, we wrote an extensive user manual
-for eHive.
+
+We [folded TreeFam](https://doi.org/10.7490/f1000research.1115011.1) activities and development into Ensembl and focused our efforts on [scaling up](https://doi.org/10.7490/f1000research.1115012.1)
+while controlling [high data quality](https://doi.org/10.7490/f1000research.1115084.1).
+We wrote an extensive user manual for eHive and provided technical support to other Ensembl teams.
+
 
 ### Interim Manager
 
@@ -111,10 +115,12 @@ production under tight deadlines. Processing of large datasets. User support (da
 <u>Team size</u>: 2 people.
 
 I was managing part of the Comparative Genomics team of
-Ensembl, incl. the development of the eHive workflow manager,
+Ensembl, incl. the development of the [eHive workflow manager](https://doi.org/10.7490/f1000research.1111870.1),
 and was still carrying on my developer duties. Our work was focused on
 the reconstruction of phylogenetic trees and gene families, improving and
 extending the software. I was still giving some Ensembl API workshops.
+
+This period saw the publication of landmark papers describing the [comparative resources](https://doi.org/10.1093/database/bav096) and the [ncRNA phylogenetic analyses](https://doi.org/10.1093/database/bav127).
 
 ### Software Developer
 
