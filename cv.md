@@ -269,13 +269,17 @@ manipulate, transform, and apply effects to images.
 
 _QA, 2024_
 
-Course on programme management, building up on project-management notions (see below).
+Course on programme management, building upon project management fundamentals.
+Principles and approaches have made it easier to work with senior leaders
+and to discuss change across large areas.
 
 ## Professional Scrum Master
 
-_2020_
+_scrum.org, 2020_
 
 Scrum is a leading Agile methodology.
+I briefly experimented with it in Ensembl Comparabefore embracing it
+more broadly in my Tree of Life team.
 
 ## Project Fundamentals Qualification (PFQ) certification
 
@@ -287,3 +291,5 @@ management layers to plan and manage projects (development and others).
 ## "Policy manager" and "Antivirus Client Security"
 
 _F-Secure Corporation, 2004_
+
+I learnt how to configure F-Secure software in enterprise contexts.
