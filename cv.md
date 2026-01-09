@@ -226,6 +226,15 @@ The EMBL postdoc retreat is an official annual EMBL event under the
 patronage of the EMBL Heads of Units. It promotes scientific exchange among
 postdocs and provides a platform to address problems relevant to postdocs.
 
+## Raspberry Pi
+
+_2011 to 2015_
+
+I used a Raspberry Pi as a testbed to enhance my system administration skills.
+At its peak, it was running a VPN, an email server, file servers (FTP, SMB, DLNA);
+hosting a personal site, a blog engine, a photo browser, and online games;
+and obviously giving me SSH access.
+
 ## Internship - Web interface for gene annotation
 
 **École normale supérieure, Paris, France**
@@ -234,6 +243,7 @@ _Jun 2005 to Aug 2005_
 
 I worked on improving the user interface of Exogean, a software for
 annotating gene structures in eukaryotic genomic DNA.
+This was a pivotal experience that steered my life towards bioinformatics.
 
 ## Contractor - Cost-analysis tool for electronics manufacturers
 
@@ -249,7 +259,7 @@ _2002 to 2003_
 I implemented a 3D renderer from scratch, i.e. without using any libraries
 such as OpenGL. The program is able to render (project) 3D objects onto a
 plane as raster images, including colours & transparency, but also
-lightings and shadings. It's all written in C++.
+lightings and shadings. It was all written in C++.
 
 I also know about ray-tracing, BSP trees, Bezier curves, B-splines.
 
@@ -258,7 +268,7 @@ I also know about ray-tracing, BSP trees, Bezier curves, B-splines.
 _2001 to 2002_
 
 I implemented a JPEG encoder/decoder from scratch, i.e. without using any
-libraries, reading the documentation of the compression algorithm.
+libraries, only reading the documentation of the compression algorithm.
 
 I also wrote a reader / writer for the BMP file format, and a library to
 manipulate, transform, and apply effects to images.
