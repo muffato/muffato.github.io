@@ -16,56 +16,31 @@ Mentorship, People management, Software development management, Operations
 management, Recruitment, Documentation, User training and support.<br/>
 <u>Team size</u>: 5-7 people.
 
-I lead the Informatics Infrastructure team of the Tree of Life programme, which:
+I lead the Informatics Infrastructure team for the Tree of Life programme. The team:
 
-* implements large-scale genome analysis pipelines for the faculty teams;
-* maintains the production environment (application deployment, pipeline orchestration system);
-* manages and curates the metadata held in the various production systems.
+- implements large-scale genome analysis pipelines for faculty teams;
+- maintains the production environment (application deployment and pipeline orchestration);
+- manages and curates metadata across our production systems.
 
-I managed the growth of the team as two phases:
+I managed the team's growth in two phases:
 
-1. First focusing on the core systems infrastructure and framework,
-   hiring DevOps, software development, and boinformatics capabilities.
-2. Then adding the data curation, management, and analysis capabilities in.
+1. Establish the core systems infrastructure and framework, hiring DevOps, software development, and bioinformatics staff.
+2. Expand capabilities for data curation, management, and analysis.
 
-My ambition is to provide the most efficient platform for assembling and
-[analysing genomes at an unprecedented scale](https://doi.org/10.5281/zenodo.8063873).
-The Tree of Life projects will
-generate tens of thousands of high-quality genomes over the coming years
-&ndash; more than have ever been sequenced ! It is a challenging and
-extremely exciting task that will shape the future of biology.<br/>
-I'm especially proud to have introduced ![icon](/assets/img/icon/nfcore.png)
-rigorous [best practices](https://doi.org/10.5281/zenodo.13913055) for ![icon](/assets/img/topics/nextflow.png) pipeline
-development in the programme (![icon](/assets/img/icon/youtube.png)
-[presentation](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)),
-and to have made our teams focus on compute efficiency and green compute
-(![icon](/assets/img/icon/youtube.png)
-[presentation](https://youtu.be/e1UcnkI8-Fk?si=47r-wRJ3_SXHVKNM)).
+My aim is to provide the most efficient platform for [assembling](https://www.sanger.ac.uk/programme/tree-of-life/) and
+[analysing genomes at an unprecedented scale](https://doi.org/10.5281/zenodo.8063873). The Tree of Life projects will generate tens of thousands of high-quality genomes in the coming years — more than have ever been sequenced. This is a challenging and exciting endeavour that will shape the future of biology.
 
-We are the interface between the Tree of Life teams (assembly production
-and faculty research) and the Sanger’s IT teams, working together with the
-informatics teams of the other programmes. The work involves a wide range
-of scientific fields and technologies such as assembly methods, genomics,
-comparative genomics, cloud computing, large-scale analyses, with a strong
-emphasis on metadata tracking, quality controls, and event recording.
-The team covers the "Genome Engine" from end to end.
+I'm especially proud to have introduced rigorous nf-core best practices (![icon](/assets/img/icon/nfcore.png)) and Nextflow pipeline standards (![icon](/assets/img/topics/nextflow.png)) into the programme ([best practices](https://doi.org/10.5281/zenodo.13913055), [talk](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)). I also helped shift our teams' focus toward compute efficiency and green computing ([talk](https://youtu.be/e1UcnkI8-Fk?si=47r-wRJ3_SXHVKNM)).
 
-In parallel, I assume the function of _Head of Informatics_ for Tree of Life.
-Within the Institute, this role is about representing and supporting Tree of Life Informatics
-by ensuring sufficient IT capacity, compliance with internal policies and standards,
-but also writing strategy and policy documents for both the department, the Institute,
-and sister projects like ERGA ([links](https://zenodo.org/search?q=metadata.creators.person_or_org.identifiers.identifier%3A%220000-0002-7860-3560%22&f=resource_type%3Apublication)).
+We act as the interface between the Tree of Life teams (assembly production and faculty research) and Sanger’s IT teams, collaborating with informatics groups across other programmes. Our work spans assembly methods, genomics, comparative genomics, cloud computing, and large-scale analyses, with a strong emphasis on metadata tracking, quality control, and event recording. The team supports the "Genome Engine" end to end.
+
+In parallel, I serve as Head of Informatics for Tree of Life. In this role I represent and support Tree of Life informatics within the Institute by ensuring sufficient IT capacity and policy compliance, and by drafting strategy and policy documents for the department, the Institute, and partner projects such as ERGA ([links](https://zenodo.org/search?q=metadata.creators.person_or_org.identifiers.identifier%3A%220000-0002-7860-3560%22&f=resource_type%3Apublication)).
 
 ## European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
 
-I worked in the Comparative Genomics team of the Ensembl genome browser. The team was in charge of
-comparing the genomes to one another, implementing new methods and algorithms
-(extending our API and database schema), and applying them on new datasets. Scalability was
-our main focus as we had to process hundreds of genomes in a limited timescale.
+I worked in the Comparative Genomics team of the Ensembl genome browser. The team performed comparative analyses, developed new methods and algorithms (including API and database schema extensions), and applied them to new datasets. Scalability was a primary concern as we processed hundreds of genomes under tight timelines.
 
-I was also involved in the development of the [eHive workflow manager](https://ensembl-hive.readthedocs.io), a system for creating
-and running workflows on a distributed compute resource. eHive was responsible for
-scheduling and executing in excess of 1,000 CPU years of compute every year in Ensembl.
+I also contributed to the development of the [eHive workflow manager](https://ensembl-hive.readthedocs.io), a system for creating and running workflows on distributed compute resources. eHive scheduled and executed the equivalent of over 1,000 CPU years of compute each year for Ensembl.
 
 ### Principal Developer
 
@@ -76,17 +51,11 @@ API development. Database design and optimisation. Workflow design and developme
 User support (data, API, workflows).<br/>
 <u>Team size</u>: 3 people.
 
-In this role, I transferred the knowledge I had accumulated in the past 8 years
-to the new Project Leader and the developers, whilst [helping them and
-overseeing the development of the software](https://doi.org/10.7490/f1000research.1118390.1).
+In this role I transferred knowledge accumulated over eight years to the new Project Leader and developers, while supporting and overseeing software development ([details](https://doi.org/10.7490/f1000research.1118390.1)).
 
-We initiated a massive revamp of our compute workflows and data storage
-strategy, in order to cope with the scale of data that projects such as the
-Darwin Tree of Life will generate. Our aim was ambitious: provide comparative
-analyses on tens of thousands of genomes, and more.
+We initiated a major revamp of our compute workflows and data storage strategy to handle the scale of data projects like the Darwin Tree of Life will generate. Our aim was ambitious: to provide comparative analyses for tens of thousands of genomes and beyond.
 
-I was still maintaining and contributing to the development of the eHive workflow manager,
-keeping it the most efficient solution for the Ensembl Comparative Genomics workflows.
+I continued to maintain and contribute to the eHive workflow manager, ensuring it remained the most efficient solution for Ensembl's Comparative Genomics workflows.
 
 ### Project Leader
 
@@ -98,12 +67,10 @@ API development. Database design and optimisation. Workflow design and developme
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
 <u>Team size</u>: 2-5 people.
 
-I managed the whole Comparative Genomics team of the Ensembl project,
-incl. the development of the eHive workflow manager.
 
-We [folded TreeFam](https://doi.org/10.7490/f1000research.1115011.1) activities and development into Ensembl and focused our efforts on [scaling up](https://doi.org/10.7490/f1000research.1115012.1)
-while controlling [high data quality](https://doi.org/10.7490/f1000research.1115084.1).
-We wrote an extensive user manual for eHive and provided technical support to other Ensembl teams.
+I managed the Comparative Genomics team for Ensembl, including development of the eHive workflow manager.
+
+We integrated TreeFam activities into Ensembl and prioritised scaling up our analyses while maintaining high data quality. We also authored an extensive user manual for eHive and provided technical support to other Ensembl teams.
 
 
 ### Interim Manager
@@ -115,13 +82,10 @@ API development. Database design and optimisation. Workflow design and developme
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
 <u>Team size</u>: 2 people.
 
-I was managing part of the Comparative Genomics team of
-Ensembl, incl. the development of the [eHive workflow manager](https://doi.org/10.7490/f1000research.1111870.1),
-and was still carrying on my developer duties. Our work was focused on
-the reconstruction of phylogenetic trees and gene families, improving and
-extending the software. I was still giving some Ensembl API workshops.
 
-This period saw the publication of landmark papers describing the [comparative resources](https://doi.org/10.1093/database/bav096) and the [ncRNA phylogenetic analyses](https://doi.org/10.1093/database/bav127).
+I managed part of the Comparative Genomics team at Ensembl, including development of the [eHive workflow manager](https://doi.org/10.7490/f1000research.1111870.1), while continuing developer duties. Our work focused on reconstructing phylogenetic trees and gene families, improving the software, and delivering Ensembl API workshops.
+
+During this period we published landmark papers describing comparative resources and ncRNA phylogenetic analyses.
 
 ### Software Developer
 
@@ -130,9 +94,7 @@ _Jan 2011 to May 2013_
 <u>Keywords</u>: API development. Database design and optimisation. Workflow design and development. Data
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).
 
-I focused on the reconstruction of protein phylogenetic trees, reshaping the
-API, improving and extending the software. I also gave some Ensembl API
-workshops.
+I focused on the pipeline that reconstructs protein phylogenetic trees, reshaping the API, and improving the software. I also delivered Ensembl API workshops.
 
 ## École normale supérieure, Paris, France
 
@@ -142,17 +104,9 @@ _Sep 2006 to Dec 2010_
 
 <u>Title</u>: Reconstruction of ancestral vertebrate genomes
 
-I have developed a set of new methods to predict the genome structure of
-ancestral species (all the last common ancestors of any given group of
-extant species - here about 50 vertebrate species) at different levels
-(number of chromosomes, chromosome content, gene order). We have also set
-up a database and a genome browser,
-[Genomicus](http://www.dyogen.ens.fr/genomicus/), to make the data available
-to the community. As we use the data from the Ensembl project, Genomicus is
-updated every 2 months, after each Ensembl release.
+I developed methods to infer the genome structure of ancestral species (the last common ancestors of groups of extant species — here ~50 vertebrates) at multiple scales (chromosome count, chromosome content, gene order). We also created a database and genome browser, [Genomicus](http://www.dyogen.ens.fr/genomicus/), to share the data. Because Genomicus uses Ensembl data, it is updated every two months after each Ensembl release.
 
-Thesis (in French) and presentation (in English) available
-[online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
+Thesis (in French) and presentation (in English) are available [online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
 
 # Education
 
@@ -169,19 +123,11 @@ Thesis (in French) and presentation (in English) available
 
 _May 2019 to Sep 2019_
 
-<u>Title</u>: Using Deep Learning techniques to enhance orthology calls
+<u>Title</u>: Using deep learning techniques to enhance orthology calls
 
-This project was funded by the 2019 edition of the Google Summer of Code
-program. [Harshit
-Gupta](https://www.linkedin.com/in/harshit-gupta-a454a3149/) has been selected to develop a machine-learning
-algorithm to predict orthologies in the Ensembl Genomes Browser organization
-under the supervision of myself and [Mateus
-Patricio](https://www.linkedin.com/in/mateus-patricio-03057aa8/).
+This project was part of the 2019 Google Summer of Code programme. [Harshit Gupta](https://www.linkedin.com/in/harshit-gupta-a454a3149/) developed a machine-learning algorithm to predict orthologies in the Ensembl Genomes Browser organisation under the supervision of myself and [Mateus Patricio](https://www.linkedin.com/in/mateus-patricio-03057aa8/).
 
-We developed a machine-learning algorithm to predict orthologies, using
-TensorFlow, directly from sequence data -without using any phylogenetics
-methods-. The method achieved high accuracy (>90% in most settings) and we
-are now developing a plan to use it in production in Ensembl.
+We developed a TensorFlow-based algorithm that predicts orthologies directly from sequence data, without relying on phylogenetic methods. The approach achieved high accuracy (>90% in most settings), and we are planning its deployment in Ensembl.
 
 <u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
@@ -189,51 +135,29 @@ are now developing a plan to use it in production in Ensembl.
 
 _May 2016 to Sep 2016_
 
-<u>Title</u>: Graphical editor of XML files
+<u>Title</u>: Graphical editor for XML files
 
-This project was funded by the 2016 edition of the Google Summer of Code
-program. [Anuj
-Khandelwal](https://www.linkedin.com/in/anuj-khandelwal-2a7151103/) has been selected to work on a Graphical workflow
-editor for eHive using Blockly in the Ensembl Genomes Browser organization
-under the supervision of myself and [Leo
-Gordon](https://www.linkedin.com/in/leo-gordon-cambridge/).
+This project was part of the 2016 Google Summer of Code programme. [Anuj Khandelwal](https://www.linkedin.com/in/anuj-khandelwal-2a7151103/) developed a graphical workflow editor for eHive using Blockly under the supervision of myself and [Leo Gordon](https://www.linkedin.com/in/leo-gordon-cambridge/).
 
-eHive is a system used to run computation pipelines in distributed
-environments. Currently the eHive workflows are configured in a specific
-file format that requires basic programming skills. This project aimed at
-removing this drawback by creating a graphical editor for eHive workflows
-using Google's Blockly library.
+eHive runs computation pipelines in distributed environments and its workflows were configured in a file format that required programming skills. This project aimed to remove that barrier by creating a Blockly-based graphical editor.
 
-We were envisaging XML as the file format, with a Relax NG specification.
-The backbone of this graphical editor would be an automated conversion of a
-Relax NG specification to Blockly blocks and matching rules so that the
-Blockly diagrams conform to the specification. The graphical interface will
-have to be able to import existing XML files to visualize them in terms of
-Blockly blocks, edit them, and export the diagram back to XML.
+We targeted XML as the file format with a Relax NG specification. The editor's core converts a Relax NG specification to Blockly blocks and matching rules so Blockly diagrams conform to the schema. The interface can import existing XML to visualise workflows as Blockly blocks, edit them, and export back to XML.
 
-The project submitted to Google is not specific to eHive and the proposed
-editor should be able of handling any specifications written using the
-Relax NG schema.
+The project is not specific to eHive; the editor can handle any specification written in Relax NG.
 
-<u>Project URL</u>: [Website](https://ensembl.github.io/XML-To-Blockly/),
-[GitHub](https://github.com/Ensembl/XML-To-Blockly)
+<u>Project URL</u>: [Website](https://ensembl.github.io/XML-To-Blockly/), [GitHub](https://github.com/Ensembl/XML-To-Blockly)
 
 ## EMBL Postdoc Retreat 2013
 
 _May 2013_
 
-The EMBL postdoc retreat is an official annual EMBL event under the
-patronage of the EMBL Heads of Units. It promotes scientific exchange among
-postdocs and provides a platform to address problems relevant to postdocs.
+The EMBL postdoc retreat is an annual EMBL event that promotes scientific exchange among postdocs and provides a platform to address issues relevant to postdoctoral researchers.
 
 ## Raspberry Pi
 
 _2011 to 2015_
 
-I used a Raspberry Pi as a testbed to enhance my system administration skills.
-At its peak, it was running a VPN, an email server, file servers (FTP, SMB, DLNA);
-hosting a personal site, a blog engine, a photo browser, and online games;
-and obviously giving me SSH access.
+I used a Raspberry Pi as a test bed to develop my system administration skills. At its peak it ran a VPN, an email server, file servers (FTP, SMB, DLNA), a personal website, a blog engine, a photo browser, and online games, and provided SSH access.
 
 ## Internship - Web interface for gene annotation
 
@@ -245,33 +169,31 @@ I worked on improving the user interface of Exogean, a software for
 annotating gene structures in eukaryotic genomic DNA.
 This was a pivotal experience that steered my life towards bioinformatics.
 
+_Jun 2005 to Aug 2005_
+
+I improved the user interface of Exogean, a tool for annotating gene structures in eukaryotic genomic DNA. This experience was pivotal in steering my career toward bioinformatics.
+
 ## Contractor - Cost-analysis tool for electronics manufacturers
 
 _2005_
 
-Conception of a new software to analyse and manage costs for electronics
-manufacturers (project & product visualisation, resources management).
+Designed a software tool to analyse and manage costs for electronics manufacturers (project and product visualisation, resource management).
 
 ## Personal project - 3D renderer
 
 _2002 to 2003_
 
-I implemented a 3D renderer from scratch, i.e. without using any libraries
-such as OpenGL. The program is able to render (project) 3D objects onto a
-plane as raster images, including colours & transparency, but also
-lightings and shadings. It was all written in C++.
+Implemented a 3D renderer from scratch (without OpenGL or similar libraries). The program renders 3D objects to raster images, including colour, transparency, lighting, and shading. It was written in C++.
 
-I also know about ray-tracing, BSP trees, Bezier curves, B-splines.
+Also familiar with ray tracing, BSP trees, Bézier curves, and B-splines.
 
 ## Personal project - JPEG encoder/decoder
 
 _2001 to 2002_
 
-I implemented a JPEG encoder/decoder from scratch, i.e. without using any
-libraries, only reading the documentation of the compression algorithm.
+Implemented a JPEG encoder/decoder from scratch, based solely on the compression algorithm documentation.
 
-I also wrote a reader / writer for the BMP file format, and a library to
-manipulate, transform, and apply effects to images.
+Also wrote a BMP reader/writer and a library to manipulate, transform, and apply effects to images.
 
 # Certifications and training
 
@@ -279,27 +201,22 @@ manipulate, transform, and apply effects to images.
 
 _QA, 2024_
 
-Course on programme management, building upon project management fundamentals.
-Principles and approaches have made it easier to work with senior leaders
-and to discuss change across large areas.
+Course on programme management building on project management fundamentals. The principles and approaches helped in working with senior leaders and discussing change across large areas.
 
 ## Professional Scrum Master
 
 _scrum.org, 2020_
 
-Scrum is a leading Agile methodology.
-I briefly experimented with it in Ensembl Comparabefore embracing it
-more broadly in my Tree of Life team.
+Scrum is a leading Agile methodology. I briefly experimented with it in Ensembl Comparisons before adopting it more broadly in my Tree of Life team.
 
 ## Project Fundamentals Qualification (PFQ) certification
 
 _Association for Project Management (APM), 2017_
 
-Course on project management. Principles and approaches have since been applied to all Ensembl
-management layers to plan and manage projects (development and others).
+Course on project management. Principles from the course have been applied across Ensembl management layers to plan and manage development and other projects.
 
 ## "Policy manager" and "Antivirus Client Security"
 
 _F-Secure Corporation, 2004_
 
-I learnt how to configure F-Secure software in enterprise contexts.
+Learned how to configure F-Secure software in enterprise contexts.
