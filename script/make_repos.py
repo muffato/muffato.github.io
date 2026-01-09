@@ -15,6 +15,8 @@ import requests
 import collections
 import datetime
 
+GITHUB_USERNAME = "muffato"
+
 DEFAULT_TIMEOUT = 30
 session = requests.Session()
 
@@ -90,7 +92,12 @@ def github_headers() -> Dict[str, str]:
 
 
 def fetch_repo_meta(full_name: str) -> Optional[Dict[str, str]]:
-    """Return dict with keys: html_url, description, updated_at (YYYY-MM-DD)."""
+    """Return dict with keys: html_url, description, updated_at.
+
+    Try to get the most recent commit authored by GITHUB_USERNAME
+    in the repository. Falls back to the repository's
+    `updated_at`/`pushed_at` if no user commit is found or on error.
+    """
     url = f'https://api.github.com/repos/{full_name}'
     try:
         r = session.get(url, headers=github_headers(), timeout=DEFAULT_TIMEOUT)
@@ -99,14 +106,39 @@ def fetch_repo_meta(full_name: str) -> Optional[Dict[str, str]]:
         print(f'ERROR fetching {full_name}: {exc}', file=sys.stderr)
         return None
     data = r.json()
-    updated = data.get('updated_at') or data.get('pushed_at') or ''
-    updated_date = ''
-    if updated:
-        try:
-            # ISO 8601 like 2025-01-03T12:34:56Z -> keep YYYY-MM
-            updated_date = '-'.join(updated.split('-', 2)[:2])
-        except Exception:
-            updated_date = updated
+
+    updated_date: str = ''
+    # As a last attempt, list all branches and check for a commit by
+    # the user on each branch. This is more API-intensive but will
+    # find commits on non-default branches.
+    branches_url = f'https://api.github.com/repos/{full_name}/branches'
+    try:
+        brc = session.get(branches_url, headers=github_headers(), params={'per_page': 100}, timeout=DEFAULT_TIMEOUT)
+        brc.raise_for_status()
+        branches = brc.json()
+        for b in branches:
+            commits_url = f'https://api.github.com/repos/{full_name}/commits'
+            params = {'author': GITHUB_USERNAME, 'sha': b["name"], 'per_page': 1}
+            try:
+                rc = session.get(commits_url, headers=github_headers(), params=params, timeout=DEFAULT_TIMEOUT)
+                rc.raise_for_status()
+                commits = rc.json()
+                cdate = commits[0]['commit']['author']['date']
+                # keep the most recent ISO date string
+                if not updated_date or cdate > updated_date:
+                    updated_date = cdate
+                    print(f'Found user commit on {full_name} branch {b["name"]}: {updated_date}', file=sys.stderr)
+                else:
+                    print(f'Found older user commit on {full_name} branch {b["name"]}: {updated_date}', file=sys.stderr)
+            except Exception:
+                # ignore per-branch errors and continue
+                pass
+    except Exception:
+        pass
+
+    if not updated_date:
+        updated_date = data['updated_at']
+
     return {
         'html_url': data.get('html_url', ''),
         'description': data.get('description') or '',
@@ -154,7 +186,8 @@ def make_page() -> None:
             if repo_desc:
                 print(repo_desc + ' \\\\')
             if updated:
-                print('Last update: ' + updated)
+                # Print as YYYY-MM
+                print('Last contribution: ' + '-'.join(updated.split('-', 2)[:2]))
             print('</dd>')
         print('</dl>')
         print()
