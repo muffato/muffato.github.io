@@ -48,7 +48,7 @@ validated using simulations, and the results are available on the
 [![icon](/assets/img/icon/genomicus.png) Genomicus](http://www.dyogen.ens.fr/genomicus/) browser and updated
 with the Ensembl releases. The algorithms are described in my
 [&#x1F393; thesis](http://hal.archives-ouvertes.fr/docs/00/55/21/38/PDF/these.pdf)
-(in French).
+(in French) and in this [&#x1F4D6; Nature Ecology & Evolution paper](https://doi.org/10.1038/s41559-022-01956-z).
 
 I joined the comparative-genomics team of the [![icon](/assets/img/icon/ensembl.png) Ensembl
 project](http://www.ensembl.org) (aka Compara) in 2011, under
