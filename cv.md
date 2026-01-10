@@ -30,7 +30,7 @@ I arranged the team's growth in two phases:
 My ambition is to provide the most efficient platform for assembling and
 [analysing genomes at an unprecedented scale](https://doi.org/10.5281/zenodo.8063873). The Tree of Life projects will generate tens of thousands of high-quality genomes in the coming years — more than have ever been sequenced. This is a challenging and exciting endeavour that will shape the future of biology.
 
-I'm especially proud to have introduced rigorous ![icon](/assets/img/icon/nfcore.png) nf-core best practices (even [extending the tooling](https://doi.org/10.5281/zenodo.13913055)) and ![icon](/assets/img/topics/nextflow.png) Nextflow pipeline standards into the programme ([talk](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)).
+I'm especially proud to have introduced rigorous nf-core best practices (even [extending the tooling](https://doi.org/10.5281/zenodo.13913055)) and Nextflow pipeline standards into the programme ([talk](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)).
 I also helped shift our teams' focus toward compute efficiency and green computing ([talk](https://youtu.be/e1UcnkI8-Fk?si=47r-wRJ3_SXHVKNM)).
 
 We act as the interface between the Tree of Life teams (assembly production and faculty research) and Sanger’s IT teams, collaborating with informatics groups across other programmes. Our work spans assembly methods, genomics, comparative genomics, cloud computing, and large-scale analyses, with a strong emphasis on metadata tracking, quality control, and event recording. The team supports the "Genome Engine" from beginning to end.
