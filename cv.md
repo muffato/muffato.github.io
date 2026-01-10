@@ -153,7 +153,7 @@ _May 2013_
 
 The EMBL postdoc retreat is an annual EMBL event that promotes scientific exchange among postdocs and provides a platform to address issues relevant to postdoctoral researchers.
 
-## Raspberry Pi
+## Personal project - Raspberry Pi
 
 _2011 to 2015_
 
