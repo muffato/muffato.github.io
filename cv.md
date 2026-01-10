@@ -22,17 +22,18 @@ I lead the Informatics Infrastructure team for the Tree of Life programme. The t
 - maintains the production environment (application deployment and pipeline orchestration);
 - manages and curates metadata across our production systems.
 
-I managed the team's growth in two phases:
+I arranged the team's growth in two phases:
 
 1. Establish the core systems infrastructure and framework, hiring DevOps, software development, and bioinformatics staff.
 2. Expand capabilities for data curation, management, and analysis.
 
-My aim is to provide the most efficient platform for [assembling](https://www.sanger.ac.uk/programme/tree-of-life/) and
+My ambition is to provide the most efficient platform for assembling and
 [analysing genomes at an unprecedented scale](https://doi.org/10.5281/zenodo.8063873). The Tree of Life projects will generate tens of thousands of high-quality genomes in the coming years — more than have ever been sequenced. This is a challenging and exciting endeavour that will shape the future of biology.
 
-I'm especially proud to have introduced rigorous nf-core best practices (![icon](/assets/img/icon/nfcore.png)) and Nextflow pipeline standards (![icon](/assets/img/topics/nextflow.png)) into the programme ([best practices](https://doi.org/10.5281/zenodo.13913055), [talk](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)). I also helped shift our teams' focus toward compute efficiency and green computing ([talk](https://youtu.be/e1UcnkI8-Fk?si=47r-wRJ3_SXHVKNM)).
+I'm especially proud to have introduced rigorous ![icon](/assets/img/icon/nfcore.png) nf-core best practices (even [extending the tooling](https://doi.org/10.5281/zenodo.13913055)) and ![icon](/assets/img/topics/nextflow.png) Nextflow pipeline standards into the programme ([talk](https://youtu.be/w4RGam3T8iQ?si=VClvr11swxxMbylO)).
+I also helped shift our teams' focus toward compute efficiency and green computing ([talk](https://youtu.be/e1UcnkI8-Fk?si=47r-wRJ3_SXHVKNM)).
 
-We act as the interface between the Tree of Life teams (assembly production and faculty research) and Sanger’s IT teams, collaborating with informatics groups across other programmes. Our work spans assembly methods, genomics, comparative genomics, cloud computing, and large-scale analyses, with a strong emphasis on metadata tracking, quality control, and event recording. The team supports the "Genome Engine" end to end.
+We act as the interface between the Tree of Life teams (assembly production and faculty research) and Sanger’s IT teams, collaborating with informatics groups across other programmes. Our work spans assembly methods, genomics, comparative genomics, cloud computing, and large-scale analyses, with a strong emphasis on metadata tracking, quality control, and event recording. The team supports the "Genome Engine" from beginning to end.
 
 In parallel, I serve as Head of Informatics for Tree of Life. In this role I represent and support Tree of Life informatics within the Institute by ensuring sufficient IT capacity and policy compliance, and by drafting strategy and policy documents for the department, the Institute, and partner projects such as ERGA ([links](https://zenodo.org/search?q=metadata.creators.person_or_org.identifiers.identifier%3A%220000-0002-7860-3560%22&f=resource_type%3Apublication)).
 
@@ -53,7 +54,8 @@ User support (data, API, workflows).<br/>
 
 In this role I transferred knowledge accumulated over eight years to the new Project Leader and developers, while supporting and overseeing software development ([details](https://doi.org/10.7490/f1000research.1118390.1)).
 
-We initiated a major revamp of our compute workflows and data storage strategy to handle the scale of data projects like the Darwin Tree of Life will generate. Our aim was ambitious: to provide comparative analyses for tens of thousands of genomes and beyond.
+We initiated a major revamp of compute workflows and data storage to handle the scale of projects such as the Darwin Tree of Life, aiming to provide comparative analyses for tens of thousands of genomes and beyond.
+I also advocated for and helped initiate a new [Ensembl core library in Python](https://github.com/Ensembl/ensembl-py).
 
 I continued to maintain and contribute to the eHive workflow manager, ensuring it remained the most efficient solution for Ensembl's Comparative Genomics workflows.
 
@@ -67,11 +69,16 @@ API development. Database design and optimisation. Workflow design and developme
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
 <u>Team size</u>: 2-5 people.
 
-
 I managed the Comparative Genomics team for Ensembl, including development of the eHive workflow manager.
 
-We integrated TreeFam activities into Ensembl and prioritised scaling up our analyses while maintaining high data quality. We also authored an extensive user manual for eHive and provided technical support to other Ensembl teams.
+We integrated [TreeFam activities into Ensembl](https://doi.org/10.7490/f1000research.1112451.1) and prioritised scaling up analyses while [maintaining high data quality](https://f1000research.com/posters/6-1894), introducing [novel metrics](https://doi.org/10.7490/f1000research.1115084.1) to monitor performance.
 
+During this period we published landmark papers describing [comparative resources](https://doi.org/10.1093/database/bav096) and [ncRNA phylogenetic analyses](https://doi.org/10.1093/database/bav127).
+
+Within eHive, I initiated support for additional programming languages, starting with Python,
+which enabled teams to plan a gradual phase-out of Perl.
+We authored an extensive user manual for eHive and provided technical support to other Ensembl teams.
+I also added container support (via Docker Swarm) to allow eHive to run in cloud environments.
 
 ### Interim Manager
 
@@ -82,10 +89,7 @@ API development. Database design and optimisation. Workflow design and developme
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
 <u>Team size</u>: 2 people.
 
-
 I managed part of the Comparative Genomics team at Ensembl, including development of the [eHive workflow manager](https://doi.org/10.7490/f1000research.1111870.1), while continuing developer duties. Our work focused on reconstructing phylogenetic trees and gene families, improving the software, and delivering Ensembl API workshops.
-
-During this period we published landmark papers describing comparative resources and ncRNA phylogenetic analyses.
 
 ### Software Developer
 
@@ -106,7 +110,8 @@ _Sep 2006 to Dec 2010_
 
 I developed methods to infer the genome structure of ancestral species (the last common ancestors of groups of extant species — here ~50 vertebrates) at multiple scales (chromosome count, chromosome content, gene order). We also created a database and genome browser, [Genomicus](http://www.dyogen.ens.fr/genomicus/), to share the data. Because Genomicus uses Ensembl data, it is updated every two months after each Ensembl release.
 
-Thesis (in French) and presentation (in English) are available [online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
+Key &#x1F4D6; publications include a [review paper](https://doi.org/10.1002/bies.20707), a [methods paper](https://doi.org/10.1038/s41559-022-01956-z), and the [project website](https://doi.org/10.1093/bioinformatics/btq079).
+The thesis (French) and presentation (English) are available [online](http://tel.archives-ouvertes.fr/tel-00552138_v1/).
 
 # Education
 
