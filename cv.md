@@ -158,6 +158,8 @@ This project was part of the 2019 Google Summer of Code programme. [Harshit Gupt
 
 We developed a TensorFlow-based algorithm that predicts orthologies directly from sequence data, without relying on phylogenetic methods. The approach achieved high accuracy (>90% in most settings), and we are planning its deployment in Ensembl.
 
+Mateus then joined AstraZeneca and is now _Director of AI & Data Engineering_.
+
 <u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
 ## 2016 Google Summer of Code Mentor
