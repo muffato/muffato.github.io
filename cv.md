@@ -118,7 +118,7 @@ The thesis (French) and presentation (English) are available [online](http://tel
 |---|---|---|---|
 | PhD | Bioinformatics | Sep 2006 to Dec 2010 | École normale supérieure, Paris, France |
 | MSc | Bioinformatics | Sep 2005 to Aug 2006 | Évry university, France |
-| Engineer MSc | Computer science, Software development, Mathematics | Sep 2003 to Aug 2006 | ENSIIE, Évry, France |
+| Engineer MSc | Computer science, Software development, Mathematics | Sep 2003 to Aug 2006 | ensIIE, Évry, France |
 | BSc | Mathematics | Sep 2004 to Jun 2005 | Paris Diderot university, France |
 | Classes préparatoires | Mathematics, Physics, Computer science | Sep 2001 to Jun 2003 | Lycée Louis-le-Grand, Paris, France |
 
