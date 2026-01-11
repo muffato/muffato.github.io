@@ -137,6 +137,17 @@ We are eminently grateful to Google Summer of Code for having us selected in
 [2024](https://summerofcode.withgoogle.com/archive/2024/organizations/wellcome-sanger-institute),
 and [2025](https://summerofcode.withgoogle.com/archive/2025/organizations/wellcome-sanger-institute).
 
+## 2025 Google Summer of Code Mentor
+
+_May 2025 to Sep 2025_
+
+<u>Title</u>: Nextflow Pipelines for Variant Analyses
+
+This project was part of the 2025 Google Summer of Code programme.
+[Yunjia Zhang](https://www.linkedin.com/in/yunjiazhang/) developed scalable Nextflow pipelines for variant analysis across diverse eukaryotic genomes. The workflows call germline and somatic variants, compute key variant metrics, generate quality-control reports, and produce standardised, interoperable outputs for downstream analysis. Comprehensive documentation enables researchers from diverse backgrounds to run the pipelines confidently and explore genomic variation.
+
+<u>Project URL</u>: [GitHub](https://github.com/sanger-tol/variantcomposition)
+
 ## 2019 Google Summer of Code Mentor
 
 _May 2019 to Sep 2019_
