@@ -151,17 +151,23 @@ _QA, 2024_
 
 Course on programme management building on project management fundamentals. The principles and approaches helped in working with senior leaders and discussing change across large areas.
 
+<u>Course URL</u>: [Website](https://www.qa.com/course-catalogue/courses/managing-successful-programmes-5th-edition-msp-foundation-and-practitioner-pbpmspfp/)
+
 ## Professional Scrum Master
 
 _scrum.org, 2020_
 
 Scrum is a leading Agile methodology. I briefly experimented with it in Ensembl Comparisons before adopting it more broadly in my Tree of Life team.
 
+<u>Course URL</u>: [Website](https://www.scrum.org/courses/professional-scrum-master-and-product-owner-training)
+
 ## Project Fundamentals Qualification (PFQ) certification
 
 _Association for Project Management (APM), 2017_
 
 Course on project management. Principles from the course have been applied across Ensembl management layers to plan and manage development and other projects.
+
+<u>Course URL</u>: [Website](https://www.apm.org.uk/qualifications-and-training/project-management-fundamentals/)
 
 ## "Policy manager" and "Antivirus Client Security"
 
