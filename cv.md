@@ -226,12 +226,6 @@ I used a Raspberry Pi as a test bed to develop my system administration skills. 
 
 _Jun 2005 to Aug 2005_
 
-I worked on improving the user interface of Exogean, a software for
-annotating gene structures in eukaryotic genomic DNA.
-This was a pivotal experience that steered my life towards bioinformatics.
-
-_Jun 2005 to Aug 2005_
-
 I improved the user interface of Exogean, a tool for annotating gene structures in eukaryotic genomic DNA. This experience was pivotal in steering my career toward bioinformatics.
 
 ## Contractor - Cost-analysis tool for electronics manufacturers
