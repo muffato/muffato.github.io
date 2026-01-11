@@ -69,6 +69,7 @@ REPOS: Dict[str, List[str]] = {
         'nf-core/modules',
         'nf-core/tools',
         'nf-core/nft-utils',
+        'nf-core/modules-template',
     ],
     'SHPC': [
         'singularityhub/singularity-hpc',

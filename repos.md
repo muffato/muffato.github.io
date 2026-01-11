@@ -156,6 +156,10 @@ Last contribution: 2025-12
 ## ![icon](/assets/img/icon/nfcore.png) nf-core {#NFCORE}
 
 <dl>
+<dt>[nf-core/modules-template](https://github.com/nf-core/modules-template)</dt>
+<dd>
+Last contribution: 2026-01
+</dd>
 <dt>[nf-core/nft-utils](https://github.com/nf-core/nft-utils)</dt>
 <dd>
 nf-test utility functions \\
