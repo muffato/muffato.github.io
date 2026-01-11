@@ -43,7 +43,10 @@ d\'Entreprise](http://www.ensiie.fr) and the [![icon](/assets/img/icon/evry.png)
 d\'Évry](http://www.univ-evry.fr/). I completed in 2010 a PhD in
 bioinformatics with the [Dyogen group](http://www.biologie.ens.fr/dyogen/?lang=en) under the supervision of Hugues Roest Crollius, where I reconstructed gene order and chromosome structure of extinct vertebrate species. The method was validated with simulations; the results are available on the [![icon](/assets/img/icon/genomicus.png) Genomicus](http://www.dyogen.ens.fr/genomicus/) browser and are updated with Ensembl releases. The algorithms are described in my [&#x1F393; thesis](http://hal.archives-ouvertes.fr/docs/00/55/21/38/PDF/these.pdf) (in French) and in this [&#x1F4D6; Nature Ecology & Evolution paper](https://doi.org/10.1038/s41559-022-01956-z).
 
-I joined the comparative-genomics team of the [![icon](/assets/img/icon/ensembl.png) Ensembl project](http://www.ensembl.org) (Compara) in 2011 under the leadership of Javier Herrero. My initial focus was the pipeline that builds protein trees for Ensembl releases, but I later worked on all aspects of the Perl API and its pipelines. I developed deep expertise in the ![icon](/assets/img/icon/guihive.png) eHive workflow manager and became a co-developer.
+I joined the comparative-genomics team of the [![icon](/assets/img/icon/ensembl.png) Ensembl project](http://www.ensembl.org) (Compara) in 2011 under the leadership of Javier Herrero. My initial focus was the pipeline that builds protein trees for Ensembl releases, but I later worked on all aspects of the Perl API and its pipelines.
+I also led the development of ![icon](/assets/img/icon/guihive.png) eHive, Ensembl's system for creating and running pipelines on a distributed compute resource.
+I grew a deep expertise in it, contributed to its development and expansion within Ensembl.
+eHive was responsible for scheduling and executing in excess of 1,000 CPU years of compute per year.
 
 I led the team from Javier's departure in 2013 until 2019, overseeing automation of our production processes. In my final year I supported the transition to the next project leader as Principal Developer, continuing to oversee software development.
 
