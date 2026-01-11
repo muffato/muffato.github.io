@@ -14,9 +14,29 @@ Find below a selection organised by themes:
 
 {::comment}
 {:/comment}
+* [![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure](#TOLIT)
 * [![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods](#ENSEMBL)
 * [![icon](/assets/img/icon/guihive.png) eHive workflow manager](#EHIVE)
-* [![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure](#TOLIT)
+
+## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
+
+<dl>
+<dt>Sharing Nextflow code across organizations using the nf-core infrastructure</dt>
+<dd>
+João Vitor Ferreira Cavalcante, The nf-core community, Tree of Life Informatics Infrastructure Team, <u>Matthieu Muffato</u> \\
+DOI: [10.5281/zenodo.13913055](https://doi.org/10.5281/zenodo.13913055)
+</dd>
+<dt>WESkit: Workflow execution for HTC and cloud</dt>
+<dd>
+Philip R. Kensche, Valentin Schneider-Lunitz, Cibin Sadasivan Baby, Alexander Kanitz, <u>Matthieu Muffato</u>, Sven Twardziok, Ivo Buchhalter \\
+DOI: [10.7490/f1000research.1119541.1](https://doi.org/10.7490/f1000research.1119541.1)
+</dd>
+<dt>Core resources for genome analysis</dt>
+<dd>
+<u>Matthieu Muffato</u>, Mark Blaxter \\
+DOI: [10.5281/zenodo.8063873](https://doi.org/10.5281/zenodo.8063873)
+</dd>
+</dl>
 
 ## ![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods {#ENSEMBL}
 
@@ -70,26 +90,6 @@ DOI: [10.7490/f1000research.1112451.1](https://doi.org/10.7490/f1000research.111
 <dd>
 Andy Yates, Bronwen Aken, Stephen Fitzgerald, Leo Gordon, <u>Matthieu Muffato</u>, Miguel Pignatelli, Paul Flicek \\
 DOI: [10.7490/f1000research.1111870.1](https://doi.org/10.7490/f1000research.1111870.1)
-</dd>
-</dl>
-
-## ![icon](/assets/img/icon/tol.png) Tree of Life Informatics Infrastructure {#TOLIT}
-
-<dl>
-<dt>Sharing Nextflow code across organizations using the nf-core infrastructure</dt>
-<dd>
-João Vitor Ferreira Cavalcante, The nf-core community, Tree of Life Informatics Infrastructure Team, <u>Matthieu Muffato</u> \\
-DOI: [10.5281/zenodo.13913055](https://doi.org/10.5281/zenodo.13913055)
-</dd>
-<dt>WESkit: Workflow execution for HTC and cloud</dt>
-<dd>
-Philip R. Kensche, Valentin Schneider-Lunitz, Cibin Sadasivan Baby, Alexander Kanitz, <u>Matthieu Muffato</u>, Sven Twardziok, Ivo Buchhalter \\
-DOI: [10.7490/f1000research.1119541.1](https://doi.org/10.7490/f1000research.1119541.1)
-</dd>
-<dt>Core resources for genome analysis</dt>
-<dd>
-<u>Matthieu Muffato</u>, Mark Blaxter \\
-DOI: [10.5281/zenodo.8063873](https://doi.org/10.5281/zenodo.8063873)
 </dd>
 </dl>
 
