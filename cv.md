@@ -122,6 +122,27 @@ The thesis (French) and presentation (English) are available [online](http://tel
 | BSc | Mathematics | Sep 2004 to Jun 2005 | Paris Diderot university, France |
 | Classes préparatoires | Mathematics, Physics, Computer science | Sep 2001 to Jun 2003 | Lycée Louis-le-Grand, Paris, France |
 
+## Internships
+
+### École Normale Supérieure, Paris, France
+
+_Jun 2005 to Aug 2005_
+
+I improved the user interface of [Exogean](https://doi.org/10.1186/gb-2006-7-s1-s7), a tool for annotating gene structures in eukaryotic genomic DNA, by developing a web interface that enabled remote use. The site presented a series of forms to guide users through data upload and configuration, then launched the analysis as a background job.
+
+This experience was pivotal in steering my career toward bioinformatics.
+
+<u>Technologies used</u>: PHP, XHTML, CSS
+
+### Consultants Informatique Associés, Paris, France
+
+_Jun 2004 to Aug 2004_
+
+I worked on the leading project of the company: [OptikLeader](https://www.ciaparis.com/optikleader.html), a professional software for opticians.
+This was my first ever contact with Java, which I quickly learned having practised C++ (on my personal time) for a number of years.
+
+<u>Technologies used</u>: Java, Hibernate, PostgreSQL
+
 # Certifications and training
 
 ## Managing Successful Programmes

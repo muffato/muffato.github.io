@@ -104,14 +104,6 @@ _2011 to 2015_
 
 I used a Raspberry Pi as a test bed to develop my system administration skills. At its peak it ran a VPN, an email server, file servers (FTP, SMB, DLNA), a personal website, a blog engine, a photo browser, and online games, and provided SSH access.
 
-## Internship - Web interface for gene annotation
-
-**École normale supérieure, Paris, France**
-
-_Jun 2005 to Aug 2005_
-
-I improved the user interface of Exogean, a tool for annotating gene structures in eukaryotic genomic DNA. This experience was pivotal in steering my career toward bioinformatics.
-
 ## Contractor - Cost-analysis tool for electronics manufacturers
 
 _2005_
