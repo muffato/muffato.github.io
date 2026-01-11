@@ -146,7 +146,26 @@ _May 2025 to Sep 2025_
 This project was part of the 2025 Google Summer of Code programme.
 [Yunjia Zhang](https://www.linkedin.com/in/yunjiazhang/) developed scalable Nextflow pipelines for variant analysis across diverse eukaryotic genomes. The workflows call germline and somatic variants, compute key variant metrics, generate quality-control reports, and produce standardised, interoperable outputs for downstream analysis. Comprehensive documentation enables researchers from diverse backgrounds to run the pipelines confidently and explore genomic variation.
 
+Yunjia's contributions and knowledge have got her inducted to the [Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html) programme.
+
 <u>Project URL</u>: [GitHub](https://github.com/sanger-tol/variantcomposition)
+
+## Mentor for the 2024 edition of the BioDev Future Innovators’ Mentorship programme
+
+_Jun 2024 to Dec 2024_
+
+<u>Title</u>: Sharing Nextflow code across organizations using the nf-core infrastructure
+
+The BioDev network organised its [very first Future Innovators’ Mentorship programme](https://www.linkedin.com/pulse/january-2025-highlights-from-2024-upcoming-events-biodev-network-gbmue),
+aimed at [mentoring graduates from the global south](https://www.sanger.ac.uk/about/study/biodev-network-future-innovators-mentorships/) to take the first steps to a successful career in computation or bioinformatics in life sciences research.
+
+I mentored [João Cavalcante](https://www.linkedin.com/in/joao-v-cavalcante/) in a project to expand the [nf-core](https://nf-co.re/) tooling
+and add support for Nextflow pipeline components held across multiple repositories.
+This feature was essential to Tree of Life by allowing us to share code between pipelines and with nf-core, and reduce our technical debt.
+
+João's contributions and knowledge have got him inducted to the [Nextflow Ambassador](https://www.nextflow.io/our_ambassadors.html) programme.
+
+<u>Project URL</u>: [Blog post](https://biodev.network/app/insights/details/35287ba7-d774-4e12-ac3b-78ca775bcfcc)
 
 ## 2019 Google Summer of Code Mentor
 
