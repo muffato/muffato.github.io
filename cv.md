@@ -39,7 +39,7 @@ In parallel, I serve as Head of Informatics for Tree of Life. In this role I rep
 
 ## European Bioinformatics Institute (EMBL-EBI), Hinxton, United Kingdom
 
-I worked in the Comparative Genomics team of the Ensembl genome browser. The team performed comparative analyses, developed new methods and algorithms (including API and database schema extensions), and applied them to new datasets. Scalability was a primary concern as we processed hundreds of genomes under tight timelines.
+I worked in the Comparative Genomics team of the Ensembl genome browser, aka _Ensembl Compara_. The team performed comparative analyses, developed new methods and algorithms (including API and database schema extensions), and applied them to new datasets. Scalability was a primary concern as we processed hundreds of genomes under tight timelines.
 
 I also contributed to the development of the [eHive workflow manager](https://ensembl-hive.readthedocs.io), a system for creating and running workflows on distributed compute resources. eHive scheduled and executed the equivalent of over 1,000 CPU years of compute each year for Ensembl.
 
