@@ -19,7 +19,7 @@ ZENODO_URL = 'https://zenodo.org/api/records'
 session = requests.Session()
 DEFAULT_TIMEOUT = 30
 
-PubCategories = enum.Enum('PubCategories', 'ENSEMBL EHIVE TOLIT')
+PubCategories = enum.Enum('PubCategories', 'TOLIT ENSEMBL EHIVE')
 
 category_descriptions = {
     PubCategories.ENSEMBL: '![icon](/assets/img/icon/ensembl.png) Ensembl and ![icon](/assets/img/icon/treefam.png) TreeFam methods',
