@@ -181,6 +181,17 @@ Mateus then joined AstraZeneca and is now _Director of AI & Data Engineering_.
 
 <u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
+## Internship mentor
+
+_Apr 2018 to Sep 2018_
+
+<u>Title</u>: Inclusion of pseudogenes in the Ensembl comparative genomics resources
+
+This project was funded by the French Embassy in the United Kingdom.
+[Guillaume Giroussens](https://www.linkedin.com/in/guillaume-giroussens-21a721151/) joined the Ensembl compara team
+to work on methods to include pseudogenes in phylogenetic trees and homology assessments.
+His work was presented at the [Genome Informatics conference](https://doi.org/10.7490/f1000research.1116155.1).
+
 ## 2016 Google Summer of Code Mentor
 
 _May 2016 to Sep 2016_
