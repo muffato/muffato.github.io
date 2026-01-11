@@ -61,7 +61,7 @@ This project was part of the 2019 Google Summer of Code programme. [Harshit Gupt
 
 We developed a TensorFlow-based algorithm that predicts orthologies directly from sequence data, without relying on phylogenetic methods. The approach achieved high accuracy (>90% in most settings), and we are planning its deployment in Ensembl.
 
-Mateus then joined AstraZeneca and is now _Director of AI & Data Engineering_.
+Mateus then joined AstraZeneca and is now _Director of AI &amp; Data Engineering_.
 
 <u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
@@ -98,14 +98,14 @@ _Jan 2013 to May 2013_
 
 The EMBL postdoc retreat is an annual EMBL event that promotes scientific exchange among postdocs and provides a platform to address issues relevant to postdoctoral researchers.
 
-## Postdoc representative - Scientific & Social Affairs Exec
+## Postdoc representative &ndash; Scientific &amp; Social Affairs Exec
 
 _May 2011 to May 2013_
 
 I got elected into EMBL-EBI's Postdoc Committee, whose role is to liaise with the EMBL staff representatives, and manage activities and events for the postdoc community.
 My role was to organize scientific seminars and invite guest speakers for "Career talks".
 
-## Personal project - Raspberry Pi
+## Personal project &ndash; Raspberry Pi
 
 _2011 to 2015_
 
@@ -121,15 +121,15 @@ The role of the Student Association is to oversee the various activities and oth
 
 _Nov 2003 to Jul 2005_
 
-My contributions are mostly on the software side of things: position based visual servoing, IA & FPGA (in C, C++ & VHDL). We participated in the French Cup of Robotics both years.
+My contributions are mostly on the software side of things: position based visual servoing, IA &amp; FPGA (in C, C++ &amp; VHDL). We participated in the French Cup of Robotics both years.
 
-## Contractor - Cost-analysis tool for electronics manufacturers
+## Contractor &ndash; Cost-analysis tool for electronics manufacturers
 
 _2005_
 
 Through ensIIE's "junior enterprise", [Dièse](https://www.diese.org/), I designed a software tool to analyse and manage costs for electronics manufacturers (project and product visualisation, resource management).
 
-## Personal project - 3D renderer
+## Personal project &ndash; 3D renderer
 
 _2002 to 2003_
 
@@ -137,7 +137,7 @@ Implemented a 3D renderer from scratch (without OpenGL or similar libraries). Th
 
 Also familiar with ray tracing, BSP trees, Bézier curves, and B-splines.
 
-## Personal project - JPEG encoder/decoder
+## Personal project &ndash; JPEG encoder/decoder
 
 _2001 to 2002_
 
