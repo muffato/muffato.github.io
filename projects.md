@@ -98,11 +98,30 @@ _Jan 2013 to May 2013_
 
 The EMBL postdoc retreat is an annual EMBL event that promotes scientific exchange among postdocs and provides a platform to address issues relevant to postdoctoral researchers.
 
+## Postdoc representative - Scientific & Social Affairs Exec
+
+_May 2011 to May 2013_
+
+I got elected into EMBL-EBI's Postdoc Committee, whose role is to liaise with the EMBL staff representatives, and manage activities and events for the postdoc community.
+My role was to organize scientific seminars and invite guest speakers for "Career talks".
+
 ## Personal project - Raspberry Pi
 
 _2011 to 2015_
 
 I used a Raspberry Pi as a test bed to develop my system administration skills. At its peak it ran a VPN, an email server, file servers (FTP, SMB, DLNA), a personal website, a blog engine, a photo browser, and online games, and provided SSH access.
+
+## Vice-President of ensIIE's student association (aka BdE, «Bureau des Élèves»)
+
+_Jan 2005 to Dec 2005_
+
+The role of the Student Association is to oversee the various activities and other associations for students of the ensIIE. We also act as liaison with the school's director office.
+
+## Club of Robotics of the ensIIE (aka «Club Robot»)
+
+_Nov 2003 to Jul 2005_
+
+My contributions are mostly on the software side of things: position based visual servoing, IA & FPGA (in C, C++ & VHDL). We participated in the French Cup of Robotics both years.
 
 ## Contractor - Cost-analysis tool for electronics manufacturers
 
