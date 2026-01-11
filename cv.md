@@ -124,6 +124,19 @@ The thesis (French) and presentation (English) are available [online](http://tel
 
 # Projects
 
+## Google Summer of Code organisation admin
+
+_Since 2022_
+
+I administer Tree of Life's participation in the Google Summer of Code programme.
+I solicit and help write project ideas across the department (and even other Sanger teams !),
+prepare and oversee the application, and assist with candidate and project selection.
+
+We are eminently grateful to Google Summer of Code for having us selected in
+[2022](https://summerofcode.withgoogle.com/archive/2022/organizations/wellcome-sanger-institute),
+[2024](https://summerofcode.withgoogle.com/archive/2024/organizations/wellcome-sanger-institute),
+and [2025](https://summerofcode.withgoogle.com/archive/2025/organizations/wellcome-sanger-institute).
+
 ## 2019 Google Summer of Code Mentor
 
 _May 2019 to Sep 2019_
