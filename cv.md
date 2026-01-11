@@ -14,7 +14,7 @@ _Since Feb 2021_
 <u>Keywords</u>: Strategic thinking, Technical leadership, Systems design,
 Mentorship, People management, Software development management, Operations
 management, Recruitment, Documentation, User training and support.<br/>
-<u>Team size</u>: 5-7 people.
+<u>Team size</u>: 7 people.
 
 I lead the Informatics Infrastructure team for the Tree of Life programme. The team:
 
@@ -67,7 +67,7 @@ _May 2014 to Sep 2019_
 Development management. Reporting. Data-production planning and operational management.
 API development. Database design and optimisation. Workflow design and development. Data
 production under tight deadlines. Processing of large datasets. User support (data, API, workflows).<br/>
-<u>Team size</u>: 2-5 people.
+<u>Team size</u>: 5 people.
 
 I managed the Comparative Genomics team for Ensembl, including development of the eHive workflow manager.
 
