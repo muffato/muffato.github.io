@@ -56,9 +56,14 @@ stage (novice, advanced beginner, competent, proficient, expert, master) I achie
 | Grid Engine | ![topic](/assets/img/topics/gridengine.png) | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
 | PBS | ![topic](/assets/img/topics/pbs.png) | ![1 &#x2605;](/assets/img/1.svg) | 2017 |
 | Slurm | ![topic](/assets/img/topics/slurm.png) | ![1 &#x2605;](/assets/img/1.svg) | 2020 |
+{: class="skills"}
+
+### Workflow management
+
 | eHive workflow manager | ![topic](/assets/img/topics/guihive.png) | ![6 &#x2605;](/assets/img/6.svg) | 2011-2025 |
 | Nextflow | ![topic](/assets/img/topics/nextflow.png) | ![4 &#x2605;](/assets/img/4.svg) | 2019- |
 | Snakemake | ![topic](/assets/img/topics/snakemake.png) | ![3 &#x2605;](/assets/img/3.svg) | 2019- |
+| Prefect | ![topic](/assets/img/topics/prefect.png) | ![3 &#x2605;](/assets/img/3.svg) | 2023- |
 | CWL | ![topic](/assets/img/topics/cwl.png) | ![1 &#x2605;](/assets/img/1.svg) | 2016 |
 {: class="skills"}
 
