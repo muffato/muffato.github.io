@@ -19,7 +19,7 @@ stage (novice, advanced beginner, competent, proficient, expert, master) I achie
 | R | ![topic](/assets/img/topics/r.png) | ![3 &#x2605;](/assets/img/2.svg) | 2008-2020 |
 | Groovy | ![topic](/assets/img/topics/groovy.png) | ![2 &#x2605;](/assets/img/2.svg) | 2022- |
 | Rust | ![topic](/assets/img/topics/rust.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021-2024 |
-| Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016,2025 |
+| Go | ![topic](/assets/img/topics/go.png) | ![1 &#x2605;](/assets/img/1.svg) | 2014-2016, 2025 |
 | PHP | ![topic](/assets/img/topics/php.png) | ![2 &#x2605;](/assets/img/2.svg) | 2004-2005 |
 | Caml | ![topic](/assets/img/topics/ocaml.png) | ![4 &#x2605;](/assets/img/4.svg) | 2002-2005 |
 | BASIC | ![topic](/assets/img/topics/basic.png) | ![4 &#x2605;](/assets/img/4.svg) | 1997-2002 |
@@ -67,7 +67,7 @@ stage (novice, advanced beginner, competent, proficient, expert, master) I achie
 |---|---|---|---|
 | Docker, Singularity | ![topic](/assets/img/topics/docker.png) | ![4 &#x2605;](/assets/img/4.svg) | 2016- |
 | Docker Swarm | ![topic](/assets/img/topics/swarm.png) | ![3 &#x2605;](/assets/img/3.svg) | 2017-2021 |
-| Kubernetes | ![topic](/assets/img/topics/kubernetes.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019,2021- |
+| Kubernetes | ![topic](/assets/img/topics/kubernetes.png) | ![2 &#x2605;](/assets/img/2.svg) | 2019, 2021- |
 | Helm | ![topic](/assets/img/topics/helm.png) | ![2 &#x2605;](/assets/img/2.svg) | 2021-2024 |
 | OpenStack | ![topic](/assets/img/topics/openstack.png) | ![2 &#x2605;](/assets/img/2.svg) | 2021- |
 | Terraform | ![topic](/assets/img/topics/terraform.png) | ![1 &#x2605;](/assets/img/1.svg) | 2021-2022 |
