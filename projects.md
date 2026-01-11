@@ -116,7 +116,7 @@ I improved the user interface of Exogean, a tool for annotating gene structures 
 
 _2005_
 
-Designed a software tool to analyse and manage costs for electronics manufacturers (project and product visualisation, resource management).
+Through ensIIE's "junior enterprise", [Diese](https://www.diese.org/), I designed a software tool to analyse and manage costs for electronics manufacturers (project and product visualisation, resource management).
 
 ## Personal project - 3D renderer
 
