@@ -246,7 +246,7 @@ Also familiar with ray tracing, BSP trees, Bézier curves, and B-splines.
 
 _2001 to 2002_
 
-Implemented a JPEG encoder/decoder from scratch, based solely on the compression algorithm documentation.
+Implemented a JPEG encoder/decoder from scratch on a TI-92+, based solely on the compression algorithm documentation.
 
 Also wrote a BMP reader/writer and a library to manipulate, transform, and apply effects to images.
 
