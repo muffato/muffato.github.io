@@ -3,7 +3,7 @@ title: CV
 position: 2
 ---
 
-# Experience
+# CV
 
 ## Wellcome Sanger Institute, Hinxton, United Kingdom
 
