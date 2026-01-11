@@ -94,7 +94,7 @@ The project is not specific to eHive; the editor can handle any specification wr
 
 ## EMBL Postdoc Retreat 2013
 
-_May 2013_
+_Jan 2013 to May 2013_
 
 The EMBL postdoc retreat is an annual EMBL event that promotes scientific exchange among postdocs and provides a platform to address issues relevant to postdoctoral researchers.
 
