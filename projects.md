@@ -65,7 +65,7 @@ Mateus then joined AstraZeneca and is now _Director of AI & Data Engineering_.
 
 <u>Project URL</u>: [GitHub](https://github.com/EnsemblGSOC/compara-deep-learning)
 
-## Internship mentor
+## Internship supervisor
 
 _Apr 2018 to Sep 2018_
 
