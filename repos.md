@@ -104,27 +104,32 @@ Last contribution: 2016-10
 <dt>[sanger-tol/variantcalling](https://github.com/sanger-tol/variantcalling)</dt>
 <dd>
 Nextflow DSL2 pipeline to call variants on long read alignment. \\
+Last contribution: 2026-06
+</dd>
+<dt>[sanger-tol/genomenote](https://github.com/sanger-tol/genomenote)</dt>
+<dd>
+Nextflow DSL2 pipeline to generate a Genome Note, including assembly statistics, quality metrics, and Hi-C contact maps. This workflow is part of the Tree of Life production suite. \\
+Last contribution: 2026-06
+</dd>
+<dt>[sanger-tol/nf-core-modules](https://github.com/sanger-tol/nf-core-modules)</dt>
+<dd>
+Repository to host Tree of Life's Nextflow DSL2 modules \\
+Last contribution: 2026-06
+</dd>
+<dt>[sanger-tol/sequencecomposition](https://github.com/sanger-tol/sequencecomposition)</dt>
+<dd>
+Nextflow DSL2 pipeline to extract statistics from a genome about its sequence composition \\
+Last contribution: 2026-05
+</dd>
+<dt>[sanger-tol/readmapping](https://github.com/sanger-tol/readmapping)</dt>
+<dd>
+Nextflow DSL2 pipeline to align short and long reads to genome assembly. This workflow is part of the Tree of Life production suite. \\
 Last contribution: 2026-05
 </dd>
 <dt>[sanger-tol/blobtoolkit](https://github.com/sanger-tol/blobtoolkit)</dt>
 <dd>
 Nextflow DSL2 pipeline to generate data for a BlobToolKit analysis. This workflow is part of the Tree of Life production suite. \\
-Last contribution: 2026-04
-</dd>
-<dt>[sanger-tol/readmapping](https://github.com/sanger-tol/readmapping)</dt>
-<dd>
-Nextflow DSL2 pipeline to align short and long reads to genome assembly. This workflow is part of the Tree of Life production suite. \\
-Last contribution: 2026-04
-</dd>
-<dt>[sanger-tol/nf-core-modules](https://github.com/sanger-tol/nf-core-modules)</dt>
-<dd>
-Repository to host Tree of Life's Nextflow DSL2 modules \\
-Last contribution: 2026-04
-</dd>
-<dt>[sanger-tol/sequencecomposition](https://github.com/sanger-tol/sequencecomposition)</dt>
-<dd>
-Nextflow DSL2 pipeline to extract statistics from a genome about its sequence composition \\
-Last contribution: 2026-04
+Last contribution: 2026-05
 </dd>
 <dt>[sanger-tol/variantcomposition](https://github.com/sanger-tol/variantcomposition)</dt>
 <dd>
@@ -145,11 +150,6 @@ Last contribution: 2026-03
 <dd>
 Nextflow DSL2 pipeline to download assemblies from INSDC. \\
 Last contribution: 2026-03
-</dd>
-<dt>[sanger-tol/genomenote](https://github.com/sanger-tol/genomenote)</dt>
-<dd>
-Nextflow DSL2 pipeline to generate a Genome Note, including assembly statistics, quality metrics, and Hi-C contact maps. This workflow is part of the Tree of Life production suite. \\
-Last contribution: 2026-02
 </dd>
 </dl>
 
