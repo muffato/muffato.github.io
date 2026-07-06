@@ -101,6 +101,11 @@ Last contribution: 2016-10
 ## ![icon](/assets/img/icon/tol.png) Tree of Life Nextflow pipelines {#SANGERTOL}
 
 <dl>
+<dt>[sanger-tol/busco](https://github.com/sanger-tol/busco)</dt>
+<dd>
+Nextflow pipeline to run the BUSCO \\
+Last contribution: 2026-07
+</dd>
 <dt>[sanger-tol/nf-core-modules](https://github.com/sanger-tol/nf-core-modules)</dt>
 <dd>
 Repository to host Tree of Life's Nextflow DSL2 modules \\
@@ -109,6 +114,11 @@ Last contribution: 2026-07
 <dt>[sanger-tol/blobtoolkit](https://github.com/sanger-tol/blobtoolkit)</dt>
 <dd>
 Nextflow DSL2 pipeline to generate data for a BlobToolKit analysis. This workflow is part of the Tree of Life production suite. \\
+Last contribution: 2026-06
+</dd>
+<dt>[sanger-tol/pipelines-website](https://github.com/sanger-tol/pipelines-website)</dt>
+<dd>
+Code and files for the sanger-tol pipelines website. \\
 Last contribution: 2026-06
 </dd>
 <dt>[sanger-tol/variantcalling](https://github.com/sanger-tol/variantcalling)</dt>
