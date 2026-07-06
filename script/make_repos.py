@@ -55,11 +55,13 @@ REPOS: Dict[str, List[str]] = {
     ],
     'SANGERTOL': [
         'sanger-tol/blobtoolkit',
+        'sanger-tol/busco',
         'sanger-tol/insdcdownload',
         'sanger-tol/ensemblrepeatdownload',
         'sanger-tol/ensemblgenedownload',
         'sanger-tol/readmapping',
         'sanger-tol/genomenote',
+        'sanger-tol/pipelines-website',
         'sanger-tol/sequencecomposition',
         'sanger-tol/variantcalling',
         'sanger-tol/variantcomposition',
