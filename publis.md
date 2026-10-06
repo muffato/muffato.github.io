@@ -174,6 +174,12 @@ DOI: [10.5334/jors.451](https://doi.org/10.5334/jors.451)
 ## ![icon](/assets/img/icon/zebrafish.png) Genome analysis {#GENOMES}
 
 <dl>
+<dt>Reference genomes and fossils revise bat family phylogeny and biogeography.</dt>
+<dd>
+Morales AE _et al._ \\
+_Nature_, 658 (8134), pages 141-152, 2026 Oct \\
+DOI: [10.1038/s41586-026-11007-3](https://doi.org/10.1038/s41586-026-11007-3)
+</dd>
 <dt>A chromosome-level reference genome for the critically endangered Southern Corroboree frog (Pseudophryne corroboree)</dt>
 <dd>
 Kosch TA _et al._ \\

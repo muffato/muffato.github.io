@@ -101,9 +101,39 @@ Last contribution: 2016-10
 ## ![icon](/assets/img/icon/tol.png) Tree of Life Nextflow pipelines {#SANGERTOL}
 
 <dl>
+<dt>[sanger-tol/readmapping](https://github.com/sanger-tol/readmapping)</dt>
+<dd>
+Nextflow DSL2 pipeline to align short and long reads to genome assembly. This workflow is part of the Tree of Life production suite. \\
+Last contribution: 2026-09
+</dd>
+<dt>[sanger-tol/pipelines-website](https://github.com/sanger-tol/pipelines-website)</dt>
+<dd>
+Code and files for the sanger-tol pipelines website. \\
+Last contribution: 2026-09
+</dd>
+<dt>[sanger-tol/nf-core-modules](https://github.com/sanger-tol/nf-core-modules)</dt>
+<dd>
+Repository to host Tree of Life's Nextflow DSL2 modules \\
+Last contribution: 2026-09
+</dd>
 <dt>[sanger-tol/genomenote](https://github.com/sanger-tol/genomenote)</dt>
 <dd>
 Nextflow DSL2 pipeline to generate a Genome Note, including assembly statistics, quality metrics, and Hi-C contact maps. This workflow is part of the Tree of Life production suite. \\
+Last contribution: 2026-09
+</dd>
+<dt>[sanger-tol/variantcalling](https://github.com/sanger-tol/variantcalling)</dt>
+<dd>
+Nextflow DSL2 pipeline to call variants on long read alignment. \\
+Last contribution: 2026-09
+</dd>
+<dt>[sanger-tol/variantcomposition](https://github.com/sanger-tol/variantcomposition)</dt>
+<dd>
+Nextflow DSL2 pipeline to analyse variants. \\
+Last contribution: 2026-09
+</dd>
+<dt>[sanger-tol/blobtoolkit](https://github.com/sanger-tol/blobtoolkit)</dt>
+<dd>
+Nextflow DSL2 pipeline to generate data for a BlobToolKit analysis. This workflow is part of the Tree of Life production suite. \\
 Last contribution: 2026-09
 </dd>
 <dt>[sanger-tol/busco](https://github.com/sanger-tol/busco)</dt>
@@ -111,19 +141,9 @@ Last contribution: 2026-09
 Nextflow pipeline to run the BUSCO \\
 Last contribution: 2026-08
 </dd>
-<dt>[sanger-tol/variantcomposition](https://github.com/sanger-tol/variantcomposition)</dt>
-<dd>
-Nextflow DSL2 pipeline to analyse variants. \\
-Last contribution: 2026-08
-</dd>
 <dt>[sanger-tol/sequencecomposition](https://github.com/sanger-tol/sequencecomposition)</dt>
 <dd>
 Nextflow DSL2 pipeline to extract statistics from a genome about its sequence composition \\
-Last contribution: 2026-08
-</dd>
-<dt>[sanger-tol/readmapping](https://github.com/sanger-tol/readmapping)</dt>
-<dd>
-Nextflow DSL2 pipeline to align short and long reads to genome assembly. This workflow is part of the Tree of Life production suite. \\
 Last contribution: 2026-08
 </dd>
 <dt>[sanger-tol/ensemblrepeatdownload](https://github.com/sanger-tol/ensemblrepeatdownload)</dt>
@@ -136,26 +156,6 @@ Last contribution: 2026-08
 Nextflow DSL2 pipeline to download gene annotations from Ensembl. \\
 Last contribution: 2026-08
 </dd>
-<dt>[sanger-tol/blobtoolkit](https://github.com/sanger-tol/blobtoolkit)</dt>
-<dd>
-Nextflow DSL2 pipeline to generate data for a BlobToolKit analysis. This workflow is part of the Tree of Life production suite. \\
-Last contribution: 2026-08
-</dd>
-<dt>[sanger-tol/pipelines-website](https://github.com/sanger-tol/pipelines-website)</dt>
-<dd>
-Code and files for the sanger-tol pipelines website. \\
-Last contribution: 2026-08
-</dd>
-<dt>[sanger-tol/nf-core-modules](https://github.com/sanger-tol/nf-core-modules)</dt>
-<dd>
-Repository to host Tree of Life's Nextflow DSL2 modules \\
-Last contribution: 2026-08
-</dd>
-<dt>[sanger-tol/variantcalling](https://github.com/sanger-tol/variantcalling)</dt>
-<dd>
-Nextflow DSL2 pipeline to call variants on long read alignment. \\
-Last contribution: 2026-06
-</dd>
 <dt>[sanger-tol/insdcdownload](https://github.com/sanger-tol/insdcdownload)</dt>
 <dd>
 Nextflow DSL2 pipeline to download assemblies from INSDC. \\
@@ -166,15 +166,15 @@ Last contribution: 2026-03
 ## ![icon](/assets/img/icon/nfcore.png) nf-core {#NFCORE}
 
 <dl>
+<dt>[nf-core/modules](https://github.com/nf-core/modules)</dt>
+<dd>
+Repository to host tool-specific module files for the Nextflow DSL2 community! \\
+Last contribution: 2026-09
+</dd>
 <dt>[nf-core/tools](https://github.com/nf-core/tools)</dt>
 <dd>
 Python package with helper tools for the nf-core community. \\
 Last contribution: 2026-09
-</dd>
-<dt>[nf-core/modules](https://github.com/nf-core/modules)</dt>
-<dd>
-Repository to host tool-specific module files for the Nextflow DSL2 community! \\
-Last contribution: 2026-08
 </dd>
 <dt>[nf-core/modules-template](https://github.com/nf-core/modules-template)</dt>
 <dd>
